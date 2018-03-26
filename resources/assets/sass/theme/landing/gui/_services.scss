@@ -1,0 +1,15 @@
+/*----------------------------------
+  Services v1
+------------------------------------*/
+
+.s-services-v1 {
+	.s-services-v1__hover {
+  	@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+  }
+
+	@include hover {
+		.s-services-v1__hover {
+			color: $color-primary;
+		}
+	}
+}

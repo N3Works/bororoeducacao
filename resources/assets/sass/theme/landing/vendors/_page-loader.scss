@@ -1,0 +1,57 @@
+/*----------------------------------
+  Loader v1
+------------------------------------*/
+
+.s-page-loader-v1 {
+  @include position(fixed, $top: 0);
+  z-index: $zindex-loader;
+  @include size(100%);
+  @include gradient-horizontal($direction: 145deg, $start-color: $color-primary, $end-color: lighten($color-primary, 5%));
+  
+  &__element {
+    @include position(relative);
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    @include transform-scale(1,1);
+    @include cubic-transition($delay: 0, $duration: 1000ms, $property: (all));
+  }
+
+  &__loading-pulse-1,
+  &__loading-pulse-2,
+  &__loading-pulse-3 {
+    @include position(relative);
+    display: inline-block;
+    @include size(.4rem);
+    border-radius: 50%;
+    background: $color-white;
+    margin: 0 .12rem;
+    @include animation(page-loader-v2__element 1.5s ease-in-out infinite both);
+  }
+  
+  &__loading-pulse-2 { @include animation-delay(-.16s); }
+  &__loading-pulse-3 { @include animation-delay(-.32s); }
+}
+
+/* Page Load Animation When Loading Finishes */
+.s-page-loader-v1.-is-animated {
+  @include animation(page-loader-v2__loaded 1s cubic-bezier(0.7,0,0.3,1) forwards);
+
+  .s-page-loader-v1__element {
+    @include transform-scale(.3,.3);
+    opacity: 0;
+  }
+}
+
+/* Keyframes Page Element */
+@include keyframes(page-loader-v2__element) {
+  0, 100% { @include transform-scale(1,1); }
+  50% { @include transform-scale(0,0); }
+}
+
+/* Keyframes Page Loaded */
+@include keyframes(page-loader-v2__loaded) {
+  to { @include translate3d(0,-100%,0); }
+}

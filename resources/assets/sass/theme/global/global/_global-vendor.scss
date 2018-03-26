@@ -1,0 +1,68 @@
+/*----------------------------------
+  Cookie
+------------------------------------*/
+
+.cc-window {
+	@include position(fixed, $left: 0, $right: 0, $bottom: 0);
+	width: 100%;
+  z-index: 999;
+  background: $color-white;
+	@include translate3d(0,0,0);
+  @include transition(all .7s ease-in-out);
+  @include transition-delay(.3s);
+
+  @include media-breakpoint-down(md) {
+  	text-align: center;
+  }
+	
+	&.cc-invisible {
+  	@include translate3d(0,100%,0);
+  	@include transition(all .7s ease-in-out);
+	}
+	
+	.cc-message {
+		display: inline-block;
+	  @include font($size: $font-size-14, $family: $font-family-primary);
+	  color: $color-dark-1;
+	  letter-spacing: .0625rem;
+	  margin-top: .75rem;
+
+	  @include media-breakpoint-down(md) {
+	  	margin: 0 0 1rem;
+	  }
+	}
+
+	.cc-close {
+	  display: inline-block;
+	  float: right;
+	  @include font($size: $font-size-13);
+	  color: $color-dark-1;
+	  border: .125rem solid $color-dark-1;
+	  @include transition(all .3s ease);
+	  padding: .625rem 1.4rem;
+
+	  @include hover {
+	  	color: $color-white;
+	  	background: $color-dark-1;
+	  }
+
+	  @include media-breakpoint-down(md) {
+	  	float: none;
+	  }
+	}
+
+	.cc-close:hover {
+	  opacity: .8;
+	}
+
+	.s-cookies-link {
+		color: $color-dark-1;
+		border-bottom: .0625rem solid $color-dark-1;
+		padding-bottom: .125rem;
+		@include transition(all .3s ease);
+
+		@include hover {
+			border-bottom: transparent;
+		}
+	}
+}

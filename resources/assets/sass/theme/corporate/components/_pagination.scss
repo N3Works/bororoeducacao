@@ -1,0 +1,66 @@
+/*----------------------------------
+  Pagination v1
+------------------------------------*/
+
+.s-pagination-v1 {
+	display: inline-block;
+  padding-left: 0;
+
+  &__item {
+  	display: inline;
+	  
+	  @include first-last-child {
+			.s-pagination-v1__link {
+	  		width: auto;
+	  	}
+	  }
+
+	  @include first-child {
+			.s-pagination-v1__link {
+	  		padding-left: 0;
+	  		padding-right: 1.25rem;
+	  	}
+	  }
+
+	  @include last-child {
+			.s-pagination-v1__link {
+	  		padding-left: 1.25rem;
+	  		padding-right: 0;
+	  	}
+	  }
+  }
+
+  &__link {
+	  @include position(relative);
+	  @include size(4rem);
+	  float: left;
+	  @include font($size: $font-size-22);
+	  color: rgba($color-dark-1, .7);
+	  text-align: center;
+	  border: .125rem solid transparent;
+	  text-decoration: none;
+	  line-height: $line-height-sm;
+	  padding: .9375rem 0;
+	  margin: 0 .125rem;
+	  @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+
+	  @include media-breakpoint-down(sm) {
+	  	@include size(3rem);
+	  	@include font($size: $font-size-18);
+	  	padding: .625rem 0;
+	  }
+
+	  @include hover-focus {
+	  	color: $color-primary;
+	  }
+
+	  &.-is-active {
+		  color: $color-primary;
+	  	border-color: $color-primary;
+
+	  	@include hover-focus {
+		  	color: $color-primary;
+		  }
+	  }
+  }
+}

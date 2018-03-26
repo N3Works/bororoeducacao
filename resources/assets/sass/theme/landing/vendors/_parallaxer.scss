@@ -1,0 +1,11 @@
+/*----------------------------------
+  Parallaxer
+------------------------------------*/
+
+.dzsparallaxer.height-is-based-on-content {
+	padding: 0;
+}
+
+.s-parallax__size {
+	@include size(100%, 140%);
+}

@@ -1,0 +1,20 @@
+/*----------------------------------
+  Scroll to Section v1
+------------------------------------*/
+
+.s-scroll-to-section-v1 {
+	@include position(absolute, $bottom: 1rem, $left: 0, $right: 0);
+	@include size(4rem);
+	display: block;
+	@include font($size: $font-size-30);
+	text-align: center;
+	line-height: 2;
+	margin-left: auto;
+	margin-right: auto;
+  @include translate3d(0,0,0);
+  @include cubic-transition($delay: 0, $duration: 500ms, $property: (all));
+
+	@include hover {
+    @include translate3d(0,.5rem,0);
+	}
+}

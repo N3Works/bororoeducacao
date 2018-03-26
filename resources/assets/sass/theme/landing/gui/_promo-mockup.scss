@@ -1,0 +1,12 @@
+/*----------------------------------
+  Promo Mockup v1
+------------------------------------*/
+
+.s-promo-mockup-v1__img {
+	@include position(absolute, $bottom: 1.25rem);
+	
+	@include media-breakpoint-up(sm) {
+		@include position(absolute, $top: 50%, $bottom: 0, $right: 0);
+	  @include translate3d(0,-50%,0);
+	}
+}

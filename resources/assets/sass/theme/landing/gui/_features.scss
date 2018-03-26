@@ -1,0 +1,81 @@
+/*----------------------------------
+  Features v1
+------------------------------------*/
+
+/* Power Icon */
+.s-features-v1__icon {
+	@include display-center;
+	@include size(3.75rem);
+	@include font($size: $font-size-26);
+	padding: 1.0625rem;
+
+	&-primary {
+		color: $color-white;
+		background: $color-primary;
+		box-shadow: 0 0 0 .1875rem rgba(132,120,211,.6);
+	}
+}
+
+/* Divider */
+.s-features-v1__divider {
+	@include position(relative);
+
+	@include before {
+		@include position(absolute, $top: 0, $left: 50%, $bottom: 0);
+		display: block;
+		border-left: .0625rem solid lighten($color-gray-lighter, 10%);
+		margin-left: -.03125rem;
+		content: " ";
+	}
+}
+
+/* Media */
+.s-features-v1__media {
+	@include position(relative);
+	text-align: center;
+	padding: 1.875rem;
+	border-radius: .25rem;
+
+	@include before-after {
+		border-radius: .25rem;
+		content: " ";
+
+		@include media-breakpoint-down(sm) {
+			display: none;
+		}
+	}
+	
+	@include before {
+		@include position(absolute, $top: 5%);
+		@include size(100%, 90%);
+		z-index: -1;
+	}
+
+	@include after {
+		@include position(absolute, $top: 10%);
+		@include size(100%, 80%);
+		z-index: -2;
+	}
+
+	&--left {
+		@include before { left: -5%; }
+		@include after { left: -10%; }
+	}
+
+	&--right {
+		@include before { right: -5%; }
+		@include after { right: -10%; }
+	}
+
+	&-mediumpurple {
+		background: $color-mediumpurple;
+		@include before { background: lighten($color-primary, 25%); }
+		@include after { background: lighten($color-primary, 30%); }
+	}
+
+	&-powderblue {
+		background: $color-powderblue;
+		@include before { background: lighten($color-powderblue, 15%); }
+		@include after { background: lighten($color-powderblue, 19%); }
+	}
+}

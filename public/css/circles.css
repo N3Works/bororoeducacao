@@ -1,0 +1,353 @@
+/* CIRCLES */
+.box-circles {
+    position: relative;
+    height: 683px;
+    width: 731px;
+    margin: 30px auto;
+    background: url(/images/bg-setas.png) 0 136px no-repeat;
+}
+
+.circle {
+    background-repeat: no-repeat;
+    height: 428px;
+    width: 428px;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.circle-conhecimento, .circle-construcao-felicidade, .circle-comprometimento {
+    /* Firefox v3.6+ */
+    background-image: -moz-linear-gradient(rgba(119, 183, 78, 0.9) 0%, rgba(219, 169, 33, 0.9) 100%);
+    /* safari v4.0+ and by Chrome v3.0+ */
+    background-image: -webkit-gradient(linear, color-stop(0, rgba(119, 183, 78, 0.9)), color-stop(1, rgba(219, 169, 33, 0.9)));
+    /* Chrome v10.0+ and by safari nightly build*/
+    background-image: -webkit-linear-gradient(rgba(119, 183, 78, 0.9) 0%, rgba(219, 169, 33, 0.9) 100%);
+    /* Opera v11.10+ */
+    background-image: -o-linear-gradient(rgba(119, 183, 78, 0.9) 0%, rgba(219, 169, 33, 0.9) 100%);
+    /* IE v10+ */
+    background-image: -ms-linear-gradient(rgba(119, 183, 78, 0.9) 0%, rgba(219, 169, 33, 0.9) 100%);
+    background-image: linear-gradient(rgba(119, 183, 78, 0.9) 0%, rgba(219, 169, 33, 0.9) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2dba321,endColorstr=#f277b74e)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2dba321, endColorstr=#f277b74e);
+}
+
+.circle-autoconhecimento, .circle-valores-pessoais, .circle-criatividade {
+    /* Firefox v3.6+ */
+    background-image: -moz-linear-gradient(rgba(28, 156, 154, 0.9) 0%, rgba(107, 180, 97, 0.9) 100%);
+    /* safari v4.0+ and by Chrome v3.0+ */
+    background-image: -webkit-gradient(linear, color-stop(0, rgba(28, 156, 154, 0.9)), color-stop(1, rgba(107, 180, 97, 0.9)));
+    /* Chrome v10.0+ and by safari nightly build*/
+    background-image: -webkit-linear-gradient(rgba(28, 156, 154, 0.9) 0%, rgba(107, 180, 97, 0.9) 100%);
+    /* Opera v11.10+ */
+    background-image: -o-linear-gradient(rgba(28, 156, 154, 0.9) 0%, rgba(107, 180, 97, 0.9) 100%);
+    /* IE v10+ */
+    background-image: -ms-linear-gradient(rgba(28, 156, 154, 0.9) 0%, rgba(107, 180, 97, 0.9) 100%);
+    background-image: linear-gradient(rgba(28, 156, 154, 0.9) 0%, rgba(107, 180, 97, 0.9) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#f26bb461,endColorstr=#f21c9c9a)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f26bb461, endColorstr=#f21c9c9a);
+}
+
+.circle-curacao, .circle-quem-estou-sendo, .circle-motivacao {
+    /* Firefox v3.6+ */
+    background-image: -moz-linear-gradient(rgba(228, 137, 39, 0.9) 0%, rgba(237, 157, 27, 0.9) 0%, rgba(189, 40, 96, 0.9) 100%);
+    /* safari v4.0+ and by Chrome v3.0+ */
+    background-image: -webkit-gradient(linear, color-stop(0, rgba(228, 137, 39, 0.9)), color-stop(0, rgba(237, 157, 27, 0.9)), color-stop(1, rgba(189, 40, 96, 0.9)));
+    /* Chrome v10.0+ and by safari nightly build*/
+    background-image: -webkit-linear-gradient(rgba(228, 137, 39, 0.9) 0%, rgba(237, 157, 27, 0.9) 0%, rgba(189, 40, 96, 0.9) 100%);
+    /* Opera v11.10+ */
+    background-image: -o-linear-gradient(rgba(228, 137, 39, 0.9) 0%, rgba(237, 157, 27, 0.9) 0%, rgba(189, 40, 96, 0.9) 100%);
+    /* IE v10+ */
+    background-image: -ms-linear-gradient(rgba(228, 137, 39, 0.9) 0%, rgba(237, 157, 27, 0.9) 0%, rgba(189, 40, 96, 0.9) 100%);
+    background-image: linear-gradient(rgba(228, 137, 39, 0.9) 0%, rgba(237, 157, 27, 0.9) 0%, rgba(189, 40, 96, 0.9) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6e48927,endColorstr=#e6bd2860)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6e48927, endColorstr=#e6bd2860);
+}
+
+/* before */
+.circle:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    z-index: 1;
+}
+
+.circle-conhecimento:before {
+    background: url(/images/circle-conhecimento.png);
+}
+
+.circle-autoconhecimento:before {
+    background: url(/images/circle-autoconhecimento.png);
+}
+
+.circle-curacao:before {
+    background: url(/images/circle-curacao.png);
+}
+
+.circle-curacao-2 {
+    background: url(/images/circle-curacao-2.png);
+}
+
+.circle-felicidade-possivel {
+    background: url(/images/circle-felicidade-possivel.png);
+}
+
+.circle-gestao-emocoes {
+    background: url(/images/circle-gestao-emocoes.png);
+}
+
+.circle-construcao-felicidade:before {
+    background: url(/images/circle-construcao-felicidade.png);
+}
+
+.circle-valores-pessoais:before {
+    background: url(/images/circle-valores-pessoais.png);
+}
+
+.circle-quem-estou-sendo:before {
+    background: url(/images/circle-quem-estou-sendo.png);
+}
+
+.circle-comprometimento:before {
+    background: url(/images/circle-comprometimento.png);
+}
+
+.circle-criatividade:before {
+    background: url(/images/circle-criatividade.png);
+}
+
+.circle-motivacao:before {
+    background: url(/images/circle-motivacao.png);
+}
+
+/* after */
+.circle:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: 2;
+}
+
+.circle:hover:after {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 4;
+}
+
+.circle-conhecimento:hover:after, .circle-construcao-felicidade:hover:after, .circle-comprometimento:hover:after {
+    background-image: -moz-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(230, 141, 37, 0.8) 100%);
+    background-image: -webkit-gradient(linear, color-stop(0, rgba(219, 163, 33, 0.8)), color-stop(1, rgba(230, 141, 37, 0.8)));
+    background-image: -webkit-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(230, 141, 37, 0.8) 100%);
+    background-image: -o-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(230, 141, 37, 0.8) 100%);
+    background-image: -ms-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(230, 141, 37, 0.8) 100%);
+    background-image: linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(230, 141, 37, 0.8) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cce68d25,endColorstr=#ccdba321)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cce68d25, endColorstr=#ccdba321);
+}
+
+.circle-autoconhecimento:hover:after, .circle-valores-pessoais:hover:after, .circle-criatividade:hover:after {
+    background-image: -moz-linear-gradient(rgba(90, 177, 121, 0.8) 0%, rgba(59, 170, 167, 0.8) 100%);
+    background-image: -webkit-gradient(linear, color-stop(0, rgba(90, 177, 121, 0.8)), color-stop(1, rgba(59, 170, 167, 0.8)));
+    background-image: -webkit-linear-gradient(rgba(90, 177, 121, 0.8) 0%, rgba(59, 170, 167, 0.8) 100%);
+    background-image: -o-linear-gradient(rgba(90, 177, 121, 0.8) 0%, rgba(59, 170, 167, 0.8) 100%);
+    background-image: -ms-linear-gradient(rgba(90, 177, 121, 0.8) 0%, rgba(59, 170, 167, 0.8) 100%);
+    background-image: linear-gradient(rgba(90, 177, 121, 0.8) 0%, rgba(59, 170, 167, 0.8) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc5ab179,endColorstr=#cc3baaa7)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc5ab179, endColorstr=#cc3baaa7);
+}
+
+.circle-curacao:hover:after, .circle-quem-estou-sendo:hover:after, .circle-motivacao:hover:after {
+    background-image: -moz-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(127, 185, 67, 0.8) 100%);
+    background-image: -webkit-gradient(linear, color-stop(0, rgba(219, 163, 33, 0.8)), color-stop(1, rgba(127, 185, 67, 0.8)));
+    background-image: -webkit-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(127, 185, 67, 0.8) 100%);
+    background-image: -o-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(127, 185, 67, 0.8) 100%);
+    background-image: -ms-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(127, 185, 67, 0.8) 100%);
+    background-image: linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(127, 185, 67, 0.8) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccdba321,endColorstr=#cc7fb943)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccdba321, endColorstr=#cc7fb943);
+}
+
+.circle-conhecimento, .circle-construcao-felicidade, .circle-comprometimento {
+    top: 0;
+    left: 0;
+    left: 40px;
+    z-index: 3;
+}
+
+.circle-autoconhecimento, .circle-valores-pessoais, .circle-criatividade {
+    top: 0;
+    right: 0;
+    right: 47px;
+    z-index: 2;
+}
+
+.circle-curacao, .circle-quem-estou-sendo, .circle-motivacao {
+    top: 211px;
+    left: 50%;
+    margin-left: -214px;
+    z-index: 1;
+}
+
+.circle-felicidade-possivel, .circle-curacao-2, .circle-gestao-emocoes {
+    top: 212px;
+    left: 50%;
+    height: 187px;
+    width: 210px;
+    margin-left: -105px;
+    margin-left: -108px;
+    z-index: 3;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.circle-felicidade-possivel:before, .circle-felicidade-possivel:after, .circle-curacao-2:before, .circle-curacao-2:after, .circle-gestao-emocoes:before, .circle-gestao-emocoes:after {
+    content: normal;
+}
+
+.circle:hover {
+    z-index: 4;
+}
+
+.circle .hidden-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 70%;
+    z-index: 5;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -ms-transition: opacity 0.2s ease;
+    -o-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+
+.circle .hidden-content > p {
+    color: #FFF;
+    text-align: center;
+    font-style: italic;
+    line-height: 140%;
+    font-size: 16px;
+}
+
+.circle .hidden-content > p > a {
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.circle .hidden-content > p > a:hover {
+    text-decoration: underline;
+}
+
+.circle:hover .hidden-content {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.circle .hidden-content-b p > a {
+    font-size: 16px;
+}
+
+.circle .aux {
+    font-size: 22px;
+    color: #FFF;
+    position: absolute;
+    top: 172px;
+    left: 125px;
+    z-index: 88;
+    font-style: italic;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -ms-transition: opacity 0.2s ease;
+    -o-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+
+.circle:hover .aux {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.circle.circle-valores-pessoais .aux {
+    top: 172px;
+    left: auto;
+    right: 125px;
+}
+
+.circle.circle-quem-estou-sendo .aux {
+    top: auto;
+    bottom: 140px;
+    left: 178px;
+}
+
+.circle.circle-comprometimento .aux {
+    top: 140px;
+    left: 270px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.circle.circle-comprometimento .aux.aux-2 {
+    top: 330px;
+    left: 160px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.circle.circle-criatividade .aux {
+    top: 345px;
+    left: 190px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.circle-felicidade-possivel, .circle-curacao-2, .circle-gestao-emocoes {
+    top: 212px;
+    left: 50%;
+    height: 187px;
+    width: 210px;
+    margin-left: -108px;
+    z-index: 3;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.circle-gestao-emocoes {
+    background: url(/images/circle-gestao-emocoes.png);
+}

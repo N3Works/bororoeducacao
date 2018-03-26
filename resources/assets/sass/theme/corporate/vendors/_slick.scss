@@ -1,0 +1,216 @@
+/*----------------------------------
+  Slick
+------------------------------------*/
+
+/* Arrows v1 */
+.s-slick__arrows-v1 {
+	&-next,
+	&-prev {
+		@include position(absolute, $bottom: -2rem);
+		z-index: 1;
+		cursor: pointer;
+		@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+
+		@include before {
+			@include font($size: $font-size-24, $family: $font-family-iconsmind);
+			color: $color-dark-1;
+			@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+		}
+
+		@include hover {
+			@include before {
+				color: $color-gold;
+			}
+		}
+	}
+
+	&-next {
+		right: .3125rem;
+
+		@include before {
+			content: "\ebfc";
+		}
+
+		@include hover {
+			right: 0;
+		}
+	}
+
+	&-prev {
+		left: .3125rem;
+
+		@include before {
+			content: "\ea29";
+		}
+
+		@include hover {
+			left: 0;
+		}
+	}
+}
+
+
+/* Arrows v2 */
+.s-slick__arrows-v2 {
+	&-next,
+	&-prev {
+		@include position(absolute, $top: 50%);
+		z-index: 1;
+		cursor: pointer;
+		@include translate3d(0,-50%,0);
+		@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+
+		@include before {
+			@include font($size: $font-size-30, $family: $font-family-iconsmind);
+			color: $color-sepia;
+			@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+		}
+
+		@include hover {
+			@include before {
+				color: $color-white;
+			}
+		}
+	}
+
+	&-next {
+		right: 0;
+
+		@include before {
+			content: "\ebfc";
+		}
+	}
+
+	&-prev {
+		left: 0;
+
+		@include before {
+			content: "\ea29";
+		}
+	}
+}
+
+/* Arrows v3 */
+.s-slick__arrows-v3 {
+	&-next,
+	&-prev {
+		@include position(absolute, $bottom: -.5rem);
+		z-index: 3;
+		cursor: pointer;
+		@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+
+		@include before {
+			@include font($size: $font-size-22, $family: $font-family-iconsmind);
+			color: rgba($color-white, .7);
+			@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+		}
+
+		@include hover {
+			@include before {
+				color: rgba($color-white, 1);
+			}
+		}
+	}
+
+	&-next {
+		left: 50%;
+		margin-left: 3.2rem;
+
+		@include before {
+			content: "\ebfc";
+		}
+
+		@include hover {
+			margin-left: 3.3rem;
+		}
+	}
+
+	&-prev {
+		right: 50%;
+		margin-right: 3.2rem;
+
+		@include before {
+			content: "\ea29";
+		}
+
+		@include hover {
+			margin-right: 3.3rem;
+		}
+	}
+}
+
+/* Dots v1 */
+.s-slick__dots-v1 {
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+
+	> li {
+		@include size(.6875rem);
+		display: inline-block;
+		background: $color-sepia;
+		border-radius: 50%;
+		cursor: pointer;
+		margin: 2rem .3125rem 0;
+		@include transform-scale(.4,.4);
+		@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+
+		&.slick-active {
+			background: $color-white;
+			@include transform-scale(.9,.9);
+		}
+	}
+
+	button {
+		display: none;
+	}
+}
+
+/* Dots v2 */
+.s-slick__dots-v2 {
+	@include position(relative, $top: .2rem);
+	z-index: 2;
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+
+	> li {
+		@include size(.6875rem);
+		display: inline-block;
+		background: $color-white;
+		border-radius: 50%;
+		cursor: pointer;
+		opacity: .6;
+		margin: 0 .3125rem;
+		@include transform-scale(.4,.4);
+		@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+
+		&.slick-active {
+			background: $color-white;
+			opacity: 1;
+			@include transform-scale(.9,.9);
+		}
+	}
+
+	button {
+		display: none;
+	}
+}
+
+/* Border Wrap */
+.s-slick__brd-wrap {
+	@include position(relative);
+
+	@include before {
+		@include position(absolute, $top: 50%, $left: 50%, $bottom: 0);
+		@include size(100%, 105%);
+		max-width: 70%;
+		z-index: 1;
+		display: block;
+		border: 1.25rem solid $color-gold;
+		content: " ";
+		margin-top: -.7rem;
+		@include translate3d(-50%,-50%,0);
+	}
+}

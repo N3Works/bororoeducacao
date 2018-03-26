@@ -1,0 +1,25 @@
+/*----------------------------------
+	Counter v1
+------------------------------------*/
+
+.s-counter-v1 {
+	@include position(relative);
+
+	@include before {
+		@include position(absolute, $top: 50%, $left: 90%);
+		@include size(20%, .0625rem);
+		background: rgba($color-dark-1, .2);
+		content: " ";
+		margin-top: -.03125rem;
+
+		@include media-breakpoint-down(md) {
+			display: none;
+		}
+	}
+
+	@include last-child {
+		@include before {
+			display: none;
+		}
+	}
+}

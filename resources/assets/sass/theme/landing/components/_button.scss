@@ -1,0 +1,88 @@
+/*----------------------------------
+  Button v1
+------------------------------------*/
+
+.s-btn-v1 {
+	@include btn;
+}
+
+/* Styles
+------------------------------ */
+.s-btn-v1--white-bg { @include btn-style($color: $color-heading-1, $hvr-color: $color-primary, $bg: $color-white, $hvr-bg: $color-white); }
+.s-btn-v1--white-brd { @include btn-style($color: $color-white, $hvr-color: $color-primary, $bg: transparent, $hvr-bg: $color-white, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-white, $hvr-brd-color: $color-white);}
+.s-btn-v1--primary-brd { @include btn-style($color: $color-primary, $hvr-color: $color-white, $bg: transparent, $hvr-bg: $color-primary, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-primary, $hvr-brd-color: $color-primary); }
+.s-btn-v1--primary-bg { @include btn-style($color: $color-white, $hvr-color: $color-white, $bg: $color-primary, $hvr-bg: $color-primary, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-primary); }
+
+/* Primary Background Style
+------------------------------ */
+/* Primary v2 with After Pseudo Element */
+.s-btn-v1--primary-bg-after {
+	@include position(relative);
+	text-align: center;
+}
+
+.s-btn-v1--primary-bg-after {
+	&__divider {
+		@include before {
+			@include position(absolute, $top: -3.75rem, $left: 50%);
+			@include size(.125rem, 2.5rem);
+			background: $color-primary;
+			content: " ";
+			margin-left: -.0625rem;
+		}
+		
+		&-no {
+			@include before {
+				@include media-breakpoint-down(sm) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	&__bubbles {
+		@include position(absolute, $top: -.8125rem, $left: 50%);
+		@include size(1.5rem);
+		z-index: -1;
+		background: $color-primary;
+		border-radius: 50%;
+		margin-left: -.75rem;
+
+		@include before-after {
+			@include position(absolute, $top: .438rem, $left: 50%);
+			@include size(1.5rem);
+			background: $color-primary;
+			border-radius: 50%;
+			content: " ";
+		}
+		
+		@include before {
+			margin-left: -1.5rem;
+		}
+
+		@include after {
+			margin-right: -1.5rem;
+		}
+	}
+
+	&__circles {
+		@include before-after {
+			border-radius: 50%;
+			content: " ";
+		}
+		
+		@include before {
+			@include position(absolute, $top: -2.1875rem, $left: 50%);
+			@include size(.5rem);
+			background: $color-primary;
+			margin-left: -1.125rem;
+		}
+
+		@include after {
+			@include position(absolute, $top: -1.5rem, $left: 50%);
+			@include size(.75rem);
+			border: .1875rem solid $color-primary;
+			margin-left: .6875rem;
+		}
+	}
+}

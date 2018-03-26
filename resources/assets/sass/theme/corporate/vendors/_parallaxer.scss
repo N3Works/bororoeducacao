@@ -1,0 +1,21 @@
+/*----------------------------------
+  Parallaxer
+------------------------------------*/
+
+.dzsparallaxer.height-is-based-on-content {
+	padding: 0;
+}
+
+.dzsparallaxer.g-bg-color--white { background: $color-white; }
+
+.dzsparallaxer.g-fullheight { height: 100vh; }
+.dzsparallaxer.g-height-400 { height: 25rem; }
+.dzsparallaxer.g-height-100-percent--lg {
+	@include media-breakpoint-up(lg) {
+		height: 100%;
+	}
+}
+
+.s-parallax__size {
+	@include size(100%, 140%);
+}

@@ -1,0 +1,669 @@
+/*
+Theme Name: Nature's Highlight
+Theme URI: http://refueled.net/wordpress-themes/
+Description: A simple, two column theme for Wordpress.
+Author: refueled
+Author URI: http://refueled.net
+version: 1.0
+*/
+
+
+
+/* basics */
+
+*{margin:0; padding:0;}
+
+body {
+	background: #B0B0B0 ;
+	font-family: tahoma,arial, verdana, tahoma, serif;
+	font-size: 10pt;
+	color:#666666;
+	margin: 20px;
+	background-image:url(images/fundo.jpg);
+	background-repeat:repeat-x;
+	}
+	
+h1 {font-size: 18pt;}
+h2 {font-size: 14pt; margin-top:10px;}
+h3 {font-size: 10pt; margin-top:10px;}
+h4 {font-size: 9pt;}
+h5{
+	font-family: "Trebuchet MS", verdana, baskerville, georgia, times, serif;
+	font-size: 17pt;
+	font-weight: 300;
+	color: #A1C348;
+	padding: 0 0 6px 0;
+	}
+
+
+/* images and misc. */
+
+img{border: none; }
+img a{border:none;}
+
+img.left{ float: left; border: none; padding: 0 15px 10px 0; }
+img.right{ float: right; border: none; padding: 0 0 10px 15px; }
+
+blockquote{
+	border-left:1px solid #A5ABAB;
+	margin:15px;
+	padding:0 12px 0 12px;
+	}
+
+code{
+	margin:10px;
+	font-family:"Courier New", Courier, monospace;}
+
+
+/* links */
+
+a{
+	color:#74796C;
+	text-decoration:none;
+	border: none;
+	}
+
+a:hover{color:#333;text-decoration: underline; border: none;}
+
+
+
+/* container */
+
+
+#container {
+position: relative;
+	width: 860px;
+	margin: 0 auto;
+	padding: 0;
+	background:#fff url(images/bg.jpg);
+	color:#666;
+	overflow: hidden;
+	border: 6px solid #fff;
+	}
+	
+/* header */
+
+#header {
+	background: #BDD85F;
+	width: 100%; 
+	color: #808285; 
+    height:29px; 
+	border-top: 4px solid #BDD85F;
+	border-bottom: 5px solid #FFFFFF;
+	}
+	
+#header_barra {
+	background: #BDD85F;
+	width: 100%; 
+	color: #fff;
+	line-height:0px;
+min-height:2px;
+  height:0; 
+	border-bottom:solid 5px #FFFFFF
+	}	
+	
+
+#header h1{
+	font-family: palatino linotype,  arial, georgia,times;
+	font-size: 22pt;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin:12px 15px 0 15px;
+	padding:4px 15px 10px 0;
+	border-right:1px solid #C1C4BC;
+	float:left;
+	}
+
+#header p{
+	font-family: georgia, verdana, palatino linotype, arial, times;
+	font-size: 10pt;
+	font-weight: 300;
+	color: #fff;
+	padding:30px 0;
+	margin:0;
+	}
+	
+
+/* mid header */
+	
+#midheader{
+	width: 100%; 
+	height: 178px; 
+	background: #FFFFFF;
+	overflow: hidden;
+	border-top: 0px solid #fff; 
+	border-bottom: 6px solid #fff; 
+	margin:0;
+	padding:0;
+	}
+
+.leftcontent{ 
+	width: 354px;
+	height: 200px;
+	float: left;
+	font-size: 8pt;
+	}
+
+.leftcontent h2{
+  font-family: palatino linotype, georgia, arial, times;
+  font-size: 14pt;
+  font-weight: 300;
+  margin: 10px 0 0 15px;
+  }
+
+.leftcontent ul{ 
+	margin: 10px 15px;
+	}
+	
+.leftcontent ul li{ 
+  padding: 4px 0 4px 0;
+  border-top: 1px dotted #B2B2AA;
+  list-style-type: none;
+	}
+	
+.leftcontent ul li a{color: #767C6F;}
+.leftcontent ul li a:hover{color: #767C6F; text-decoration: none;}
+	
+.leftcontent ul li:hover{ 
+  background: #D3D3CB;
+	}
+
+.rightimg{ 
+	width: 860px;
+	height: 194px;
+	float: right;
+	border-bottom: 6px solid #fff; 
+	}
+
+/* main menu */
+
+#nav {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 25px;
+	background: #0B1224;
+	font-family: sans-serif, verdana, arial, tahoma;
+	font-size: 8pt;
+	list-style: none;
+	line-height: 1;
+}
+
+#nav ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+}
+
+#nav a {
+	display: block;
+	line-height: 14pt;
+	padding: 4px 9px 2px 9px;
+	color:#fff;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	background-color:#E7E8E1;
+	color: #0B1316;
+}
+
+#nav li { /* all list items */
+	float: left;
+}
+
+#nav li ul { /* second-level lists */
+	position: absolute;
+	background: #A5BC96;
+	width: 180px;
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	margin: 0;
+	padding: 0;
+}
+
+#nav li:hover ul, #nav li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+#nav li ul a{
+	background: #A5BC96;
+	list-style: none;
+	font-family: tahoma, verdana, serif;
+	font-size: 8pt;
+	font-weight: 300;
+	text-align: left;
+	padding: 6px;
+	width: 95px;
+	letter-spacing: 1px;
+}
+
+#nav li ul a:hover{
+	background: #A5BC96;
+	color: #5B5B5B;
+}
+
+
+#nav li:hover ul, #nav li.sfhover ul {
+	left: auto;
+}
+
+
+
+/* content */
+
+
+#content {
+	float: right;
+	width: 635px;
+	overflow: hidden;
+	}	
+
+#content2 {
+	float: right;
+	width: 735px;
+	overflow: hidden;
+	}	
+.post {
+	margin: 0 10px;
+	padding:10px 10px 20px 5px;
+	line-height: 14pt;
+	text-align: justify;
+	background-image:url(images/divisao2.gif);
+background-repeat:no-repeat;
+background-position:bottom;
+
+	}
+
+.breadcrumb {
+	margin: 0 10px;
+	padding:10px 10px 10px 5px;
+	line-height: 14pt;
+	text-align: justify;
+	}
+	
+.breadcrumba {
+	margin: 0 0px;
+	padding:0px 0px 10px 0px;
+	line-height: 14pt;
+	text-align: justify;
+	}
+	
+.post h2{
+	font-family: "Trebuchet MS", verdana, baskerville, georgia, times, serif;
+	font-size: 17pt;
+	font-weight: 300;
+	color: #A1C348;
+	padding: 0 0 6px 0;
+	}
+	
+.post h2 a{
+	color: #A1C348;
+	text-decoration: none;
+	border: none;
+	}
+	
+.post h2 a:hover{
+	color: #666;
+	text-decoration: none;
+	}
+	
+.post p{margin: 4px 0 4px 0;}
+
+.post ul {padding: 12px;}
+
+.post ul li {list-style-type:square; list-style-position: inside; color:#878A7E;}
+
+.entry p{margin:12px 0;}
+
+.postmetadata{
+	clear: both;
+	background:#F7F7F7;
+	padding:6px;
+	margin-top: 16px;
+	border-top: 1px dotted #A1C348;
+	border-bottom: 1px dotted #A1C348;
+	text-align: center;
+	line-height: 15pt;
+	}
+	
+.postmetadata img{display: inline; margin: 0; padding: 4px 2px 0 2px;}
+	
+.navigation {
+	margin: 10px;
+	padding:2px;
+	font-size:.9em;
+	float:left;
+	width:98%;
+	}
+	
+.alignleft {float:left;}
+.alignright {float:right;}
+
+
+.archivetitle{
+	font-family: "Trebuchet MS", verdana, georgia, times, serif;
+	font-size: 18pt;
+	font-weight: 300;
+	color: #666;
+	padding: 0 0 12px 15px;
+	}
+
+/* sidebar */
+
+#get_recent_comments_wrap a{
+	color:#FFFFFF
+}
+
+#sidebar {
+	font-family: verdana, arial, tahoma;
+	font-size:8pt;
+	width: 215px;
+	float:left;
+	margin: 6px 0 24px 0;
+	padding: 0;
+	border-right: 6px solid fff;
+	background: #808285; 
+	}
+
+#sidebar h2{
+	font-family: "Trebuchet MS", verdana, tahoma;
+	font-weight: normal; 
+	font-size: 13pt; 
+	text-align: left;
+	color: #BDD85F;	
+	margin: 0;
+	padding: 8px 0 0 12px;
+}
+
+#nuvem_tags{padding-left:12px}
+
+#textwidget {margin:12px 0 12px 0;
+}
+
+#sidebar a { color:#FFFFFF;}
+
+#sidebar p {margin:0; padding: 0 6px 0 0;}
+
+#sidebar img {padding: 0; margin: 0;}
+
+#sidebar ul {
+	margin:12px 0 12px 0;
+	padding:0;
+	list-style-type: none;
+	}
+
+#sidebar ul li {
+	margin: 0;
+	padding: 0;
+	line-height: 14pt;
+	list-style-type: none;
+	}
+
+#sidebar ul ul {
+	margin: 6px 0 12px 0;
+	padding: 0;
+	padding-bottom:8px;
+		background-position:bottom;
+	background-repeat:no-repeat;
+	
+}
+
+#sidebar ul ul li {
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0;
+	padding: 4px 0 4px 12px;
+	
+	color:#FFFFFF
+	}
+	
+#sidebar ul ul li:hover{
+  background: #B4B5B7;
+  }
+
+#sidebar ul ul li a{color: #FFFFFF; text-decoration: none; border: none;}
+#sidebar ul ul li a:hover{color: #666; text-decoration: none; border: none;}
+
+#sidebar ul ul ul{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul ul ul li{
+	padding: 0 0 0 15px;
+	list-style-type: square;
+	color: #898989;
+}
+
+
+
+/* comments */
+
+#commentssection{
+	clear: both;
+	padding: 2px 12px;
+	margin: 0;
+	}
+	
+#commentssection h3{
+	font-family: georgia, times, verdana;
+	font-size: 12pt;
+	font-weight: 300;
+	font-style: normal;
+	color: #000;
+	}
+
+#commentform{
+	background: #F0F0F0;
+	margin: 12px 12px 20px 12px;
+	padding:20px;
+	}
+	
+#commentform p{
+	color: #000;
+	}
+	
+#commentform a{color: #000; text-decoration: none; border-bottom: 1px dotted #465D71;line-height: 14pt;}
+	
+#commentform h3{
+	font-family: georgia, times, verdana;
+	font-size: 10pt;
+	font-weight: 300;
+	color: #000;
+	}
+	
+#commentbox{
+	width:75%;
+	min-width:400px;
+	margin:5px 5px 0 0;
+	}
+
+#author, #email, #url, #commentbox, #submit{
+	background: #fff;
+	font-family: verdana, arial, times;
+	font-size: 8pt;
+	margin:5px 5px 0 0;
+	padding: 6px;
+	border: 1px solid #B2B2B2;
+	}
+	
+#submit{margin:5px 5px 0 0;}
+
+	
+ol.commentlist {list-style-type: none;}
+
+ol.commentlist li {
+	background: #fff;
+	margin:10px 0;
+	padding:5px 0 5px 10px;
+	overflow: hidden;
+	}
+
+ol.commentlist li.alt {background: #E5E5E5;}
+ol.commentlist li p {margin: 6px 0 6px 0; padding: 0 12px 0 0; line-height: 14pt;}
+
+ol.commentlist a {color:#000;}
+
+ol.commentlist li .avatar { 
+	float: right;
+	border: 1px solid #eee;
+	padding: 2px;
+	background: #fff;
+	}
+
+cite {
+	font-family: arial, verdana, tahoma;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: normal;
+	}
+	
+cite a{color: #000; text-decoration: none; border-bottom: 1px dotted #465D71;}
+
+
+/* search */
+
+#searchform{
+	padding: 6px 0 6px 10px;
+	font-family: verdana, arial, times;
+	}
+
+#searchform input#s{
+	font-family: verdana, arial, times;
+	font-size: 8pt;
+	padding: 2px;
+	margin: 2px;
+	border: 1px solid #B7B7B7;
+	}
+
+#searchform input#searchsubmit{
+	font-family: verdana, arial, times;
+	font-size: 7pt;
+	padding: 2px;
+	margin: 2px 0 0 2px;
+	border: 1px solid #B7B7B7;
+	background-color: #fff;
+	color: #797979;
+	}
+
+/* footer */
+
+#footer {
+	background: #BDD85F;
+	clear: both;
+	width: 100%;
+	margin-top:15px;
+	border-top:solid 1px #DEDEDE;
+	font-family: verdana, arial, tahoma;
+	font-size: 7pt;
+	color:#808285;
+	border-top: 6px solid #fff;
+	}
+	
+#footer p{padding:6px;margin: 0; color: #808285;}
+#footer a{color: #BCBCBC;text-decoration: none;}
+#footer a:hover{color: #5D5D5D;text-decoration: underline;}
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/final_drop.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+.menu {width:745px; height:32px; font-size:0.85em; position:relative; z-index:100;border-right:1px solid #000;}
+/* hack to correct IE5.5 faulty box model */
+* html .menu {width:746px; w\idth:745px;}
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding:0;margin:0;list-style-type:none;}
+.menu ul ul {width:149px;}
+/* float the list to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu li {float:left;width:149px;position:relative;}
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;font-size:11px;text-decoration:none; color:#fff; width:138px; height:30px; border:1px solid #000; border-width:1px 0 1px 1px; background:#758279; padding-left:10px; line-height:29px;}
+/* a hack so that IE5.5 faulty box model is corrected */
+* html .menu a, * html .menu a:visited {width:149px; w\idth:138px;}
+
+/* style the second level background */
+.menu ul ul a.drop, .menu ul ul a.drop:visited {background:#d4d8bd url(images/drop.gif) bottom right no-repeat;}
+/* style the second level hover */
+.menu ul ul a.drop:hover{background:#c9ba65 url(images/drop.gif) bottom right no-repeat;}
+.menu ul ul :hover > a.drop {background:#c9ba65 url(images/drop.gif) bottom right no-repeat;}
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#e2dfa8;}
+/* style the third level hover */
+.menu ul ul ul a:hover {background:#b2ab9b;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:31px;left:0; width:149px;border-top:1px solid #000;}
+/* another hack for IE5.5 */
+* html .menu ul ul {top:30px;t\op:31px;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:149px; top:-1px; width:149px;}
+
+/* position the third level flyout menu for a left flyout */
+.menu ul ul ul.left {left:-149px;}
+
+/* style the table so that it takes no ppart in the layout - required for IE to work */
+.menu table {position:absolute; top:0; left:0; border-collapse:collapse;;}
+
+/* style the second level links */
+.menu ul ul a, .menu ul ul a:visited {background:#d4d8bd; color:#000; height:auto; line-height:1em; padding:5px 10px; width:128px;border-width:0 1px 1px 1px;}
+/* yet another hack for IE5.5 */
+* html .menu ul ul a, * html .menu ul ul a:visited {width:150px;w\idth:128px;}
+
+/* style the top level hover */
+.menu a:hover, .menu ul ul a:hover{color:#fff; background:#949e7c;}
+.menu :hover > a, .menu ul ul :hover > a {color:#fff;background:#949e7c;}
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul,
+.menu ul a:hover ul{visibility:visible; }
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{ visibility:visible;}
+
+
+/* ================================================================ 
+   This CSS is further CSS I have created specifically for Wordpress
+   so that the current page is highlighted in two levels.
+   If you want it in three levels let me know.
+
+   Author: Isaac Rowntree
+   Website: www.zackdesign.biz
+=================================================================== */
+
+
+.menu ul ul .current_page_item a {
+  color: red;
+  background: white;
+  border-left: 1px solid black;
+}
+
+.menu .current_page_item a {
+  color: red;
+  font-weight: bold;
+  background: white;
+}
+
+.menu ul .current_page_item ul a {
+  color: white;
+  font-weight: normal;
+  background: black;
+}
+
+.menu ul .current_page_item ul a:hover {
+  background: gray;
+}
+
+.menu .current_page_item a:hover {
+  background: white;
+}
+
+

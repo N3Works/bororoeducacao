@@ -1,0 +1,36 @@
+/*----------------------------------
+  Back To Top v1
+------------------------------------*/
+
+.s-back-to-top-v1 {
+	@include position(absolute, $bottom: -.0625rem, $left: 50%);
+	z-index: 1;
+	@include translate3d(-50%,0,0);
+
+	@include before {
+		@include position(absolute, $bottom: 0, $left: 50%);
+		@include size(0);
+		border-style: solid;
+		border-width: 0 3.125rem 2.5rem 3.125rem;
+		border-color: transparent transparent $color-dark-1 transparent;
+		content: " ";
+		@include translate3d(-50%,0,0);
+	}
+
+	@include after {
+		@include position(absolute, $bottom: 0, $left: 50%);
+		@include size(0);
+		border-style: solid;
+		border-width: 0 .625rem .625rem .625rem;
+		border-color: transparent transparent $color-primary transparent;
+		content: " ";
+		@include translate3d(-50%,-.625rem,0);
+		@include animation(arrow-bounce 2.5s ease-in-out infinite);
+	}
+}
+
+/* Keyframes */
+@include keyframes(arrow-bounce) {
+  0, 100% { bottom: 0; }
+  50% { bottom: -.5rem; }
+}

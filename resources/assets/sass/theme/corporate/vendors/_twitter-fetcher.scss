@@ -1,0 +1,69 @@
+/*----------------------------------
+  Twitter Fetcher
+------------------------------------*/
+
+.s-twitter-list-v1 {
+  margin-bottom: 0;
+  
+  .s-twitter-list-v1 {
+    &__item {
+      @include clearfix;
+      overflow: hidden;
+      margin-bottom: 1.5625rem;
+
+      @include last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .user {
+    clear: both;
+
+    a > span {
+      @include first-child {
+        > img {
+          @include size(2.5rem);
+          float: left;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    > div > a > span {
+      &:nth-child(2),
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+
+  .tweet {
+    @include position(relative);
+    @include font($size: $font-size-14);
+    color: $color-white-opacity-lighter;
+    line-height: $line-height-lg;
+    margin-left: 1.875rem;
+
+    @include before {
+      @include position(absolute, $top: .0625rem, $left: -1.875rem);
+      @include font($size: $font-size-20, $family: $font-family-fontawesome);
+      color: $color-gold;
+      content: "\f099";
+    }
+
+    > a {
+      line-height: 1.6;
+      color: $color-white-opacity-light;
+
+      @include hover {
+        color: $color-white;
+        @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+      }
+    }
+    
+    img {
+      @include size(.9375rem);
+    }
+  }
+}

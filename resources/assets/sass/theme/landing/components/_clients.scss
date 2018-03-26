@@ -1,0 +1,17 @@
+/*----------------------------------
+  Clients v1
+------------------------------------*/
+
+.s-clients-v1 {
+	display: block;
+  @include size(4.995rem, auto);
+	opacity: .7;
+  margin-left: auto;
+  margin-right: auto;
+	@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	
+	@include hover {
+		opacity: 1;
+		cursor: pointer;
+	}
+}

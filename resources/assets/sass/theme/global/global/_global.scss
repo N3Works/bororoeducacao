@@ -1,0 +1,230 @@
+/*----------------------------------
+  Font Size
+------------------------------------*/
+
+@for $i from 10 through 20 {
+  .g-font-size-#{$i * 1} {
+    font-size: ($i * .0625rem);
+  }
+}
+
+@for $i from 11 through 25 {
+  .g-font-size-#{$i * 2} {
+    font-size: ($i * .125rem);
+  }
+}
+
+@for $i from 11 through 30 {
+  .g-font-size-#{$i * 5} {
+    font-size: ($i * .3125rem);
+  }
+}
+
+/* Small screen / phone */
+@include media-breakpoint-up(sm) {
+  @for $i from 10 through 20 {
+  .g-font-size-#{$i * 1}--sm {
+      font-size: ($i * .0625rem);
+    }
+  }
+
+  @for $i from 11 through 25 {
+    .g-font-size-#{$i * 2}--sm {
+      font-size: ($i * .125rem);
+    }
+  }
+
+  @for $i from 11 through 30 {
+    .g-font-size-#{$i * 5}--sm {
+      font-size: ($i * .3125rem);
+    }
+  }
+}
+
+/* Medium screen / tablet */
+@include media-breakpoint-up(md) {
+  @for $i from 10 through 20 {
+  .g-font-size-#{$i * 1}--md {
+      font-size: ($i * .0625rem);
+    }
+  }
+
+  @for $i from 11 through 25 {
+    .g-font-size-#{$i * 2}--md {
+      font-size: ($i * .125rem);
+    }
+  }
+
+  @for $i from 11 through 30 {
+    .g-font-size-#{$i * 5}--md {
+      font-size: ($i * .3125rem);
+    }
+  }
+}
+
+/* Extra large screen / wide desktop */
+@include media-breakpoint-up(lg) {
+  @for $i from 10 through 20 {
+  .g-font-size-#{$i * 1}--lg {
+      font-size: ($i * .0625rem);
+    }
+  }
+
+  @for $i from 11 through 25 {
+    .g-font-size-#{$i * 2}--lg {
+      font-size: ($i * .125rem);
+    }
+  }
+
+  @for $i from 11 through 30 {
+    .g-font-size-#{$i * 5}--lg {
+      font-size: ($i * .3125rem);
+    }
+  }
+}
+
+
+/*----------------------------------
+  Font Family
+------------------------------------*/
+
+.g-font-family--primary { @include font($family: $font-family-primary); }
+.g-font-family--roboto { @include font($family: $font-family-roboto); }
+.g-font-family--pacifico { @include font($family: $font-family-pacifico); }
+.g-font-family--playfair { @include font($family: $font-family-playfair); }
+.g-font-family--sans-pro { @include font($family: $font-family-sans-pro); }
+.g-font-family--open-sans { @include font($family: $font-family-open-sans); }
+.g-font-family--libre { @include font($family: $font-family-libre); }
+
+
+/*----------------------------------
+  Font Weight
+------------------------------------*/
+
+.g-font-weight--300 { @include font($weight: 300); }
+.g-font-weight--400 { @include font($weight: 400); }
+.g-font-weight--500 { @include font($weight: 500); }
+.g-font-weight--600 { @include font($weight: 600); }
+.g-font-weight--700 { @include font($weight: 700); }
+
+
+/*----------------------------------
+  Letter Spacing
+------------------------------------*/
+
+.g-letter-spacing--0 { letter-spacing: 0; }
+.g-letter-spacing--1 { letter-spacing: .0625rem; }
+.g-letter-spacing--2 { letter-spacing: .125rem; }
+.g-letter-spacing--3 { letter-spacing: .1875rem; }
+.g-letter-spacing--4 { letter-spacing: .25rem; }
+.g-letter-spacing--5 { letter-spacing: .3125rem; }
+
+
+/*----------------------------------
+  Display
+------------------------------------*/
+
+.g-display-none { display: none; }
+.g-display-block { display: block; }
+.g-display-inline { display: inline; }
+.g-display-inline-block { display: inline-block; }
+.g-display-inherit { display: inherit; }
+.g-display-table { display: table; }
+
+/* Small screen / phone */
+@include media-breakpoint-up(sm) {
+  .g-display-none--sm { display: none; }
+  .g-display-block--sm { display: block; }
+  .g-display-inline--sm { display: inline; }
+	.g-display-inline-block--sm { display: inline-block; }
+  .g-display-inherit--sm { display: inherit; }
+	.g-display-table--sm { display: table; }
+}
+
+/* Medium screen / tablet */
+@include media-breakpoint-up(md) {
+  .g-display-none--md { display: none; }
+  .g-display-block--md { display: block; }
+  .g-display-inline--md { display: inline; }
+  .g-display-inline-block--md { display: inline-block; }
+  .g-display-inherit--md { display: inherit; }
+  .g-display-table--md { display: table; }
+}
+
+/* Extra large screen / wide desktop */
+@include media-breakpoint-up(lg) {
+  .g-display-none--lg { display: none; }
+  .g-display-block--lg { display: block; }
+  .g-display-inline--lg { display: inline; }
+  .g-display-inline-block--lg { display: inline-block; }
+  .g-display-inherit--lg { display: inherit; }
+  .g-display-table--lg { display: table; }
+}
+
+
+/*----------------------------------
+  Text Alignment
+------------------------------------*/
+
+.g-text-center { text-align: center; }
+.g-text-left { text-align: left; }
+.g-text-right { text-align: right; }
+.g-text-inherit { text-align: inherit; }
+.g-text-line-through { text-decoration: line-through; }
+
+/* Small screen / phone */
+@include media-breakpoint-up(sm) {
+  .g-text-center--sm { text-align: center; }
+  .g-text-left--sm { text-align: left; }
+  .g-text-right--sm { text-align: right; }
+  .g-text-inherit--sm { text-align: inherit; }
+  .g-text-line-through--sm { text-decoration: line-through; }
+}
+
+/* Medium screen / tablet */
+@include media-breakpoint-up(md) {
+  .g-text-center--md { text-align: center; }
+  .g-text-left--md { text-align: left; }
+  .g-text-right--md { text-align: right; }
+  .g-text-inherit--md { text-align: inherit; }
+  .g-text-line-through--md { text-decoration: line-through; }
+}
+
+/* Extra large screen / wide desktop */
+@include media-breakpoint-up(lg) {
+  .g-text-center--lg { text-align: center; }
+  .g-text-left--lg { text-align: left; }
+  .g-text-right--lg { text-align: right; }
+  .g-text-inherit--lg { text-align: inherit; }
+  .g-text-line-through--lg { text-decoration: line-through; }
+}
+
+
+/*----------------------------------
+  Pulls
+------------------------------------*/
+
+.g-pull-left { float: left; }
+.g-pull-right { float: right; }
+.g-pull-none { float: none; }
+
+/* Small screen / phone */
+@include media-breakpoint-up(sm) {
+  .g-pull-left--sm { float: left; }
+  .g-pull-right--sm { float: right; }
+  .g-pull-none--sm { float: none; }
+}
+
+/* Medium screen / tablet */
+@include media-breakpoint-up(md) {
+  .g-pull-left--md { float: left; }
+  .g-pull-right--md { float: right; }
+  .g-pull-none--md { float: none; }
+}
+
+/* Extra large screen / wide desktop */
+@include media-breakpoint-up(lg) {
+  .g-pull-left--lg { float: left; }
+  .g-pull-right--lg { float: right; }
+  .g-pull-none--lg { float: none; }
+}

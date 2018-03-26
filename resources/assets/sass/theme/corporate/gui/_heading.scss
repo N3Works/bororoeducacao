@@ -1,0 +1,54 @@
+/*----------------------------------
+  Heading v1
+------------------------------------*/
+
+.s-heading-v1 {
+	&__divider {
+		@include position(relative, $top: 0);
+		@include size(1.875rem, .0625rem);
+		display: block;
+		background: $color-primary;
+		margin: 2.5rem auto;
+		@include translate3d(-.0625rem,0,0);
+
+		@include before-after {
+			@include position(absolute, $top: 0);
+			@include size(.625rem, .0625rem);
+			background: $color-primary;
+			content: " ";
+		}
+		
+		@include before { left: -.875rem; }
+		@include after { right: -.875rem; }
+
+		&-top {
+			@include position(relative);
+
+			@include before-after {
+				@include position(absolute, $top: -.3rem);
+				@include size(1.25rem, .0625rem);
+				background: $color-primary;
+				content: " ";
+			}
+			
+			@include before { left: -.5rem; }
+			@include after { right: -.5rem; }
+		}
+	}
+
+	&__brd-wrap {
+		@include position(relative);
+
+		@include before {
+			@include position(absolute, $top: 50%, $left: 50%, $bottom: 0);
+			@include size(100%);
+			max-width: 25rem;
+			min-height: 32rem;
+			z-index: -1;
+			display: block;
+			border: .9375rem solid $color-primary;
+			content: " ";
+			@include translate3d(-50%,-50%,0);
+		}
+	}
+}

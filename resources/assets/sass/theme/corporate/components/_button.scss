@@ -1,0 +1,134 @@
+/*----------------------------------
+  Button V2
+------------------------------------*/
+
+.s-btn-v2 {
+	@include btn;
+}
+
+/* Styles
+------------------------------ */
+.s-btn-v2--gold { @include btn-style($color: $color-gold, $hvr-color: $color-gold, $bg: transparent, $hvr-bg: transparent); }
+
+/* Gold Background */
+.s-btn-v2--gold-bg {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include btn-style($color: $color-white, $hvr-color: $color-gold, $bg: $color-gold, $hvr-bg: $color-gold, $brd-width: .0625rem, $brd-style: solid, $brd-color: $color-gold, $hvr-brd-color: $color-gold);
+
+	@include before {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-white;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include before {
+			left: 0;
+			width: 100%;
+		}
+	}
+
+	@include focus {
+		background: transparent;
+	}
+}
+
+/* Gold Bordered */
+.s-btn-v2--gold-brd {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include btn-style($color: $color-gold, $hvr-color: $color-white, $bg: transparent, $hvr-bg: $color-gold, $brd-width: .0625rem, $brd-style: solid, $brd-color: $color-gold, $hvr-brd-color: $color-gold);
+
+	@include before {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-gold;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include before {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/* White Background */
+.s-btn-v2--white-bg {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include btn-style($color: $color-gold, $hvr-color: $color-white, $bg: $color-white, $hvr-bg: $color-white);
+
+	@include before {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-gold;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include before {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/* White Bordered */
+.s-btn-v2--white-brd {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include btn-style($color: $color-white, $hvr-color: $color-white, $bg: transparent, $hvr-bg: $color-primary, $brd-width: .0625rem, $brd-style: solid, $brd-color: $color-white, $hvr-brd-color: $color-primary);
+
+	@include before {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-primary;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include before {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+.s-btn-v2--primary-brd {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include btn-style($color: $color-primary, $hvr-color: $color-white, $bg: transparent, $hvr-bg: $color-primary, $brd-width: .0625rem, $brd-style: solid, $brd-color: $color-primary, $hvr-brd-color: $color-primary);
+
+	@include before {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-primary;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include before {
+			left: 0;
+			width: 100%;
+		}
+	}
+}

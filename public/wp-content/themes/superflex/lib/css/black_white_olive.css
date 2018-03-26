@@ -1,0 +1,83 @@
+body,html{background:#000;background: no-repeat center center fixed;-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+
+/* SIGNAL AND LINK COLOR */
+input[type=submit]:hover, 
+input[type=submit]#searchsubmit-flex:hover, #searchsubmit:hover, 
+#nav ul li.current_page_ancestor a, 
+#nav ul li.current_page_item a,
+#homebutton a.active,
+#shortcuts ul li a,
+a.button,
+.shortcut_hover
+{
+	background-color:#265356;
+	
+}
+
+a{
+	color:#265356;	
+	}
+
+
+/* DARK COLOR */
+input[type=submit],
+#nav ul,
+#nav ul ul li a,
+#homebutton a,
+#tabnav li.active a,
+h2.trigger
+
+{
+	background-color:#32B5AD;	
+	}
+	
+a:hover {color:#464646; }
+
+/* MEDIUM DARK COLOR */
+#search,
+input[type=submit]#searchsubmit-flex, #searchsubmit,
+#nav ul li a:hover,
+#nav ul ul li.current_menu_parent ul li a:hover, 
+#nav ul ul li.current-menu-ancestor ul li a:hover, 
+#nav ul ul li.current-menu-item ul li a:hover, 
+#nav ul ul li a:hover,
+#homebutton a:hover,
+#tabnav li a,
+h2.trigger:hover,
+h2.active,
+.slider-full 
+{
+	
+	background-color:#32B5AD;
+	
+}
+
+#nav, #homebutton{border-bottom:2px solid #CCC;}
+
+/* LIGHT COLOR */
+.sidebar, .author-box{background:#f7f7f7;}
+
+
+.caption-sidebar {
+	
+	background:url(../img/shared/caption_olive.png) no-repeat left -126px ;
+
+}
+.caption-sidebar span {
+	
+	background:url(../img/shared/caption_olive.png) no-repeat  right -63px;
+	
+}
+
+.caption {
+	background:url(../img/shared/caption_olive.png) no-repeat  left top;
+
+}
+.caption span {
+		background:url(../img/shared/caption_olive.png) no-repeat  right -63px;
+	
+}

@@ -1,0 +1,146 @@
+/*----------------------------------
+  Reveal Animations
+------------------------------------*/
+
+.-is-animated {
+  @include animation-duration(1s);
+  @include animation-fill-mode(both);
+}
+
+/* Fade In
+------------------------------ */
+.g-reveal-fade-in { @include animation-name(fade-in); }
+
+@include keyframes(fade-in) {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Fade In Up
+------------------------------ */
+.g-reveal-fade-in-up { @include animation(fade-in-up 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-up) {
+  from {
+    opacity: 0;
+    @include translate3d(0,12.5rem,0);
+  }
+}
+
+/* Fade In Up Slow
+------------------------------ */
+.g-reveal-fade-in-up--slow { @include animation(fade-in-up-slow 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-up-slow) {
+  from {
+    opacity: 0;
+    @include translate3d(0,5rem,0);
+  }
+}
+
+/* Fade In Up Slowest
+------------------------------ */
+.g-reveal-fade-in-up--slowest { @include animation(fade-in-up-slowest 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-up-slowest) {
+  from {
+    @include translate3d(0,2rem,0);
+  }
+}
+
+
+/* Fade In Down
+------------------------------ */
+.g-reveal-fade-in-down { @include animation(fade-in-down 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-down) {
+  from {
+    opacity: 0;
+    @include translate3d(0,-12.5rem,0);
+  }
+}
+
+/* Fade In Down Slow
+------------------------------ */
+.g-reveal-fade-in-down--slow { @include animation(fade-in-down-slow 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-down-slow) {
+  from {
+    opacity: 0;
+    @include translate3d(0,-5rem,0);
+  }
+}
+
+/* Fade In Down Slowest
+------------------------------ */
+.g-reveal-fade-in-down--slowest { @include animation(fade-in-down-slowest 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-down-slowest) {
+  from {
+    @include translate3d(0,-2rem,0);
+  }
+}
+
+/* Fade In Up Left
+------------------------------ */
+.g-reveal-fade-in-left { @include animation(fade-in-left 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-left) {
+  from {
+    opacity: 0;
+    @include translate3d(12.5rem,0,0);
+  }
+}
+
+/* Fade In Left Slow
+------------------------------ */
+.g-reveal-fade-in-left--slow { @include animation(fade-in-left-slow 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-left-slow) {
+  from {
+    opacity: 0;
+    @include translate3d(5rem,0,0);
+  }
+}
+
+/* Fade In Up Left Slow
+------------------------------ */
+.g-reveal-fade-in-left--slowest { @include animation(fade-in-left-slowest 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-left-slowest) {
+  from {
+    @include translate3d(2rem,0,0);
+  }
+}
+
+/* Fade In Up Right
+------------------------------ */
+.g-reveal-fade-in-right { @include animation(fade-in-right 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-right) {
+  from {
+    opacity: 0;
+    @include translate3d(-12.5rem,0,0);
+  }
+}
+
+/* Fade In Right Slow
+------------------------------ */
+.g-reveal-fade-in-right--slow { @include animation(fade-in-right-slow 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-right-slow) {
+  from {
+    opacity: 0;
+    @include translate3d(-5rem,0,0);
+  }
+}
+
+/* Fade In Up Right Slow
+------------------------------ */
+.g-reveal-fade-in-right--slowest { @include animation(fade-in-right-slowest 1s cubic-bezier(0.7,0,0.3,1) both); }
+
+@include keyframes(fade-in-right-slowest) {
+  from {
+    @include translate3d(-2rem,0,0);
+  }
+}

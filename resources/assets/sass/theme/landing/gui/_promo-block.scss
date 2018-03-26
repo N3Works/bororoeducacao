@@ -1,0 +1,27 @@
+/*----------------------------------
+  Promo Block v1
+------------------------------------*/
+
+.s-promo-block-v1 {
+	&__center {
+		@include position(relative);
+		display: block;
+		max-width: 26.5625rem;
+		margin: 0 auto 4.37rem;
+
+		@include media-breakpoint-down(xs) {
+			max-width: 18.75rem;
+		}
+	}
+	
+	&__img {
+		@include position(absolute, $top: -2.8125rem, $left: -2.8125rem);
+		max-width: 18.75rem;
+
+		@include media-breakpoint-down(xs) {
+			top: -1.25rem;
+			left: -1.875rem;
+			max-width: 13.4375rem;
+		}
+	}
+}

@@ -1,0 +1,208 @@
+/*----------------------------------
+  Form Input
+------------------------------------*/
+
+/* Form Input v2
+------------------------------ */
+.s-form-input-v2 {
+	@include position(relative);
+	z-index: 1;
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	
+	&__field {
+		height: 3.0625rem;
+		@include font($size: $font-size-14);
+		color: $color-gray-lighter;
+		@include placeholder($color-gray-lighter);
+		background: transparent;
+		border: none;
+		box-shadow: none;
+		padding: .4375rem 3rem 0 0;
+
+		@include focus {
+			border-color: $color-white-opacity-lighter;
+			box-shadow: none;
+			color: $color-white;
+			@include placeholder($color-white);
+
+			~ .s-form-input-v2__label {
+				@include font($size: $font-size-11);
+				color: $color-primary;
+				@include animation-delay(.15s);
+				@include translate3d(0,0,0);
+			}
+
+			~ .s-form-input-v2__brd {
+				@include after {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	&__brd {
+		@include position(relative);
+		display: block;
+
+		@include before {
+			@include position(absolute, $bottom: 0, $left: 0);
+			@include size(100%, .11rem);
+			background: $color-white-opacity-lighter;
+			content: " ";
+			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+		}
+
+		@include after {
+			@include position(absolute, $bottom: 0, $left: 0);
+			@include size(0, .11rem);
+			background: $color-primary;
+			content: " ";
+			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+		}
+	}
+
+	&__label {
+		@include position(absolute, $top: 0, $left: 0);
+		@include font($size: $font-size-14, $weight: 400);
+		color: $color-white-opacity-lighter;
+		pointer-events: none;
+		padding: .15rem .25rem .15rem 0;
+		margin-bottom: 0;
+		@include translate3d(0,.7rem,0);
+		@include transition(all .3s);
+		-webkit-touch-callout: none;
+		@include user-select(none);
+	}
+
+	&__btn {
+		@include position(absolute, $top: .25rem, $right: -.3125rem);
+		z-index: 1;
+	}
+	
+	.-is-active {
+		~ .s-form-input-v2__label {
+			@include font($size: $font-size-11);
+			color: $color-primary;
+			@include animation-delay(.15s);
+			@include translate3d(0,0,0);
+		}
+
+		~ .s-form-input-v2__brd {
+			@include after {
+				width: 100%;
+			}
+		}
+	}
+}
+
+/* Style */
+.s-form-input-v2--gold {
+	.s-form-input-v2 {
+		&__field {
+			color: $color-gray-light;
+			@include placeholder($color-gray-light);
+			border-bottom-color: $color-white-opacity-lighter;
+
+			@include focus {
+				border-bottom-color: $color-gold;
+			}
+		}
+
+		&__label {
+			color: $color-sepia;
+		}
+	}
+}
+
+.s-form-input-v2--primary {
+	.s-form-input-v2 {
+		&__field {
+			color: $color-gray-light;
+			@include placeholder($color-gray-light);
+			border-bottom-color: $color-white-opacity-lighter;
+
+			@include focus {
+				border-bottom-color: $color-primary;
+			}
+		}
+
+		&__label {
+			color: $color-primary;
+		}
+	}
+}
+
+/* Input Group */
+.input-group {
+	.s-form-input-v2__field {
+		@include position(static);
+	}
+}
+
+/* Form Input v3
+------------------------------ */
+.s-form-input-v3 {
+	@include position(relative);
+	z-index: 1;
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	
+	&__field {
+		height: 4rem;
+		@include font($size: $font-size-14);
+		background: $color-white;
+		border: .11rem solid rgba($color-dark-1, .15);
+		box-shadow: none;
+		padding: .4375rem 9rem 0 1.5rem;
+
+		@include focus {
+			background: $color-white;
+			border-color: rgba($color-dark-1, .15);
+			box-shadow: none;
+			color: $color-dark-1;
+
+			~ .s-form-input-v3__label {
+				@include font($size: $font-size-11);
+				color: $color-gold;
+				@include animation-delay(.15s);
+				@include translate3d(1.3rem,.25rem,0);
+			}
+		}
+	}
+
+	&__label {
+		@include position(absolute, $top: 0, $left: 0);
+		@include font($size: $font-size-14, $weight: 400);
+		color: rgba($color-dark-1, .6);
+		pointer-events: none;
+		padding: .15rem .25rem;
+		margin-bottom: 0;
+		@include translate3d(1.3rem,1.25rem,0);
+		@include transition(all .3s);
+		-webkit-touch-callout: none;
+		@include user-select(none);
+	}
+
+	&__btn {
+		@include position(absolute, $top: 1.4375rem, $right: 0);
+		z-index: 1;
+	}
+
+	.-is-active {
+		~ .s-form-input-v3__label {
+			@include font($size: $font-size-11);
+			color: $color-gold;
+			@include animation-delay(.15s);
+			@include translate3d(1.3rem,.25rem,0);
+		}
+	}
+}
+
+.input-group {
+	.s-form-input-v3__field {
+		@include position(static);
+	}
+}

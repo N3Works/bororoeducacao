@@ -1,0 +1,47 @@
+/*----------------------------------
+  Theme Icons v1
+------------------------------------*/
+
+.s-icon-v1 { @include icon; }
+
+/* White Border Style
+------------------------------ */
+.s-icon-v1--white-opacity-light { @include icon-style($color: rgba($color-white, .5), $hvr-color: $color-primary, $bg: transparent, $hvr-bg: $color-white, $line-height: 1.4); }
+.s-icon-v1--white-brd { @include icon-style($color: $color-white, $hvr-color: $color-primary, $bg: transparent, $hvr-bg: $color-white, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-white, $brd-hvr-color: $color-white, $line-height: 1.4); }
+.s-icon-v1--white-bg { @include icon-style($color: $color-primary, $hvr-color: $color-white, $bg: $color-white, $hvr-bg: $color-primary, $line-height: 1.4); }
+
+/* Icon v2 White with After Pseudo Element */
+.s-icon-v1--white-brd-after {
+  @include position(relative);
+
+	@include after {
+    @include position(absolute, $bottom: -2rem, $left: 50%);
+    @include size(.125rem, 1.25rem);
+    background: $color-white;
+    content: " ";
+    margin-left: -.0625rem;
+    @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+  }
+}
+
+/* Icon v2 Primary Background Style
+------------------------------ */
+.s-icon-v1--primary-bg { @include icon-style($color: $color-white, $bg: $color-primary, $line-height: 1.6); }
+
+/* Icon V1 Primary with After Pseudo Element */
+.s-icon-v1--primary-bg-after {
+  @include position(relative);
+
+  @include after {
+    @include position(absolute, $bottom: -2.5rem, $left: 50%);
+    @include size(.125rem, 1.875rem);
+    background: $color-primary;
+    content: " ";
+    margin-left: -.0625rem;
+    @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+  }
+}
+
+/* Icon v2 Primary Border Style
+------------------------------ */
+.s-icon-v1--primary-brd { @include icon-style($color: $color-primary, $hvr-color: $color-white, $bg: transparent, $hvr-bg: $color-primary, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-primary, $brd-hvr-color: $color-primary, $line-height: 1.4); }

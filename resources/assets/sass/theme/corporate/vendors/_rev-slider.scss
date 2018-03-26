@@ -1,0 +1,95 @@
+/*----------------------------------
+  Revolution Slider
+------------------------------------*/
+
+/* Bullets Style v1 */
+.s-rev-slider__bullets-v1 {
+	.tp-bullet {
+		@include size(.625rem);
+		border-radius: 0;
+		box-shadow: inset 0 0 0 .125rem $color-gold;
+		opacity: .6;
+		overflow: inherit;
+		@include rotate(-45deg);
+		
+		@include after {
+			background: $color-gold;
+		}
+
+		@include hover {
+			opacity: .8;
+		}
+
+		&.selected {
+			@include position(relative);
+			box-shadow: inset 0 0 0 .125rem $color-gold;
+			opacity: 1;
+
+			@include after {
+				@include position(absolute, $top: 0, $left: 0);
+				@include size(100%);
+				display: block;
+				@include animation(pulse, 2s, ease, 0s, 1, normal, none);
+				content: " ";
+			}
+		}
+	}
+}
+
+/* Keyframes */
+@include keyframes(pulse) {
+  0 {
+		box-shadow: 0 0 0 .625rem $color-gold;
+		opacity: 1;
+  }
+  100% {
+		box-shadow: 0 0 0 .625rem $color-gold;
+		opacity: 0;
+  }
+}
+
+/* Arrow Style v1 */
+.s-rev-slider__arrow-v1 {
+	.metis {
+		&.tparrows {
+			@include size(2.5rem);
+			background: transparent;
+			border: .0625rem solid $color-gold;
+			opacity: .6;
+			padding: 0;
+			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+			@include rotate(-45deg);
+
+			@include before {
+				@include font($size: $font-size-12);
+				color: $color-gold;
+				@include rotate(45deg);
+			}
+
+			@include after {
+				@include position(absolute, $top: 0, $right: 0);
+				z-index: -1;
+				@include size(0, 100%);
+				background: $color-gold;
+				content: " ";
+				@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+			}
+
+			@include hover {
+				opacity: 1;
+				background: $color-gold;
+				border-color: $color-gold;
+				@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+				
+				@include before {
+					color: $color-white;
+				}
+
+				@include after {
+					left: 0;
+					width: 100%;
+				}
+			}			
+		}
+	}
+}

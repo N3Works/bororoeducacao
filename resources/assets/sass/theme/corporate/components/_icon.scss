@@ -1,0 +1,209 @@
+/*----------------------------------
+  Icon v2
+------------------------------------*/
+
+.s-icon-v2 {
+	@include icon;
+
+	&__rotate {
+		@include rotate(-45deg);
+
+		@include before {
+			display: block;
+			@include rotate(45deg);
+		}
+	}
+}
+
+/* Styles
+------------------------------ */
+/* Gold Background */
+.s-icon-v2--gold-bg {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include icon-style($color: $color-white, $hvr-color: $color-gold, $bg: $color-gold, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-gold, $brd-hvr-color: $color-white, $line-height: 1.4);
+
+	@include after {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-white;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include after {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/* Gold Border */
+.s-icon-v2--gold-brd {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include icon-style($color: $color-gold, $hvr-color: $color-white, $bg: transparent, $hvr-bg: $color-gold, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-gold, $brd-hvr-color: $color-gold, $line-height: 1.4);
+
+	@include after {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-gold;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include after {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/* Gold */
+.s-icon-v2--gold {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include icon-style($color: $color-gold, $hvr-color: $color-white, $bg: transparent, $hvr-bg: $color-gold, $brd-width: .125rem, $brd-style: solid, $brd-color: transparent, $brd-hvr-color: $color-gold, $line-height: 1.4);
+
+	@include after {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-gold;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include after {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/* White Background */
+.s-icon-v2--white-bg {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include icon-style($color: $color-gold, $hvr-color: $color-white, $bg: $color-white, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-white, $brd-hvr-color: $color-white, $line-height: 1.4);
+
+	@include after {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-gold;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include after {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/* White Border */
+.s-icon-v2--white-brd {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include icon-style($color: $color-white, $hvr-color: $color-gold, $bg: transparent, $hvr-bg: $color-white, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-white, $brd-hvr-color: $color-white, $line-height: 1.4);
+
+	@include after {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-white;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include after {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/* White Opacity Border */
+.s-icon-v2--white-opacity-light-brd {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include icon-style($color: $color-white-opacity-light, $hvr-color: $color-gold, $bg: transparent, $hvr-bg: $color-white, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-white-opacity-light, $brd-hvr-color: $color-white, $line-height: 1.4);
+
+	@include after {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-white-opacity-light;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include after {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/* Primary Background */
+.s-icon-v2--primary-bg {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include icon-style($color: $color-white, $hvr-color: $color-primary, $bg: $color-primary, $brd-width: .125rem, $brd-style: solid, $brd-color: $color-primary, $brd-hvr-color: $color-white, $line-height: 1.4);
+
+	@include after {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-white;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include after {
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+.s-icon-v2--primary {
+	@include position(relative);
+	z-index: 2;
+	overflow: hidden;
+	@include icon-style($color: $color-primary, $hvr-color: $color-white, $bg: transparent, $hvr-bg: $color-primary, $brd-width: .125rem, $brd-style: solid, $brd-color: transparent, $brd-hvr-color: $color-primary, $line-height: 1.4);
+
+	@include after {
+		@include position(absolute, $top: 0, $right: 0);
+		z-index: -1;
+		@include size(0, 100%);
+		background: $color-primary;
+		content: " ";
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	@include hover {
+		@include after {
+			left: 0;
+			width: 100%;
+		}
+	}
+}

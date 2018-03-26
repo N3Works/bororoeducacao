@@ -1,0 +1,33 @@
+// Animation
+@mixin animation($animation...) {
+  -webkit-animation: $animation;
+  animation: $animation;
+}
+@mixin animation-name($animation-name...) {
+  -webkit-animation-name: $animation-name;
+  animation-name: $animation-name;
+}
+@mixin animation-duration($animation-duration...) {
+  -webkit-animation-duration: $animation-duration;
+  animation-duration: $animation-duration;
+}
+@mixin animation-timing-function($timing-function) {
+  -webkit-animation-timing-function: $timing-function;
+  animation-timing-function: $timing-function;
+}
+@mixin animation-delay($animation-delay) {
+  -webkit-animation-delay: $animation-delay;
+  animation-delay: $animation-delay;
+}
+@mixin animation-iteration-count($animation-iteration-count...) {
+  -webkit-animation-iteration-count: $animation-iteration-count;
+  animation-iteration-count: $animation-iteration-count;
+}
+@mixin animation-direction($animation-direction...) {
+  -webkit-animation-direction: $animation-direction;
+  animation-direction: $animation-direction;
+}
+@mixin animation-fill-mode($animation-fill-mode...) {
+  -webkit-animation-fill-mode: $animation-fill-mode;
+  animation-fill-mode: $animation-fill-mode;
+}

@@ -1,0 +1,338 @@
+<gallery>
+<properties>
+  <property0><![CDATA[opaque]]></property0>
+  <property1>0xffffff</property1>
+  <property2>0x3383a7</property2>
+  <property3>0xffffff</property3>
+  <property4>0x143646</property4>
+  <property5>0x77b3ce</property5>
+  <property6>0x5e8ca1</property6>
+  <property7>0xffffff</property7>
+  <property8>0x000000</property8>
+  <property9><![CDATA[INFO]]></property9>
+  <width><![CDATA[400]]></width>
+  <height><![CDATA[144]]></height>
+  <autoPlay>true</autoPlay>
+</properties>
+<category id="radio-band">
+	<properties>
+		<title><![CDATA[Radio Band]]></title>
+		<description><![CDATA[]]></description>
+		<skin><![CDATA[music_default]]></skin>
+	</properties>
+	<items>
+		<item id="4166">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/20_06_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 20/06/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="4127">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/13_06_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 13/06/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="4129">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/06_06_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 06/06/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="4130">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/30_05_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 30/05/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3902">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/05/23_05_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes - Programa de 23/05/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3901">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/05/16_05_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes - Programa de 16/05/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3860">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/05/09_05_12.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes - programa de 09/05/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="4128">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/02_05_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 02/05/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3628">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/04/25_04_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes - Programa de 25/04/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3566">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/04/18_04_12.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes - programa de 18/04/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3546">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/04/11_04_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes - Programa de 11/04/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3526">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/04/04_04_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes - Programa de 04/04/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3525">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/04/28_03_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes - Programa de 28/03/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3348">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/03/21_03_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 21 março 2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3347">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/03/07_03_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 07 março 2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3326">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/03/29_02_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 29 fevereiro 2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3295">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/03/08_02_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 08 fevereiro 2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3294">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/03/15_02_2012.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 15 fevereiro 2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="3097">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/02/25janeiromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 25 janeiro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2910">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/01/04JAN-MANHA-BAND.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 04 janeiro 2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2908">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/12/28_21dezembromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 21 dezembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2891">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/12/28_14dezembromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 14 dezembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2856">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/12/27_7dezembromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 07 dezembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2837">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/11/26_30novembromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 30 novembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2836">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/11/25_23novembromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 23 novembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2776">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/11/23_09novembromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 09 novembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2764">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/11/02-NOVEMBRO-ENTREVISTA-DENISE-MANHA-BAND.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 02 novembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2763">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/11/05-OUTUBRO-MANHÃ-ABND-BORORO-25.mp3</track>
+          <title><![CDATA[05 OUTUBRO-MANHÃ ABND BORORO 25]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2748">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/10/19-OUTUBRO-BORORO-25-NO-MANHÃ-BAND.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 19 outubro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2747">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/10/12-OUTUBRO-BORORO-25-NO-MANHÃ-BAND.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 12 outubro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2708">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/10/20_28setembromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 28 setembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2707">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/10/19_21setembromanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 21 setembro 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2662">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/09/16_24agosto-manhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 24 agosto 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2661">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/09/selecao.mp3</track>
+          <title><![CDATA[selecao]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2577">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/09/17_31agostomanhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 31 agosto 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2576">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/08/15_17agosto-manhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 17 agosto 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2535">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/08/14_10agosto-manhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 10 agosto 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2533">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/08/13_3agosto-Divã-da-Bororó.mp3</track>
+          <title><![CDATA[13_3agosto-Divã da Bororó]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2529">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/08/13_3agosto-manhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 03 agosto 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2526">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/07/12_27julho-manhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 27 julho 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2494">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/07/7_22-junho-manhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 22 junho 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2493">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/07/10_20julho-manhaband.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 20 julho 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2491">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/07/25maio-manha-band.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 25 maio 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2487">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/07/06julho-manhaband-11-1.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 06 julho 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2485">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/07/13julho-manhaband-11-2.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 13 julho 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2456">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/07/7_29-junho-manha-band.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 29 junho 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2428">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/06/08-06-band.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 08 junho 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="2400">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2011/05/25-MAIO-PARTICIPAÇÃO-MANHÃ-BAND.mp3</track>
+          <title><![CDATA[Manhã Bandeirantes 25 maio 2011]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="4130">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/30_05_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 30/05/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="4129">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/06_06_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 06/06/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="4128">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/02_05_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 02/05/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+		<item id="4127">
+          <track>http://www.bororo25.com.br/wp-content/uploads/2012/06/13_06_2012.mp3</track>
+          <title><![CDATA[Programa Manhã Bandeirantes 13/06/2012]]></title>
+          <description><![CDATA[]]></description>
+          <thumbnail></thumbnail>
+        </item>
+	</items>
+</category>
+</gallery>

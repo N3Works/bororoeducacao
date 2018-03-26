@@ -1,0 +1,15 @@
+/*----------------------------------
+  Contact v1
+------------------------------------*/
+
+.s-contact-v1__success,
+.s-contact-v1__error {
+  @include position(absolute, $top: 50%, $left: 50%);
+  display: none;
+  text-align: center;
+  @include translate3d(-50%,-50%,0);
+
+  span {
+    display: block;
+  }
+}

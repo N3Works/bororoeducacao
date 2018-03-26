@@ -1,0 +1,86 @@
+/*----------------------------------
+  Loader v2
+------------------------------------*/
+
+.s-page-loader-v2 {
+  @include position(fixed, $top: 0, $left: 0, $right: 0, $bottom: 0);
+  z-index: $zindex-loader;
+  @include size(100%);
+  display: block;
+  @include cubic-transition($delay: 0, $duration: 1000ms, $property: (all));
+  
+  @include before {
+    @include position(absolute, $top: 0, $left: 0, $right: 0);
+    @include size(100%);
+    background: $color-dark-1;
+    content: " ";
+    @include translate3d(0,0,0);
+    @include transition(all 1.2s);
+  }
+  
+  &__content {
+    @include position(absolute, $top: 50%, $left: 50%);
+    @include size(100%, auto);
+    display: block;
+    text-align: center;
+    @include translate3d(-50%,-50%,0);
+  }
+
+  &__title {
+    @include translate3d(0,0,0);
+    @include cubic-transition($delay: 0, $duration: 1000ms, $property: (all));
+  }
+
+  &__element {
+    @include position(relative);
+    width: 9.375rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+  }
+
+  &__line {
+    @include position(relative, $top: 50%, $left: 50%);
+    @include size(9.375rem, .0625rem);
+    background: rgba($color-primary, .3);
+    content: " ";
+    margin-top: .3125rem;
+    margin-left: -4.6875rem;
+  }
+  
+  &__square {
+    @include position(absolute, $top: 50%, $left: 1.25rem);
+    @include size(.625rem);
+    display: inline-block;
+    background: $color-primary;
+    text-align: center;
+    @include animation(page-loader-v1__element 1.5s ease infinite);
+    margin-top: -.3125rem;
+    @include rotate(-45deg);
+  }
+}
+
+/* Animated */
+.s-page-loader-v2.-is-animated {
+  visibility: hidden;
+
+  @include before {
+    @include translate3d(0,-100%,0);
+  }
+
+  .s-page-loader-v2__title {
+    @include translate3d(0,-150%,0);
+  }
+
+  .s-page-loader-v2__element {
+    opacity: 0;
+  }
+}
+
+/* Keyframes */
+@include keyframes(page-loader-v1__element) {
+  0, 100% { left: 100%; }
+  50% { left: 80%; }
+}

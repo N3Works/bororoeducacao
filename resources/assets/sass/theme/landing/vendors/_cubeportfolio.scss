@@ -1,0 +1,80 @@
+/*----------------------------------
+  Cubeportfolio
+------------------------------------*/
+
+/* Filter v1
+------------------------------ */
+.s-work-v1__filter-item {
+	display: inline-block;
+	@include font($size: $font-size-15);
+	color: $color-heading-1;
+	cursor: pointer;
+	padding: .25rem .625rem;
+	margin: 0 .25rem;
+
+	&.cbp-filter-item-active {
+		color: $color-primary;
+	}
+}
+
+/* Image Effect v1
+------------------------------ */
+.s-work-v1 {
+	&__img-effect {
+		@include position(relative);
+
+		@include before {
+			@include position(absolute, $top: 0, $left: 0, $right: 0);
+			@include size(100%);
+			background: $color-primary;
+			content: " ";
+			@include translate3d(-100%,0,0);
+			@include transition(all .8s);
+		}
+
+		@include after {
+			@include position(absolute, $top: 0, $left: 0, $right: 0);
+			@include size(100%);
+			background: $color-white;
+			content: " ";
+			@include translate3d(-100%,0,0);
+			@include transition(all 1s);
+		}
+	}
+
+	&__item {
+		@include hover {
+			.s-work-v1__img-effect {
+				@include before {
+					@include translate3d(0,0,0);
+				}
+				
+				@include after {
+					@include translate3d(200%,0,0);
+				}
+			}
+		}
+	}
+}
+
+/* Info Center
+------------------------------ */
+.s-work-v1 {
+	&__caption-info {
+		@include position(absolute, $top: 50%, $left: 0, $right: 0);
+		text-align: center;
+		padding: 1.875rem;
+		opacity: 0;
+		@include translate3d(-100%,-50%,0);
+		@include transition(all .7s);
+	}
+
+	&__item {
+		@include hover {
+			.s-work-v1__caption-info {
+				opacity: 1;
+				@include translate3d(0,-50%,0);
+			}
+		}
+	}
+}

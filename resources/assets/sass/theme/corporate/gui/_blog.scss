@@ -1,0 +1,63 @@
+/*----------------------------------
+  Blog v1
+------------------------------------*/
+
+.s-blog-v1 {
+	@include position(relative);
+	overflow: hidden;
+
+	&__img-wrap {
+		@include overlay;
+		z-index: 0;
+		overflow: hidden;
+		@include overlay-style($color-dark-1, .4);
+		@include transform-scale(1,1);
+		@include cubic-transition($delay: 0, $duration: 2500ms, $property: (all));
+	}
+
+	&__info {
+		@include position(absolute, $top: 0, $left: 0);
+		@include size(100%);
+
+		&-reveal {
+			opacity: 0;
+			visibility: hidden;
+			@include translate3d(0,.3125rem,0);
+			@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+		}
+	}
+
+	&__link {
+		@include position(absolute, $bottom: 0, $left: 0);
+		width: 100%;
+		display: block;
+		@include font($size: $font-size-13, $weight: 700, $family: $font-family-primary);
+		color: $color-primary;
+		text-transform: uppercase;
+		letter-spacing: .125rem;
+
+		&-icon {
+			display: block;
+			float: right;
+			@include font($size: $font-size-30);
+			@include position(relative, $top: -.25rem, $left: 0);
+			@include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+		}
+	}
+
+	@include hover {
+		.s-blog-v1__img-wrap {
+			@include transform-scale(1.03,1.03);
+		}
+
+		.s-blog-v1__info-reveal {
+			opacity: 1;
+			visibility: visible;
+			@include translate3d(0,0,0);
+		}
+
+		.s-blog-v1__link-icon {
+			left: .5rem;
+		}
+	}
+}

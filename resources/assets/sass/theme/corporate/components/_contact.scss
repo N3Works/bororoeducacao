@@ -1,0 +1,23 @@
+/*----------------------------------
+  Contact v2
+------------------------------------*/
+
+/* Input Error/Success Message */
+.s-contact-v2-input__error {
+	label {
+		@include font($size: $font-size-12);
+		color: $color-red;
+	}
+}
+
+.s-contact-v2__success,
+.s-contact-v2__error {
+  @include position(absolute, $top: 50%, $left: 50%);
+  display: none;
+  text-align: center;
+  @include translate3d(-50%,-50%,0);
+
+  span {
+    display: block;
+  }
+}
