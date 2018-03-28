@@ -1,0 +1,2 @@
+[26-Mar-2018 11:49:32 America/Chicago] PHP Warning:  require(/home/n3wor285/public_html/bororoeducacao/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/n3wor285/public_html/bororoeducacao/bootstrap/autoload.php on line 17
+[26-Mar-2018 11:49:32 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/n3wor285/public_html/bororoeducacao/bootstrap/../vendor/autoload.php' (include_path='.:/opt/php56/lib/php') in /home/n3wor285/public_html/bororoeducacao/bootstrap/autoload.php on line 17
