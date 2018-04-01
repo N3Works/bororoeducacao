@@ -20,12 +20,22 @@
     <section class="page-title-simple page-title-2 section-top-margin bg-trabalho-terapeutico">
         <div class="container">
             <div class="col-md-12 col-sm-12">
-                <h3 class="text-white font-comfortaa">Cursos / Workshops / Cinema</h3>
+                <h3 class="text-white font-comfortaa">Cursos e Workshops </h3>
             </div>
         </div>
     </section>
 
     <section class="content-block-2 text-left">
+      <div class="container">
+        <p class="margin-top30 text-large">
+          As aulas teórico-práticas dos cursos são embasadas no Método Curação. Podem ser realizados para temas específicos ou módulos customizados, de acordo com a temática e o formato escolhido.
+        </p>
+        <p class="margin-top30 text-large">
+            Os workshops acontecem mensalmente no Espaço Bororó, promovendo a interação entre os participantes, desenvolvendo conhecimentos, habilidades e atitudes.
+            Confira a agenda de encontros de 2018!
+        </p>
+      </div>
+
         <div class="container">
             <div class="col-md-12">
                 <div class="grid-item col-md-6" data-parallax='{"y" : 30}'>
@@ -94,8 +104,13 @@
     </section>
 
     <div class="text-center margin-top50 margin-bot50">
-        <h5 class="letter-spacing1 margin-top30 margin-bot20 text-main-1">Se interessou pelo nosso projeto?</h5>
-        <a href="{{ route('site.contact') }}" class="bttn bttn-main-1 bttn-med bttn-scale bttn75">Entre em contato!</a>
+        <h5 class="letter-spacing1 margin-top30 margin-bot20 text-main-1">Deseja agendar um Curso ou saber mais sobre os Workshops? interessou pelo nosso projeto?</h5>
+        <p class="margin-top30" style="text-align:center; ">
+          <br>Entre em contato pelo email
+        <a href="mailto:editora@bororo25.com.br?Subject=Contato%20Bororó%20Empresas" target="_top" style="color:blue">editora@bororo25.com.br</a>  </i>
+      </p>
+
+        {{-- <a href="{{ route('site.contact') }}" class="bttn bttn-main-1 bttn-med bttn-scale bttn75">Entre em contato!</a> --}}
     </div>
 @endsection
 

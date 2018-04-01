@@ -20,6 +20,14 @@
 
     <section class="blog-card-small section-top-margin border-bottom-light">
         <div class="container">
+          <h3 class="font-comfortaa text-main-2 text-center">
+              <b> Acompanhe o blog do projeto! </b>
+          </h3>
+          <br>
+          <p class="margin-top30 text-large" style="text-align:center">
+            Assine nosso boletim e receba reflexões sobre saúde emocional e autoconhecimento.
+          </p>
+          <br>
             <div class="row">
                 <div class="col-md-9 no-padding">
                     <!-- Main Wrapper -->

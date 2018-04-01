@@ -25,7 +25,7 @@
     <section class="page-title-simple page-title-2 section-top-margin bg-trabalho-terapeutico">
         <div class="container">
             <div class="col-md-12 col-sm-12">
-                <h3 class="text-white font-comfortaa text-center">Tecnologia da Gestão das Emoções</h3>
+                <h3 class="text-white font-comfortaa text-center"> Bororó Empresas </h3>
             </div>
         </div>
     </section>
@@ -36,39 +36,23 @@
             <!-- main heading -->
             <h3 class="font-comfortaa text-main-1 text-center">Impacto do TGE</h3>
             <br>
-            <h5 class="font-asap text-main-2">Tecnologia de Gestão das Emoções: autoconhecimento como ferramenta de
-                gestão de pessoas</h5>
+            {{-- <h5 class="font-asap text-main-2">Tecnologia de Gestão das Emoções: autoconhecimento como ferramenta de
+                gestão de pessoas</h5> --}}
 
             <p class="font-asap margin-top10">
-                A gestão das nossas emoções é uma potente ferramenta de mudança nos ambientes profissionais por meio das
-                atitudes e do comportamento das pessoas. O autoconhecimento é um diferencial competitivo no mercado de
-                trabalho: conhecendo suas capacidades e limitações, as pessoas tornam-se mais habilitadas a encontrar
-                soluções criativas e eficazes para o enfrentamento dos desafios no ambiente empresarial. O
-                autoconhecimento amplia a potência de cada profissional, e é um instrumento de construção de significado
-                ao ato de trabalhar.
+                Por meio deste serviço atendemos empresas que buscam investir em seus colaboradores.
+                Trabalhamos customizando palestras ou cursos de capacitação, de acordo às necessidades do grupo.
+                Aplicando a Tecnologia de Gestão das Emoções (TGE), temos como propósito construir relações entre a
+                gestão das emoções, o autoconhecimento, a produtividade e a felicidade no trabalho.
             </p>
             <p class="font-asap">
-                Pessoas capazes de construir um significado existencial para o seu trabalho realizam atividades de forma
-                comprometida consigo, com sua equipe de trabalho e com a empresa onde atuam. Quanto mais próximo do
-                trabalho for o propósito de vida do sujeito, mais feliz ele será e consequentemente, melhor
-                profissional. O autoconhecimento é uma ferramenta fundamental para a investigação de propósitos, metas e
-                objetivos profissionais.
+                A TGE é um conjunto inovador de técnicas e conceitos que oferece aos gestores e as suas
+                equipes ferramentas para a construção de sentido existencial para o trabalho, e para a construção da Felicidade Possível nos ambientes corporativos.
             </p>
+
+            <h3 class="text-white font-comfortaa">Motivação e criatividade</h3>
             <p class="font-asap">
-                A aplicação da Tecnologia de Gestão das Emoções nas empresas tem como propósito construir relações entre
-                a gestão das emoções, o autoconhecimento , a produtividade e a felicidade no trabalho.
-            </p>
-            <p class="font-asap">
-                A TGE é um conjunto inovador de técnicas e conceitos que oferece aos gestores e as suas equipes
-                ferramentas de autoconhecimento para a construção de sentido existencial para o trabalho e para a
-                construção da Felicidade Possível nos ambientes corporativos.
-            </p>
-            <p class="font-asap">
-                Um profissional feliz é aquele que desempenha suas funções significando cada atividade.
-            </p>
-            <p class="font-asap">
-                “Motivação, criatividade e comprometimento no trabalho são decorrentes da motivação, da criatividade e
-                do comprometimento que tenho comigo, com minha vida pessoal, em cada ação”.
+                Na vida pessoal - e no ambiente de trabalho - motivação e criatividade são decorrentes de um intenso caminho de autoconhecimento. A responsabilidade de se habilitar para produzir com comprometimento parte de cada um, e de seu desejo de se fazer feliz nos espaços profissionais.
             </p>
         </div>
     </section>
@@ -113,39 +97,17 @@
     <section class="content-block-2 text-left">
         <div class="container">
             <p class="font-asap font-18">
-                <strong>Motivação, comprometimento e criatividade</strong> na vida pessoal - e no ambiente de trabalho -
-                são decorrentes de um intenso trabalho de autoconhecimento. A responsabilidade de se habilitar para
-                produzir com comprometimento, motivação e criatividade parte de cada um e de seu desejo de se fazer
-                feliz nos espaços profissionais.
+              O atendimento realizado pela Bororó Empresas oferece às equipes o conhecimento de que a felicidade no ambiente de trabalho está profundamente ligada a quem somos e a nossa capacidade de sermos gestores de nossas emoções.
+
             </p>
             <p class="font-asap font-18">
-                <strong>Capacitar pessoas</strong> é, neste cenário, oferecer ferramentas de transformação pessoal, de
-                gestão das emoções. É entregar ao profissional conhecimento para que ele se habilite ao autoconhecimento
-                e tenha desejo - um profundo desejo- de se fazer feliz nos espaços de trabalho.
+              A Bororó Educação oferece capacitação para que as pessoas que compõem as empresas possam criar ferramentas para se tornarem mais conscientes e para que se tornem agentes de mudança.
             </p>
-            <p class="font-asap font-18">
-                <strong>Capacitar pessoas</strong> é também oferecer às equipes o conhecimento de que a transformação
-                necessária a cada um é intrínseca – de dentro para fora – e que inicia com o desejo de mudança. É
-                oferecer o conhecimento de que a vida pessoal e o trabalho não são | estão dissociados: somos um. A
-                felicidade no trabalho está intrinsecamente ligada a quem somos e a nossa capacidade de sermos gestores
-                de nossas emoções a cada dia de trabalho e de vida.
-            </p>
-            <p class="font-asap font-18">
-                <strong>Capacitar pessoas</strong> é oferecer ferramentas para que cada membro de um time seja seu
-                próprio agente de mudança, o gestor de sua potencialidade, e tenha o propósito de sua transformação
-                pessoal.
-            </p>
-            <p class="font-asap font-18">
-                <strong>Capacitar pessoas</strong> é ofertar conhecimento para que cada um possa aprender sobre si
-                próprio; para que saiba quem é, o que almeja na vida e qual o significado existencial de sua atividade
-                profissional.
-            </p>
-            <p class="font-asap font-18">
-                A <strong>TGE – Tecnologia de Gestão das Emoções</strong> - é uma ferramenta para produzir mudanças de
-                comportamento, atitudes e ações frente a vida. É uma ferramenta de mudança contínua. No ambiente
-                corporativo é um importante instrumento de engajamento - de construção de currículo emocional – de
-                produção de profissionais como terrenos férteis para práticas <strong>inovadora, pró-ativas e
-                    produtivas.</strong>
+            <p class="margin-top30" style="text-align:center; ">
+              <i>Deseja agendar uma palestra ou saber mais sobre o Bororó Empresas?
+              <br>Entre em contato pelo email
+              <a href="mailto:editora@bororo25.com.br?Subject=Contato%20Bororó%20Empresas" target="_top" style="color:blue">editora@bororo25.com.br</a>  </i>
+
             </p>
         </div>
     </section>

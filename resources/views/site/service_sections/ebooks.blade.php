@@ -4,11 +4,27 @@
     <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">E-books</h2>
     <!-- sub-text -->
     <div class="center-block-1">
-        <p class="subtext font-asap foo">Nossos e-books.</p>
+        {{-- <p class="subtext font-asap foo">Nossos e-books.</p> --}}
     </div>
     <div class="container">
         <!-- grid wrapper -->
-        <ul class="grid gutter grid-type-1 grid-3">
+        <p class="margin-top30 text-large">
+            Os livros digitais, E-Books, surgiram para ampliar o alcance dos livros impressos, facilitando a integração do conteúdo com as novas tecnologias. A produção das autoras Christiane Ganzo e Denise Aerts tem o propósito de divulgar a metodologia própria da Bororó Educação: o Método Curação
+        </p>
+
+        <div class="left-block-3 margin-top20"  style="padding-left: 20px;" >
+            <ul class = "text-large" style="list-style-type:circle; ">
+              <b>
+                <li> A Vida como ela é para cada um de nós; </li>
+                <li> Curação: a arte de bem cuidar-se; </li>
+                <li> A Felicidade Possível; </li>
+                <li> Série pocket com 3 libretos: A arte de SE fazer feliz. </li>
+              </b>
+            </ul>
+        </div>
+
+
+        {{-- <ul class="grid gutter grid-type-1 grid-3">
             <!-- element -->
             @forelse($ebooks as $eb)
                 <li class="grid-item">
@@ -35,7 +51,7 @@
             @empty
                 <h4 class="letter-spacing0 font-josefin text-center text-main-1">Ops, não temos nenhum e-book ainda.</h4>
             @endforelse
-        </ul>
+        </ul> --}}
     </div>
 </section>
 
@@ -45,7 +61,7 @@
     <h3>Download</h3>
     <fieldset style="border:0;">
       <p>Para fazer o download, por favor coloque seu nome e e-mail.</p>
-      
+
       <div class="form-group">
         <div class="col-md-3">
           <label for="name">Nome</label>

@@ -28,7 +28,7 @@
 {{--    @include('site.service_sections.inicio')--}}
 
     @include('site.service_sections.livros')
-    
+
 
 @endsection
 

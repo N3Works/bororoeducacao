@@ -1,43 +1,32 @@
 <!-- Price Table Style 4 -->
-<section class="section-padding books-1 ">
+<section class="books-1 ">
     <div class="container">
         <!-- main heading -->
-        <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">Editora Bororó25</h2>
+        {{-- <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">Editora Bororó25</h2> --}}
         <!-- sub-text -->
         <div class="row">
             <br><br>
-            <div class="col-md-6">
-                <p class="font-asap padding-all10" style="color: #999">
-                    A Editora Bororó25 nasceu do desejo de compartilhar nossos escritos mantendo a autonomia editorial.
-                    Nossa movimentação solitária num universo tão desconhecido foi desafiadora. Hoje, o que temos
-                    produzido e distribuído dentro deste site, tem por nós um valor inestimável na guerrilha da educação
-                    para a saúde emocional.
+            <div class="col-md-12">
+                <p class="margin-top30 text-large">
+                    Os livros oferecem ferramentas para que cada pessoa trilhe seu caminho de gestão das emoções. A produção das autoras Christiane Ganzo e Denise Aerts tem o propósito de divulgar a metodologia própria da Bororó Educação: o Método Curação.
                 </p>
-                <p class="font-asap padding-all10" style="color: #999">
-                    A produção literária das autoras tem o propósito de divulgar a metodologia própria da Bororó25: o
-                    Método Curação. A Editora tem seis títulos publicados: A Vida como ela é para cada um de nós;
-                    Curação: a arte de bem cuidar-se; A Felicidade Possível e a série pocket com 3 libretos: A arte de
-                    SE fazer feliz.
+                <p class="margin-top30 text-large">
+                    A editora tem seis títulos publicados
                 </p>
+
+                <div class="left-block-3 margin-top20"  style="padding-left: 20px;" >
+                    <ul class = "text-large" style="list-style-type:circle; padding-bottom:5px;">
+                      <b>
+                        <li> A Vida como ela é para cada um de nós; </li>
+                        <li> Curação: a arte de bem cuidar-se; </li>
+                        <li> A Felicidade Possível; </li>
+                        <li> Série pocket com 3 libretos: A arte de SE fazer feliz. </li>
+                      </b>
+                    </ul>
+                </div>
             </div>
 
-            <div class="col-md-6">
-                <p class="font-asap padding-all10" style="color: #999">
-                    Essa série é uma releitura dos primeiros livros, criando novos conceitos. No libreto3 da série, é
-                    apresentada, de forma inédita, uma das dinâmicas do Método CurAção: a Equação da Felicidade
-                    Possível.
-                </p>
-                <p class="font-asap padding-all10" style="color: #999">
-                    O Método Curação tem por objetivo a construção da saúde emocional, por meio do autoconhecimento. A
-                    pessoa torna-se uma boa gestora das suas emoções.. Os livros oferecem ferramentas para que cada um
-                    faça seu próprio trabalho emocional.
-                </p>
-                <p class="font-asap padding-all10" style="color: #999">
-                    A Bororó25 acredita que a felicidade possível é construída por meio de conhecimentos específicos
-                    sobre o funcionamento da alma e que estes conhecimentos, quando aplicados ao viver, produzem
-                    autoconhecimento.
-                </p>
-            </div>
+
 
         </div>
         <div class="all-details">

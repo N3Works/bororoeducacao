@@ -20,27 +20,46 @@
 
     <section class="contact-1 section-padding bg-circle-color">
         <div class="container">
-            <div class="center-block-3" style="padding-top: 50px;">
+            <div class="center-block-3" style="padding-top: 25px;" style="text-align: justify">
                 <!-- main heading -->
                 <h2 class="letter-spacing0 font-comfortaa text-white">
-                    A <span class="text-white font-w600">Bororó25</span>
+                    <span class="text-white font-w600">Bororó Educação</span>
                 </h2>
                 <!-- say hello button -->
-                <div class="center-block-4 margin-top50">
-                    <p class="font-asap text-white">
-                        A Bororó25 é um espaço formado pela Editora Bororó25 e o Coworking B25.
+                <div class="center-block-3 margin-top50" >
+                    <p class="font-asap text-black text-large">
+                      Bororó é uma palavra indígena que significa “pátio da aldeia”. <br>
+                      No Brasil, os índios Bororo escolheram este nome como forma de expressar sua essência e organização social. <br>
+                      O pátio é o centro da aldeia, um espaço de mística e de vivências emocionais.
                     </p>
-                    <p class="font-asap text-white">
-                        A Editora Bororó25 dedica-se à produção de conhecimento embasado no Método Curação.
+                    <p class="font-asap text-black text-large">
+                      A Bororó Educação é uma nova casa para o autoconhecimento. <br>
+                      Um meio capaz de fazer circular educação em saúde emocional.
+
                     </p>
-                    <p class="font-asap text-white">
-                        Os profissionais que transitam pelo Coworking B25, trabalham com promoção e educação em saúde
-                        emocional, visando a construção do autoconhecimento, do cuidado com o corpo, a mente e a alma.
+                    <p class="font-asap text text-large" style="color:purple" >
+                        Nossa missão é contribuir para que cada pessoa desenvolva suas habilidades emocionais com autonomia para o bem viver!
                     </p>
-                    <p class="font-asap text-white">
-                        Nosso propósito é que cada pessoa desenvolva suas habilidades emocionais com autonomia para
-                        produzir um viver saudável.
+                    <p class="font-asap text-black text-large">
+                        A <strong>Bororó Educação </strong> acredita que o conhecimento e a partilha de saberes são fundamentais para a transformação pessoal e social.
                     </p>
+
+
+                </div>
+            </div>
+            <div class="center-block-3" style="padding-top: 50px;" style="text-align: justify">
+                <!-- main heading -->
+                <h2 class="letter-spacing0 font-comfortaa text-white">
+                    <span class="text-white font-w600">Objetivos</span>
+                </h2>
+                <!-- say hello button -->
+                <div class="left-block-3 margin-top50"  style="text-align: justify" >
+                    <ul class = "text-black" style="list-style-type:circle; font-size: 16px !important">
+                      <li> Auxiliar pessoas na construção da <strong> Felicidade Possível</strong>; </li>
+                      <li> Contribuir para o enriquecimento da experiência de autoconhecimento e <strong>Curação</strong>; </li>
+                      <li> Possibilitar diferentes meios para a aprendizagem como livros, E-Books, workshops presenciais e cursos EAD; </li>
+                      <li> Estabelecer vínculos, ampliando parcerias em novos espaços como empresas, instituições e organizações. </li>
+                    </ul>
                 </div>
             </div>
             <hr class="hr-small foo"/>
@@ -67,8 +86,10 @@
                 <h4 class="margin-top10 text-main-1 font-comfortaa">Christiane Ganzo</h4>
                 <!-- Text -->
                 <p class="text-grey font-asap margin-top30">
-                    Há mais de 25 anos, trabalha como psicanalista. Christiane Ganzo não se explica. É
-                    necessário ser vista, ser ouvida, ser sentida.
+                    Experiência e atuação como psicanalista há mais de 25 anos, é também escritora e fundadora do Espaço Bororó.
+                    Christiane Ganzo não se explica. É necessário ser vista, ser ouvida, ser sentida.
+                    Seu propósito existencial é compartilhar o viver.
+                    Christiane acredita que a associação entre as pessoas é o que dá sentido à vida.
                 </p>
                 <br>
             </div>
@@ -84,19 +105,17 @@
                 <h4 class="margin-top10 text-main-1 font-comfortaa">Denise Aerts</h4>
                 <!-- Text -->
                 <p class="text-grey font-asap margin-top30">
-                    Doutora em Clínica Médica pela UFRGS, há mais de 30 anos é pesquisadora em
-                    saúde coletiva nas temáticas felicidade e saúde do trabalhador. Atuando como
-                    médica e psicoterapeuta Ayurveda (Medicina Indiana), acredita que o
-                    autoconhecimento e o autocuidado são o ponto de partida para toda a
-                    transformação.
+                    Doutora em Clínica Médica e pesquisadora em saúde coletiva há mais de 30 anos.
+                    Atua como médica, realizando psicoterapia e aconselhamento védico.
+                    Denise acredita que o autoconhecimento e o autocuidado são os pontos de partida para toda a transformação.
                 </p>
             </div>
         </div>
     </section>
-
+{{--
     @include('site.about_sections.coletivo', [
         'persons' => $persons
-    ]);
+    ]); --}}
 
 
 @endsection

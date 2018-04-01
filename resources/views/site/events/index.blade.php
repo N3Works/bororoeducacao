@@ -18,22 +18,58 @@
 
 @section('content')
 
-    <section class="page-title-simple page-title-2 section-top-margin bg-agenda">
+    <section class="page-title-2 section-top-margin bg-agenda">
         <div class="container">
-            <div class="col-md-6 col-sm-7">
+            <div class="col-md-6 col-sm-6">
                 <h3 class="text-white font-comfortaa">Eventos @Bororó25</h3>
-                <p class="text-white">Consulte aqui todos os nossos eventos.</p>
+                {{-- <p class="text-white">Consulte aqui todos os nossos eventos.</p> --}}
             </div>
         </div>
     </section>
 
-    @include('site.events_sections.eventos_proximos', [
+    <section class="content-block-2 section-top-  margin text-left">
+      <div class="container">
+         <div class="col-md-12">
+                  <!-- main heading -->
+            <h3 class="font-comfortaa text-main-2 text-center"> <b> Acompanhe a agenda de encontros! </b>
+              {{-- page-title text-main-1 --}}
+            </h3>
+            <p class="margin-top30 text-large">
+              Os workshops são momentos de troca, de busca coletiva, e de partilhas. Ocorrem uma vez por mês, sempre com novos temas e propostas de trabalho.
+              <br>
+              <br>
+              <b>Datas</b>:
+              <br>
+            </p>
+            <div class="left-block-3 margin-top20"  style="padding-left: 20px;" >
+                <ul class = "text-large" style="list-style-type:circle; padding-bottom:5px;">
+                  <li> 15 março </li>
+                  <li> 12 abril </li>
+                  <li> 17 maio </li>
+                  <li> 21 junho </li>
+                  <li> 19 julho </li>
+                  <li> 16 agosto </li>
+                  <li> 13 agosto </li>
+                  <li> 18 outubro </li>
+                  <li> 8 novembro </li>
+                  <li> 6 dezembro </li>
+                </ul>
+            </div>
+            <p class="margin-top30" style="text-align:center; ">
+                <i>Inscrições ou dúvidas? Vamos conversar! </i>
+                  <br>
+                  <a href="mailto:editora@bororo25.com.br?Subject=Contato%20Bororó%20Empresas" target="_top" style="color:blue">editora@bororo25.com.br</a>
+                  <br> 51 3346 6171
+                  <br> 51 99692 8185
+            </p>
+
+    {{-- @include('site.events_sections.eventos_proximos', [
         'events' => $next
     ])
 
     @include('site.events_sections.eventos_passados', [
         'events' => $last
-    ])
+    ]) --}}
 
 @endsection
 

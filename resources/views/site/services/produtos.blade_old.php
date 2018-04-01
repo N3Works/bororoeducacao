@@ -24,30 +24,28 @@
         <div class="container">
             <div class="col-md-12 col-sm-12">
                 <div class="col-md-6">
-                    <h3 class="text-white font-comfortaa">Bororó Empresas</h3>
+                    <h3 class="text-white font-comfortaa">Para Empresas</h3>
                 </div>
-                {{-- <div class="col-md-6">
+                <div class="col-md-6">
                     <h6 class="text-white font-asap">
                         A ação curativa é sempre no aqui e agora!
                     </h6>
-                </div> --}}
+                </div>
             </div>
         </div>
     </section>
 
     <section class="content-block-2 text-left">
         <div class="container">
+            <h3 class="font-comfortaa text-main-2 text-center">
+                <b> Bororó Empresas </b>
+            </h3>
             <br>
             <p class="margin-top30 text-large" style="text-align:center">
                 Por meio deste serviço atendemos empresas que buscam investir em seus colaboradores.
                 Trabalhamos customizando palestras ou cursos de capacitação, de acordo às necessidades do grupo.
                 Aplicando a Tecnologia de Gestão das Emoções (TGE), temos como propósito construir relações entre a
                 gestão das emoções, o autoconhecimento, a produtividade e a felicidade no trabalho.
-            </p>
-            <p class="margin-top30 text-large" style="text-align:center">
-                A TGE é um conjunto inovador de técnicas e conceitos que oferece aos gestores e as suas equipes
-                ferramentas para a construção de sentido existencial para o trabalho,
-                e para a construção da Felicidade Possível nos ambientes corporativos.
             </p>
             <br>
             <div class="grid-item col-md-6">
@@ -146,35 +144,6 @@
             </div>
         </div>
     </section>
-    <section class="content-block-2 text-left">
-        <div class="container">
-          <h3 class="font-comfortaa text-main-2 text-center">
-              <b> Motivação e criatividade </b>
-          </h3>
-          <p class="margin-top30 text-large">
-              Na vida pessoal - e no ambiente de trabalho - motivação e criatividade são decorrentes de um
-              intenso caminho de autoconhecimento. A responsabilidade de se habilitar para produzir com
-              comprometimento parte de cada um, e de seu desejo de se fazer feliz nos espaços profissionais.
-          </p>
-          <p class="margin-top30 text-large">
-              O atendimento realizado pela <b>Bororó Empresas</b> oferece às equipes o conhecimento de que a felicidade
-              no ambiente de trabalho está profundamente ligada a quem somos e a nossa capacidade de sermos gestores de nossas emoções.
-          </p>
-          <p class="margin-top30 text-large">
-              A Bororó Educação oferece capacitação para que as pessoas que compõem as empresas possam criar ferramentas
-              para se tornarem mais conscientes e para que se tornem agentes de mudança.
-          </p>
-          <br>
-          <br>
-          <p class="margin-top30" style="text-align:center; ">
-            <i>Deseja agendar uma palestra ou saber mais sobre o Bororó Empresas?
-            <br>Entre em contato pelo email
-            <a href="mailto:editora@bororo25.com.br?Subject=Contato%20Bororó%20Empresas" target="_top" style="color:blue">editora@bororo25.com.br</a>  </i>
-
-          </p>
-      </div>
-  </section>
-
 @endsection
 @push('styles')
 <link rel="stylesheet" href="{{ asset('theme/css/owl-carousel.css') }}">

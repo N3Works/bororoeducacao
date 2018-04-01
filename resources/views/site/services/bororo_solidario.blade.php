@@ -17,9 +17,41 @@
 @endpush
 
 @section('content')
-    @include('site.about_sections.intro_bororo_solidario')
 
-    <div class="col-md-8 col-md-offset-2" style="margin-top: 100px; margin-bottom: 100px;">
+<section class="section-padding content-block-2 section-top-margin text-left">
+  <div class="container">
+     <div class="col-md-12">
+              <!-- main heading -->
+        <h3 class="font-comfortaa text-main-2 text-center"> <b> Bororó Solidário </b>
+        </h3>
+        <p class="margin-top30 text-large">
+            Bororó Solidário é o nosso espaço de partilha de saberes. Há três anos iniciamos
+            esta história com um projeto solidário que visa dar suporte a instituições
+            beneficentes e sem fins lucrativos, como ONGs e associações.
+        </p>
+        <p class="margin-top30 text-large">
+            Nosso primeiro trabalho, neste segmento, foi com a Aldeia da Fraternidade,
+            uma instituição que atua há mais de 50 anos promovendo auxílio para crianças e
+            adolescentes em situação de vulnerabilidade social. Foi uma trajetória inspiradora
+            com os colaboradores da Aldeia, e somos gratos pelo caminho realizado.
+            <br>
+            <br>
+            Conheça essa história!
+            <br>
+            @include('site.about_sections.intro_bororo_solidario')
+
+        </p>
+        <br>
+        <p class="margin-top30" style="text-align:center; ">
+            <i>Convidamos você a nos apoiar a ampliar projetos como este.
+              <br> Vamos construir um Bororó Solidário juntos?
+              <br> Envie sua sugestão para
+              <a href="mailto:bororo25@bororo25.com.br?Subject=Contato%20Bororó%20Empresas" target="_top" style="color:blue">bororo25@bororo25.com.br</a>
+            </i>
+        </p>
+      </div>
+  </div>
+    {{-- <div class="col-md-8 col-md-offset-2" style="margin-top: 100px; margin-bottom: 100px;">
         <div class="center-block-3">
             <h6 class="letter-spacing1 text-main-2">
                 "É preciso ser solidário consigo, com todas as versões do eu-caleidoscópio. A solidariedade para com o
@@ -28,6 +60,7 @@
                 aforismo 120 da Série A Arte de Se Fazer Feliz.
             </h6>
         </div>
-    </div>
+    </div> --}}
+</section>
 
 @endsection
