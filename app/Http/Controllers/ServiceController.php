@@ -15,7 +15,7 @@ class ServiceController extends Controller
     {
         return view('site.services.livros');
     }
-    
+
     public function ebooks()
     {
         $ebooks = Resources::where('is_active', '1')
@@ -24,6 +24,11 @@ class ServiceController extends Controller
         return view('site.services.ebooks', [
             'ebooks' => $ebooks
         ]);
+    }
+
+    public function ead()
+    {
+        return view('site.services.ead');
     }
 
     public function trabalho_terapeutico()

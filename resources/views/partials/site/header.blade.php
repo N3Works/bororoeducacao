@@ -70,9 +70,9 @@
             <li>
                 <a href="#">Produtos</a>
                 <ul>
-                    <li>
-                        <a href="https://hotmart.com.br" target="_blank">EAD</a>
-                    </li>
+                        {{-- <li><a href="https://hotmart.com.br" target="_blank">EAD</a></li> --}}
+                        <li><a href="{{ route('site.services.ead') }}">EAD</a></li>
+
 <!--                    <li>
                         <a href="{{ route('site.services.trabalho_terapeutico') }}">Trabalho Emocional</a>
                     </li>-->
