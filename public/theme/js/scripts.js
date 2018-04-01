@@ -923,7 +923,7 @@ $('a.page-scroll').on('click', function (event) {
 
 /* Page Preloader Script */
 $(window).load(function () {
-    $('#preloader').delay(100).fadeOut('slow');
+//    $('#preloader').delay(100).fadeOut('slow');
     $('html,body').addClass('add-oveflow');
 });
 

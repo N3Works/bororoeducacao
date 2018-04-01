@@ -11,12 +11,17 @@ use Log;
 
 class ServiceController extends Controller
 {
-    public function livros_ebook()
+    public function livros()
+    {
+        return view('site.services.livros');
+    }
+    
+    public function ebooks()
     {
         $ebooks = Resources::where('is_active', '1')
                             ->get();
 
-        return view('site.services.livros_ebooks', [
+        return view('site.services.ebooks', [
             'ebooks' => $ebooks
         ]);
     }

@@ -35,9 +35,10 @@ Version: 2.0 - used as a base stylesheet
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600);
 @import url(https://fonts.googleapis.com/css?family=Asap);
 @import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* font families to use direcly as classes */
-.font-hind {
+/*.font-hind {
     font-family: 'Hind Madurai', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 .font-pt-serif {
@@ -53,24 +54,24 @@ Version: 2.0 - used as a base stylesheet
 }
 .font-playfair {
     font-family: 'Playfair Display', 'Segoe UI', 'Helvetica Neue', serif;
-}
-.font-playfair-italic {
+}*/
+/*.font-playfair-italic {
     font-family: 'Playfair Display', 'Segoe UI', 'Helvetica Neue', serif;
     font-style: italic;
     font-weight: 700
-}
-.font-josefin {
+}*/
+/*.font-josefin {
 	font-family: 'Josefin Sans', sans-serif;
-}
+}*/
 
-.font-comfortaa {
+/*.font-comfortaa {
     font-family: 'Comfortaa', 'Helvetica Neue', serif;
-}
+}*/
 
-.font-asap {
-    font-family: 'Asap', 'Helvetica Neue', serif;
+/*.font-asap {
+    font-family: 'Open Sans' !important;
     font-size: 18px !important;
-}
+}*/
 
 /* common font weights */
 .font-w300 {
@@ -102,7 +103,8 @@ html * {
 }
 body {
 	background: #F9F9F9;
-    font-family: 'Asap', 'Segoe UI', 'Helvetica Neue', serif;
+    /*font-family: 'Asap', 'Segoe UI', 'Helvetica Neue', serif;*/
+    font-family: 'Open Sans' !important;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 0.05em;
     font-size: 15px;
@@ -112,6 +114,7 @@ body {
 }
 html,
 body {
+    font-family: 'Open Sans' !important;
     overflow: hidden;
     height: auto;
 }
@@ -185,7 +188,7 @@ video {
     width: 100%;
 }
 label {
-    font-family: 'Hind Madurai', 'Segoe UI', 'Helvetica Neue', sans-serif;
+    /*font-family: 'Hind Madurai', 'Segoe UI', 'Helvetica Neue', sans-serif;*/
     font-weight: 600;
     font-size: 12px;
     letter-spacing: 1px;
@@ -194,7 +197,7 @@ label {
 input,
 textarea,
 select {
-    font-family: 'Hind Madurai', 'Segoe UI', 'Helvetica Neue', sans-serif;
+    /*font-family: 'Hind Madurai', 'Segoe UI', 'Helvetica Neue', sans-serif;*/
     background: #F9F9F9;
     color: #111111;
     border: 1px solid #CCCCCC;
@@ -249,7 +252,7 @@ input[type="submit"]:focus {
 .radio,
 .checkbox {
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
 }
 .radio label,
 .checkbox label {
@@ -267,7 +270,7 @@ input[type=checkbox] {
 }
 .radio label:before,
 .checkbox label:before {
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
     content: "";
     display: inline-block;
     width: 16px;
@@ -437,7 +440,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Comfortaa', 'Segoe UI', 'Helvetica Neue', sans-serif;
+    /*font-family: 'Comfortaa', 'Segoe UI', 'Helvetica Neue', sans-serif;*/
     font-weight: 300;
     color: #111111;
     line-height: 1.2em;
@@ -1786,7 +1789,7 @@ figcaption .project {
 }
 .panel-body p {
     margin: 0px;
-    font-family: 'Hind Madurai', 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans' !important;
 }
 .accordion-toggle {
     background: #EEEEEE;

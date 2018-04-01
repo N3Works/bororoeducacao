@@ -17,7 +17,8 @@
 Route::get('/', ['as' => 'site.index', 'uses' => 'HomeController@index']);
 Route::post('/registro-newsletter', ['as' => 'site.register_newsletter', 'uses'=> 'HomeController@register_newsletter']);
 
-Route::get('/o-que-fazemos/editora-bororo25', ['as' => 'site.services.books', 'uses' => 'ServiceController@livros_ebook']);
+Route::get('/o-que-fazemos/editora-bororo25/livros', ['as' => 'site.services.livros', 'uses' => 'ServiceController@livros']);
+Route::get('/o-que-fazemos/editora-bororo25/ebooks', ['as' => 'site.services.ebooks', 'uses' => 'ServiceController@ebooks']);
 Route::post('/o-que-fazemos/editora-bororo25', ['as' => 'site.services.books.download', 'uses'=> 'ServiceController@ebook_download']);
 Route::get('/o-que-fazemos/cursos-workshops-cine-grupo-reflexao', ['as' => 'site.services.cursos', 'uses' => 'ServiceController@cursos']);
 Route::get('/o-que-fazemos/trabalho-emocional', ['as' => 'site.services.trabalho_terapeutico', 'uses' => 'ServiceController@trabalho_terapeutico']);

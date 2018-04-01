@@ -20,14 +20,13 @@
     <section class="page-title-simple page-title-2 section-top-margin bg-trabalho-terapeutico">
         <div class="container">
             <div class="col-md-6 col-sm-7">
-                <h3 class="text-white font-comfortaa">Livros e E-books</h3>
+                <h3 class="text-white font-comfortaa">E-books</h3>
             </div>
         </div>
     </section>
     <!-- Hero Header Style 7 -->
 {{--    @include('site.service_sections.inicio')--}}
 
-    @include('site.service_sections.livros')
     @include('site.service_sections.ebooks',  [
         'ebooks' => $ebooks
     ])
