@@ -71,7 +71,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- CURSOS -->
 				<div class="tab-pane active" id="cursos">
 					<div class="container">
@@ -89,7 +89,7 @@
 									<div class="box-image">
 										<img src="<?php echo $cursoImagem[0] ?>" alt="<?php echo $cursoTitulo ?>">
 									</div>
-								</div>								
+								</div>
 								<?php if ( ! empty( $cursoPDF ) ) : ?>
 								<div class="box-see-more">
 									<a href="<?php echo $cursoPDF ?>" class="see-more-link" target="_blank"><i class="fa fa-file-pdf-o"></i><span>Veja mais detalhes na apresentação</span></a>
@@ -109,12 +109,12 @@
 								</p>
 								<?php endif ?>
 							</div>
-							
+
 							<div class="col-xs-7">
 								<div class="content">
 									<?php the_content() ?>
 								</div>
-								
+
 								<?php if ( ! empty( $cursoInscrevaURL ) ) : ?>
 								<a href="<?php echo $cursoInscrevaURL ?>" class="btn btn-default">Inscreva-se</a>
 								<?php endif ?>
@@ -127,7 +127,7 @@
 								<?php endif ?>
 								<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 
-								
+
 								<img src="<?php echo get_template_directory_uri() ?>/images/pagseguro.png" alt="PagSeguro UOL" />
 								<br /><br />
 								<div class="extra">
@@ -136,7 +136,7 @@
 										Dúvidas entre em contato: <a href="mailto: contato@bororo25.com.br">contato@bororo25.com.br</a>
 									</p>
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
@@ -154,7 +154,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<h3 class="title">Cine Bororó25</h3>
+								<h3 class="title">Cine Bororó Educação</h3>
 							</div>
 						</div>
 						<div class="row">
@@ -221,7 +221,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="box-logo-section">
-									<img src="<?php echo get_template_directory_uri() ?>/images/bororo-grupo-reflexao.png" alt="">	
+									<img src="<?php echo get_template_directory_uri() ?>/images/bororo-grupo-reflexao.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -256,7 +256,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="box-logo-section">
-									<img src="<?php echo get_template_directory_uri() ?>/images/bororo-grupo-reflexao.png" alt="">	
+									<img src="<?php echo get_template_directory_uri() ?>/images/bororo-grupo-reflexao.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -327,7 +327,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="box-logo-section">
-									<img src="<?php echo get_template_directory_uri() ?>/images/bororo-grupo-analise.png" alt="">	
+									<img src="<?php echo get_template_directory_uri() ?>/images/bororo-grupo-analise.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -372,6 +372,3 @@
 		</div>
 	</div>
 </section>
-
-
-

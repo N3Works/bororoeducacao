@@ -6,8 +6,9 @@
     <div class="row all-links">
       <!-- logo and copyright info -->
       <div class="col-md-3 col-sm-6 col-xs-8">
-        <img src="{{ asset('images/logo-text-white.png') }}" width="150" alt="">
-        <p class="copyright font-hind">Copyright © Bororo25<br>Todos direitos reservados.</p>
+        {{-- <img src="{{ asset('images/logo-text-white.png') }}" width="150" alt=""> --}}
+        <img src="{{ asset('images/logo-text-white_v2.png') }}" width="150" alt="">
+        <p class="copyright font-hind">Copyright © Bororó Educação<br>Todos direitos reservados.</p>
       </div>
       <!-- links -->
       <div class="col-md-3 col-sm-6 col-xs-8">

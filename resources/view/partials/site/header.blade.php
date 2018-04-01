@@ -2,7 +2,8 @@
     <div class="container">
         <!-- logo -->
         <a class="brand-name" href="{{ route('site.index') }}">
-            <img class="initial-logo" src="{{ asset('images/logo_v2.png') }}" width="140" alt="" style="margin-top: -10px">
+            {{-- <img class="initial-logo" src="{{ asset('images/logo_v2.png') }}" width="140" alt="" style="margin-top: -10px"> --}}
+            <img class="initial-logo" src="{{ asset('images/logo_v3.png') }}" width="140" alt="" style="margin-top: -10px">
             <img class="scroll-logo" src="{{ asset('images/logo-mini.png') }}" width="25" alt="">
         </a>
         <!-- Menu Button -->
@@ -11,11 +12,11 @@
         </a>
         <!-- Main Navigation Menu -->
         <ul id="main-menu" class="sm sm-clean">
-            <li>
+            {{-- <li>
                 <a href="{{ route('site.index') }}">Início</a>
             </li>
-            
-            
+             --}}
+
             <li>
                 <a href="#">Sobre</a>
                 <ul>
@@ -47,8 +48,8 @@
                     </li>
                 </ul>
             </li>
-            
-            
+
+
 <!--            <li>
                 <a href="#">Quem somos</a>
                 <ul>

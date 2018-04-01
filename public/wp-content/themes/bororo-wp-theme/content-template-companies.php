@@ -32,7 +32,7 @@
 
 <section class="section-internal-content">
 	<div class="box-tabs">
-		
+
 		<?php if ( $GLOBALS['page_'] == 1 ) : ?>
 
 			<div class="box-nav-tabs">
@@ -43,12 +43,12 @@
 					<li><a href="#profissionais">Profissionais</a></li>
 				</ul>
 			</div>
-		
+
 		<?php endif ?>
 
 		<div class="box-tab-content">
 			<div class="tab-content">
-				
+
 				<?php if ( $GLOBALS['page_'] == 1 ) : ?>
 				<!-- TGE -->
 				<div class="tab-pane active" id="tge">
@@ -76,7 +76,7 @@
 						</div>
 						<br /><br />
 						<p class="text">
-							<strong>Motivação, comprometimento e criatividade</strong> na vida pessoal - e no ambiente de trabalho - são decorrentes de um intenso trabalho de autoconhecimento. A responsabilidade de se habilitar para produzir com comprometimento, motivação e criatividade parte de cada um e de seu desejo de se fazer feliz nos espaços profissionais. 
+							<strong>Motivação, comprometimento e criatividade</strong> na vida pessoal - e no ambiente de trabalho - são decorrentes de um intenso trabalho de autoconhecimento. A responsabilidade de se habilitar para produzir com comprometimento, motivação e criatividade parte de cada um e de seu desejo de se fazer feliz nos espaços profissionais.
 						</p>
 						<p class="text"><strong>Capacitar pessoas</strong> é, neste cenário, oferecer ferramentas de transformação pessoal, de gestão das emoções. É entregar ao profissional conhecimento para que ele se habilite ao autoconhecimento e tenha desejo - um profundo desejo- de se fazer feliz nos espaços de trabalho. </p>
 						<p class="text"><strong>Capacitar pessoas</strong> é também oferecer às equipes o conhecimento de que a transformação necessária a cada um é intrínseca – de dentro para fora – e que inicia com o desejo de mudança. É oferecer o conhecimento de que a vida pessoal e o trabalho não são | estão dissociados: somos um. A felicidade no trabalho está intrinsecamente ligada a quem somos e a nossa capacidade de sermos gestores de nossas emoções a cada dia de trabalho e de vida.</p>
@@ -106,7 +106,7 @@
 											$tematicaLink = get_post_meta( $tabTematicaItem->ID, 'wpcf-pdf-download', TRUE );
 											$tematicaImagem = wp_get_attachment_image_src( get_post_thumbnail_id($tabTematicaItem->ID ), '300x300');;
 										?>
-									
+
 									<article class="article article-b ajax-item">
 										<div class="row">
 											<div class="col-xs-3">
@@ -142,7 +142,7 @@
 					</div>
 				</div>
 				<?php if ( $GLOBALS['page_'] == 1 ) : ?>
-				
+
 				<!-- PRODUTOS -->
 				<div class="tab-pane" id="produtos">
 					<div class="container">
@@ -163,7 +163,7 @@
 										<div class="col-xs-9">
 											<h3 class="title title-b">Palestra</h3>
 											<p class="text text-a">
-												Promover a consciência da necessidade do autoconhecimento para a construção da saúde emocional. Apresentada em diferentes temáticas, adaptadas aos interesses e objetivos da empresa. 
+												Promover a consciência da necessidade do autoconhecimento para a construção da saúde emocional. Apresentada em diferentes temáticas, adaptadas aos interesses e objetivos da empresa.
 											</p>
 											<!-- <a href="#" class="btn btn-primary"><i class="fa fa-file-pdf-o"></i> Veja mais detalhes na apresentação</a> -->
 										</div>
@@ -179,7 +179,7 @@
 										<div class="col-xs-9">
 											<h3 class="title title-b">Cursos</h3>
 											<p class="text text-a">
-												Aulas teórico-práticas voltadas para a aplicação da TGE - Tecnologia de Gestão Emocional ao universo corporativo. Realizados em módulos customizados, de acordo com a temática e o formado escolhido. 
+												Aulas teórico-práticas voltadas para a aplicação da TGE - Tecnologia de Gestão Emocional ao universo corporativo. Realizados em módulos customizados, de acordo com a temática e o formado escolhido.
 											</p>
 										</div>
 									</div>
@@ -194,7 +194,7 @@
 										<div class="col-xs-9">
 											<h3 class="title title-b">Workshop</h3>
 											<p class="text text-a">
-												Atividade de caráter prático e lúdico, promove a interação entre os participantes, desenvolvendo conhecimentos, habilidades e atitudes. 
+												Atividade de caráter prático e lúdico, promove a interação entre os participantes, desenvolvendo conhecimentos, habilidades e atitudes.
 											</p>
 										</div>
 									</div>
@@ -209,7 +209,7 @@
 										<div class="col-xs-9">
 											<h3 class="title title-b">Coaching</h3>
 											<p class="text text-a">
-												Encontro personalizado, utiliza os conceitos da TGE para desenvolver a potência criativa do profissional, habilitando-o para a responsabilização pelo próprio cuidado e por seu desempenho. 
+												Encontro personalizado, utiliza os conceitos da TGE para desenvolver a potência criativa do profissional, habilitando-o para a responsabilização pelo próprio cuidado e por seu desempenho.
 											</p>
 										</div>
 									</div>
@@ -224,7 +224,7 @@
 										<div class="col-xs-9">
 											<h3 class="title title-b">Grupo de Reflexão</h3>
 											<p class="text text-a">
-												Grupo de estudos sobre a TGE e sua relação com o trabalho. A partir do estudo de conceitos e técnicas, é desenvolvida a reflexão sobre o auto- conhecimento e sua aplicabilidade no ambiente empresarial. 
+												Grupo de estudos sobre a TGE e sua relação com o trabalho. A partir do estudo de conceitos e técnicas, é desenvolvida a reflexão sobre o auto- conhecimento e sua aplicabilidade no ambiente empresarial.
 											</p>
 										</div>
 									</div>
@@ -239,7 +239,7 @@
 										<div class="col-xs-9">
 											<h3 class="title title-b">Cine Bororó25 </h3>
 											<p class="text text-a">
-												Fragmentos de filmes interpretados e discutidos à luz dos conceitos da TGE. Uma reflexão filosófica do cotidiano, das relações e do universo empresarial pelo olhar da arte do cinema. 
+												Fragmentos de filmes interpretados e discutidos à luz dos conceitos da TGE. Uma reflexão filosófica do cotidiano, das relações e do universo empresarial pelo olhar da arte do cinema.
 											</p>
 										</div>
 									</div>
@@ -254,7 +254,7 @@
 										<div class="col-xs-9">
 											<h3 class="title title-b">Editora Bororó25  </h3>
 											<p class="text text-a">
-												A Tecnologia de Gestão Emocional compartilhada em quatro publicações: A Vida como ela é para cada um de nós, Curação - a arte de bem cuidar-se, A Felicidade Possível e a série pocket “A arte de se fazer feliz”. 
+												A Tecnologia de Gestão Emocional compartilhada em quatro publicações: A Vida como ela é para cada um de nós, Curação - a arte de bem cuidar-se, A Felicidade Possível e a série pocket “A arte de se fazer feliz”.
 											</p>
 										</div>
 									</div>
@@ -264,7 +264,7 @@
 					</div>
 				</div>
 				<?php endif ?>
-				
+
 				<?php if ( $GLOBALS['page_'] == 1 ) : ?>
 				<!-- PROFISSIONAIS -->
 				<div class="tab-pane" id="profissionais">
@@ -278,7 +278,7 @@
 						<div class="row">
 							<div class="col-xs-3">
 								<div class="box-image-author">
-									<img src="<?php echo get_template_directory_uri() ?>/images/cristiane-ganzo.png" alt="" />	
+									<img src="<?php echo get_template_directory_uri() ?>/images/cristiane-ganzo.png" alt="" />
 								</div>
 							</div>
 							<div class="col-xs-9">
@@ -293,7 +293,7 @@
 						<div class="row">
 							<div class="col-xs-3">
 								<div class="box-image-author">
-									<img src="<?php echo get_template_directory_uri() ?>/images/denise-aerts.png" alt="" />	
+									<img src="<?php echo get_template_directory_uri() ?>/images/denise-aerts.png" alt="" />
 								</div>
 							</div>
 							<div class="col-xs-9">
@@ -308,7 +308,7 @@
 						<div class="row">
 							<div class="col-xs-3">
 								<div class="box-image-author">
-									<img class="img-circle" src="<?php echo get_template_directory_uri() ?>/images/gehysa-alves.png" alt="" />	
+									<img class="img-circle" src="<?php echo get_template_directory_uri() ?>/images/gehysa-alves.png" alt="" />
 								</div>
 							</div>
 							<div class="col-xs-9">
@@ -323,7 +323,7 @@
 						<div class="row">
 							<div class="col-xs-3">
 								<div class="box-image-author">
-									<img src="<?php echo get_template_directory_uri() ?>/images/leticia-thorstenberg.png" alt="" />	
+									<img src="<?php echo get_template_directory_uri() ?>/images/leticia-thorstenberg.png" alt="" />
 								</div>
 							</div>
 							<div class="col-xs-9">
@@ -338,10 +338,9 @@
 					</div>
 				</div>
 				<?php endif ?>
-				
-				
+
+
 			</div>
 		</div>
 	</div>
 </section>
-
