@@ -66,21 +66,26 @@
 	</div>
 
 
-
+	<div id="container-contato">
 	@include('site.home_sections.contato')
-
+	</div>
+	<div id="container-noticias">
     @include('site.home_sections.call_blog', [
         'posts' => $posts
     ])
+	</div>
+	<div id="container-agenda">
     @include('site.home_sections.call_events', [
         'events' => $events
     ])
+	</div>
 
 @endsection
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('theme/css/magnific-popup.css') }}"/>
 <link rel="stylesheet" href="{{ asset('theme/css/blog.css') }}">
+<link rel="stylesheet" href="{{ asset('css/circles.css') }}">
 @endpush
 
 @push('scripts')

@@ -5,35 +5,38 @@
 			<!-- sub-text -->
             <br>
             <p class="margin-top30 text-large" style="text-align:center">
-                As aulas de educação à distância são disponibilizadas em formato de vídeo e também com conteúdos complementares para o estudo. O primeiro curso possui cinco módulos, que propõem dinâmicas e reflexões sobre o Método Curação.
+                Curação Solidário é o nosso espaço de partilha de saberes. Há três anos iniciamos esta história com um projeto que visa dar suporte a instituições beneficentes e sem fins lucrativos. 
+				Nosso primeiro trabalho, neste segmento, foi com a Aldeia da Fraternidade, que há mais de 50 anos auxilia crianças e adolescentes em situação de vulnerabilidade social. Tem sido uma trajetória inspiradora com os colaboradores da Aldeia.
+				 
+				Conheça essa história! <a href="https://youtu.be/pgzuxMJTuTI" target="_blank"><b>https://youtu.be/pgzuxMJTuTI</b></a>
             </p>
         </div>
     </section>
 	
-	@push('styles')
+@push('styles')
 <link rel="stylesheet" href="{{ asset('theme/css/owl-carousel.css') }}">
 <style type="text/css">
-    .owl-theme .owl-controls {
-        display: none !important;
-    }
+.owl-theme .owl-controls {
+	display: none !important;
+}
 
-    .image-parallax {
-        margin-bottom: 40px;
-        margin-top: 32px;
-    }
+.image-parallax {
+	margin-bottom: 40px;
+	margin-top: 32px;
+}
 
-    .grid-item > .box {
-        margin: 20px;
-        border: 1px solid #eee;
-        padding: 20px;
-        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-        display: block;
-        width: 100%;
-    }
+.grid-item > .box {
+	margin: 20px;
+	border: 1px solid #eee;
+	padding: 20px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+	display: block;
+	width: 100%;
+}
 
-    .grid-item.col-md-6 {
-        /*padding: 45px;*/
-    }
+.grid-item.col-md-6 {
+	/*padding: 45px;*/
+}
 
 </style>
 @endpush

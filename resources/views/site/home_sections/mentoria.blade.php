@@ -7,7 +7,9 @@
 			<!-- sub-text -->
             <br>
             <p class="margin-top30 text-large" style="text-align:center">
-                As aulas de educação à distância são disponibilizadas em formato de vídeo e também com conteúdos complementares para o estudo. O primeiro curso possui cinco módulos, que propõem dinâmicas e reflexões sobre o Método Curação.
+                Nossa mentoria tem como objetivo o aprofundamento da "compreensão" do Método Curação. Ela é direcionada para aqueles que desejam esclarecer dúvidas sobre a tecnologia e sua aplicação.
+Com ela  você poderá conversar online e ao vivo com as autoras do método, Christiane Ganzo e Denise Aerts.
+São 60 minutos de mentoria, com data e horário previamente agendados. Saiba <a href="http://bororo25.com.br/loja/" target="_blank"><b>mais aqui</b></a>.
             </p>
         </div>
     </section>

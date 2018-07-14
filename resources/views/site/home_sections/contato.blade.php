@@ -9,7 +9,7 @@
                 <div class="center-block-1">
                     <h3 class="text-main-2 font-josefin">Fale Conosco</h3>
                     <p class="subtext font-hind margin-top20">
-                        Se precisar de maiores informações sobre a Bororó25, nos envie uma mensagem!
+                        Entre em contato através do e-mail ou telefone <br>falecom@bororoeducacao.com.br | (51) 99994.9917
                     </p>
                     @if (session('message'))
                         <div style="display: block; border-radius: 20px; background-color: rgba(0, 109, 0, 0.4);">
@@ -56,26 +56,6 @@
                             </button>
                         </div>
                     </form>
-                </div>
-                <div class="center-block-1 margin-top50">
-                    <h3 class="text-main-2 font-josefin">Vamos conversar?</h3>
-                    <p class="subtext font-hind margin-top20">
-                        Agende uma visita: <br>
-                        51 3346 6171 <br>
-                        51 99692 8185 <br>
-                        contato@bororo25.com.br
-                    </p>
-                </div>
-                <div class="center-block-1 ">
-                    <h3 class="text-main-2 font-josefin">Nosso endereço</h3>
-                    <p class="subtext font-hind margin-top20">
-                        Rua Bororó 25, Porto Alegre <br>
-                        Rio Grande do Sul, Brasil
-                    </p>
-                    <a href="https://www.google.com.br/maps/place/R.+Boror%C3%B3,+25+-+Vila+Assun%C3%A7%C3%A3o,+Porto+Alegre+-+RS,+91900-540/@-30.0972548,-51.2528578,17z/data=!3m1!4b1!4m2!3m1!1s0x951982055fcc3f63:0x4033935c0afa3a78"
-                       class="bttn bttn-main-1 bttn75 bttn-med bttn-white bttn-scale margin-top30" target="_blank">
-                        Ver no mapa
-                    </a>
                 </div>
             </div>
         </div>
