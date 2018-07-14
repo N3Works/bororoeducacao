@@ -21,16 +21,16 @@ class HomeController extends Controller
                 ->get();
         
         $date = new DateTime;
-        $formatted_date = $date->format('Y-m-d');
+        $formatted_date = $date->format('Y-m-d H:i:s');
 
         $events = Course::where([
                 ['is_active', '1'],
             ])
-            ->whereDate('end_at', '>=', $formatted_date)
+            //->whereDate('end_at', '>=', $formatted_date)
             ->orderBy('start_at')
             ->take(6)
             ->get();
-
+			
         return view('site.index', [
             'posts' => $posts,
             'events' => $events

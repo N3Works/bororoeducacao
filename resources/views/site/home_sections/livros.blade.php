@@ -10,7 +10,7 @@
             <br><br>
             <div class="col-md-12">
                 <p class="margin-top30 text-large">
-                    Os livros oferecem ferramentas para que cada pessoa trilhe seu caminho de gestão das emoções. A produção das autoras Christiane Ganzo e Denise Aerts tem o propósito de divulgar a metodologia própria da Bororó Educação: o Método Curação.
+                    A Editora Bororó25 nasceu do desejo de compartilhar nossos escritos mantendo a autonomia editorial. Nossa movimentação solitária num universo tão desconhecido foi desafiadora. Hoje, o que temos produzido e distribuído dentro deste site tem por nós um valor inestimável na guerrilha da educação para a saúde emocional. Os livros oferecem ferramentas para que cada pessoa trilhe seu caminho de gestão das emoções.
                 </p>
                 <p class="margin-top30 text-large">
                     A editora tem seis títulos publicados
@@ -26,9 +26,19 @@
                       </b>
                     </ul>
                 </div>
+				
+				<p class="margin-top30 text-large">Veja mais em nossa loja virtual <i class="fa fa-arrow-right"></i>
+					 <a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>http://escoladecuracao.com.br/loja/</b></a>
+				</p>
+				
+				<p class="margin-top30 text-large">Convide um amigo! 
+					 <i class="fa fa-facebook-square fa-2x"></i>
+					 <i class="fa fa-linkedin-square fa-2x"></i>
+					 <i class="fa fa-twitter-square fa-2x"></i>
+				</p>
+				
+				
             </div>
-
-
 
         </div>
         <div class="all-details">
