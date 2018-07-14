@@ -1,7 +1,7 @@
 <section class="blog-card-small content-block-9 section-top-margin">
     <div class="container">
         <div class="center-block-1">
-            <h3 class="font-comfortaa">Próximos Eventos</h3>
+            <h3 class="font-comfortaa">Agenda</h3>
             <p class="margin-top30 font-asap text-extra-large">
                 CurAção exige disciplina, coragem e vigor!
             </p>
