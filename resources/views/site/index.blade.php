@@ -30,14 +30,14 @@
     <!-- End Success Message -->
     @endif
     @include('site.home_sections.inicio')
-    
+
 	<div id="container_quem_somos">
 		@include('site.home_sections.quem_somos')
 	</div>
 	<div id="container_metodo_curacao">
 		@include('site.home_sections.metodo_curacao')
 	</div>
-	
+
 	<div class="container">
 		<h3>Serviços</h3>
 	</div>
@@ -47,11 +47,11 @@
 	<div id="container_curacao_empresas">
 		@include('site.home_sections.curacao_empresas')
 	</div>
-	<div id="container_curacao_solidario">	
+	<div id="container_curacao_solidario">
 		@include('site.home_sections.curacao_solidario')
 	</div>
-	
-	
+
+
 	<div class="container">
 		<h3>Produtos</h3>
 	</div>
@@ -64,11 +64,11 @@
 	<div id="container-livros">
 		@include('site.home_sections.livros')
 	</div>
-	
-	
-	
+
+
+
 	@include('site.home_sections.contato')
-	
+
     @include('site.home_sections.call_blog', [
         'posts' => $posts
     ])
