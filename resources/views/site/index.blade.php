@@ -32,54 +32,54 @@
 <div id="container_inicio">
     @include('site.home_sections.inicio')
 </div>
-	<div id="container_quem_somos">
+	<div id="container_quem_somos" style="padding-top: 50px; ">
 		@include('site.home_sections.quem_somos')
 	</div>
-	<div id="container_metodo_curacao">
+	<div id="container_metodo_curacao" style="padding-top: 50px; ">
 		@include('site.home_sections.metodo_curacao')
 	</div>
 
-	<div class="container">
+	<div id="container_servicos" class="container" style="padding-top: 50px; ">
     <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
       <img class="img-responsive img-center" src="{{url('/images/servicos.png')}}" alt=""/>
     </h2>
 	</div>
-	<div id="container_curacao_voce">
+  <div id="container_curacao_voce" style="padding-top: 50px; ">
 		@include('site.home_sections.curacao_voce')
 	</div>
-	<div id="container_curacao_empresas">
+	<div id="container_curacao_empresas" style="padding-top: 50px; ">
 		@include('site.home_sections.curacao_empresas')
 	</div>
-	<div id="container_curacao_solidario">
+	<div id="container_curacao_solidario" style="padding-top: 50px; ">
 		@include('site.home_sections.curacao_solidario')
 	</div>
 
 
-	<div class="container">
+	<div id="container_produtos" class="container" style="padding-top: 50px; ">
     <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
       <img class="img-responsive img-center" src="{{url('/images/produtos.png')}}" alt=""/>
     </h2>
 	</div>
-	<div id="container-ead">
+	<div id="container-ead" style="padding-top: 50px; ">
 		@include('site.home_sections.ead')
 	</div>
-	<div id="container-mentoria">
+	<div id="container-mentoria" style="padding-top: 50px; ">
 		@include('site.home_sections.mentoria')
 	</div>
-	<div id="container-livros">
+	<div id="container-livros" style="padding-top: 50px; ">
 		@include('site.home_sections.livros')
 	</div>
 
 
-	<div id="container-contato">
+	<div id="container-contato" style="padding-top: 50px; ">
 	@include('site.home_sections.contato')
 	</div>
-	<div id="container-noticias">
+	<div id="container-noticias" style="padding-top: 50px; ">
     @include('site.home_sections.call_blog', [
         'posts' => $posts
     ])
 	</div>
-	<div id="container-agenda">
+	<div id="container-agenda" style="padding-top: 50px; ">
     @include('site.home_sections.call_events', [
         'events' => $events
     ])

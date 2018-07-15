@@ -21,85 +21,65 @@
                 <a href="#">Sobre</a>
                 <ul>
                     <li>
-                        <a href="{{ route('site.about') }}">Quem Somos</a>
+                        {{-- <a href="{{ route('site.about') }}">Quem Somos</a> --}}
+                        <a href="#container_quem_somos">Quem Somos</a>
                     </li>
                     <li>
-                        <a href="{{ route('site.about_metodo_curacao') }}">Método Curação</a>
+                        {{-- <a href="{{ route('site.about_metodo_curacao') }}">Método Curação</a> --}}
+                        <a href="#container_metodo_curacao">Método Curação</a>
                     </li>
-                    <li>
-                        <a href="{{ route('site.blog') }}">Notícias</a>
-                    </li>
+
                 </ul>
             </li>
             <li>
-                <a href="javascript:;">Serviços</a>
+                <a href="#container_servicos">Serviços</a>
                 <ul>
                     <li>
-                        <a href="{{ route('site.services.produtos') }}">Bororó Empresas</a>
+                        {{-- <a href="{{ route('site.services.produtos') }}">Bororó Empresas</a> --}}
+                        <a href="#container_curacao_voce">Curação para Você</a>
                     </li>
                     <li>
-                        <a href="{{ route('site.services.bororo_solidario') }}">Bororó Solidário</a>
+                        {{-- <a href="{{ route('site.services.bororo_solidario') }}">Bororó Solidário</a> --}}
+                        <a href="#container_curacao_empresas">Curação Empresas</a>
                     </li>
-<!--                            <li>
-                        <a href="{{ route('site.services.tge') }}">Solidário    </a>
-                    </li>-->
                     <li>
+                        <a href="#container_curacao_solidario">Curação Solidário</a>
+                    </li>
+                    {{-- <li>
                         <a href="{{ route('site.events') }}">Eventos</a>
-                    </li>
+                    </li> --}}
                 </ul>
             </li>
 
-
-<!--            <li>
-                <a href="#">Quem somos</a>
+            <li>
+                <a href="#container_produtos">Produtos</a>
                 <ul>
-                    <li>
-                        <a href="{{ route('site.about') }}">A Bororó25</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('site.about_metodo_curacao') }}">Método Curação</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('site.about_carta_manifesto') }}">Carta Manifesto</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('site.coworking_b25') }}">Coworking B25</a>
-                    </li>
-                </ul>
-            </li>-->
-            <li>
-                <a href="#">Produtos</a>
-                <ul>
-                        {{-- <li><a href="https://hotmart.com.br" target="_blank">EAD</a></li> --}}
-                        <li><a href="{{ route('site.services.ead') }}">EAD</a></li>
+                  <li>
+                    {{-- <a href="{{ route('site.services.ead') }}">EAD</a> --}}
+                    <a href="#container-ead">EAD</a>
+                  </li>
+                  <li>
+                      {{-- <a href="{{ route('site.services.livros') }}">Livros</a> --}}
+                    <a href="#container-mentoria">Mentoria</a>
+                  </li>
+                  <li>
+                    {{-- <a href="{{ route('site.services.ebooks') }}">E-books</a> --}}
+                    <a href="#container-livros">Livros</a>
 
-<!--                    <li>
-                        <a href="{{ route('site.services.trabalho_terapeutico') }}">Trabalho Emocional</a>
-                    </li>-->
-                    <li><a href="{{ route('site.services.livros') }}">Livros</a></li>
-                    <li><a href="{{ route('site.services.ebooks') }}">E-books</a></li>
-                    <li>
-                        <a href="{{ route('site.services.cursos') }}">Cursos</a>
-                    </li>
-<!--                    <li>
-                        <a href="javascript:;">Aprendizado</a>
-                        <ul>
-                            <li><a href="{{ route('site.services.ebooks') }}">Livros / E-books</a></li>
-                            <li>
-                                <a href="https://hotmart.com.br" target="_blank">EAD</a>
-                            </li>
-                        </ul>
-                    </li>-->
-<!--                    <li>
-                        <a href="{{ route('site.services.bororo_solidario') }}">Bororó Solidário</a>
-                    </li>-->
+                  </li>
                 </ul>
             </li>
             <li>
-                <a href="http://bororo25.com.br/loja" target="_blank">Loja Virtual</a>
+                <a href="http://escoladecuracao.com.br/loja" target="_blank">Loja Virtual</a>
             </li>
             <li>
-                <a href="{{ route('site.contact') }}">Contato</a>
+                <a href="#container-contato">Contato</a>
+            </li>
+            <li>
+                <a href="#container-noticias">Notícias</a>
+            </li>
+            <li>
+                <a href="#container-agenda">Agenda</a>
             </li>
         </ul>
     </div>

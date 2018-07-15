@@ -1,8 +1,7 @@
 <!-- Hero Header Style 9 -->
 {{-- <section class="section-padding hero-header-9 bg-cover-simple" style="background-image: url(/images/lanterna_pagina_inicial_credito.jpg);"> --}}
-<section class="content-block-3 text-left" style="background-image: url({{url('/images/lanterna_pagina_inicial_credito.jpg')}})"> ;
 {{-- <section class="section-padding hero-header-9 bg-cover-simple" style="background-image: url({{url('/images/lanterna_pagina_inicial_credito.jpg')}})"> ; --}}
-
+<section class="content-block-3 text-left" style="background-image: url({{url('/images/lanterna_pagina_inicial_credito.jpg')}})">
     <div id="hero-header-9">
         <div class="slide slide-1">
             <div class="container">
