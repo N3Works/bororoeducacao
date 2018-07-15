@@ -3,7 +3,7 @@
         <!-- logo -->
         <a class="brand-name" href="{{ route('site.index') }}">
             {{-- <img class="initial-logo" src="{{ asset('images/logo_v2.png') }}" width="140" alt="" style="margin-top: -10px"> --}}
-            <img class="initial-logo" src="{{ asset('images/logo_v3.png') }}" width="140" alt="" style="margin-top: -10px">
+            <img class="initial-logo" src="{{ asset('images/logo_escola.png') }}" width="140" alt="" style="margin-top: -10px">
             <img class="scroll-logo" src="{{ asset('images/logo-mini.png') }}" width="25" alt="">
         </a>
         <!-- Menu Button -->

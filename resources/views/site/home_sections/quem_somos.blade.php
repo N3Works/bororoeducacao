@@ -1,10 +1,18 @@
-    <section class="content-block-2 text-left">
-    <div class="container" style="background-image: url({{url('/images/quem_somos_fundo.png')}})">
-			<!-- main heading -->
-			<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
-        <img class="img-responsive img-center main-img" src="{{url('/images/quem_somos.png')}}" alt=""/>
-      </h2>
+    <section class="content-block-2 text-left" style="padding-bottom:0 !important">
+      <div class="container" style="background-image: url({{url('/images/quem_somos.png')}});
+      background-position: center center!important;
+      background-repeat: no-repeat!important;
+      background-size: cover!important;
+      min-height: 165px !important;
+      padding-left: 1px !important">
+      {{-- <img class="img-responsive img-center " src="{{url('/images/quem_somos.png')}}" alt=""/> --}}
+      <div class="center-block-3">
+    </div>
+    </section>
+
+    <section class="content-block-2 text-left" style="padding-top: 0 !important; margin-top:-20px !important;">
 			<!-- sub-text -->
+      <div class="container" style="background-image: url({{url('/images/quem_somos_fundo.png')}}); padding-top: 0 !important;">
         <div class="center-block-3">
           <p class="margin-top30 text-large" style="text-align:justify">
               Inicialmente, demos o nome de Bororó25 a nossa escola inspiradas no endereço onde o espaço foi fundado e o Método Curação nasceu: rua Bororó nº 25, em Porto Alegre. Foi lá onde toda esta história começou em agosto de 2007. (link para editora)</p>
