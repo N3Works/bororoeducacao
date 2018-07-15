@@ -1,13 +1,17 @@
 <!-- Footer Style 4 -->
-<footer class="footer-4">
+<footer class="footer-4" style="background-image: url({{url('/images/barra_laranja.png')}}) ;
+      background-position: center center!important;
+      background-repeat: no-repeat!important;
+      background-size: cover!important;
+      min-height: 382px !important" >
   <!-- text/links wrapper -->
-  <div class="container">
+  <div class="container" >
     <!-- all navigation links -->
     <div class="row all-links">
       <!-- logo and copyright info -->
       <div class="col-md-3 col-sm-6 col-xs-8">
         {{-- <img src="{{ asset('images/logo-text-white.png') }}" width="150" alt=""> --}}
-        <img src="{{ asset('images/logo-text-white_v2.png') }}" width="150" alt="">
+        <img src="{{ asset('images/logo_escola.png') }}" width="150" alt="">
         <p class="copyright font-hind">Copyright © Bororo Educação<br>Todos direitos reservados.</p>
       </div>
       <!-- links -->
@@ -23,9 +27,10 @@
       <!-- Social Links -->
       <div class="col-md-3 col-sm-6 col-xs-8">
         <div class="social-wide transition">
-          <a href="https://www.facebook.com/Bororo25/" target="_blank"><span class="ti-facebook"></span>Facebook</a>
-          <a href="https://www.instagram.com/bororo25oficial/" target="_blank"><span class="ti-instagram"></span>Instagram</a>
-          <a href="https://www.youtube.com/user/canalbororo" target="_blank"><span class="ti-youtube"></span>Youtube</a>
+          <a href="https://www.facebook.com/escoladecuracao/" target="_blank"><span class="ti-facebook"></span>Facebook</a>
+          <a href="https://www.instagram.com/escoladecuracao/" target="_blank"><span class="ti-instagram"></span>Instagram</a>
+          <a href="https://www.linkedin.com/company/escola-curacao/" target="_blank"><span class="ti-linkedin"></span>LinkedIn</a>
+          <a href="https://www.youtube.com/user/escoladecuracao" target="_blank"><span class="ti-youtube"></span>Youtube</a>
         </div>
       </div>
       <!-- About info -->

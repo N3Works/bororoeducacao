@@ -8,12 +8,17 @@
                         <div class="row">
                             <div class="col-md-10 just-center">
                                 <!-- image with play button at middle -->
-                                <figure>
+                                {{-- <figure>
                                     <img class="img-responsive img-center main-img"
                                          src="https://i.ytimg.com/vi/78oDPDkBHco/maxresdefault.jpg" alt=""/>
                                     <a href="https://www.youtube.com/watch?v=78oDPDkBHco" class="popup-video play-button">
                                         <span class="fa fa-play-circle bttn-scale"></span>
                                     </a>
+                                </figure> --}}
+                                <figure>
+                                    <img class="img-responsive img-center main-img"
+                                         src="{{url('/images/banner_carta_manifesto.png')}}" alt=""/>
+
                                 </figure>
                             </div>
                         </div>
@@ -28,8 +33,7 @@
                             Coragem, disciplina e vigor na arte de SE fazer feliz
                         </p>
                         <!-- button -->
-                        <a href="{{ route('site.about') }}"
-                           class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a>
+                        
                     </div>
                 </div>
             </div>
@@ -113,7 +117,7 @@
 @endpush
 
 @push ('scripts')
-<script src="{{ asset('theme/js/owl.carousel.js') }}"></script>  
+<script src="{{ asset('theme/js/owl.carousel.js') }}"></script>
 <script>
     $(function () {
         // slider/carousel
@@ -153,7 +157,7 @@
             owl.trigger('owl.prev');
         });
 
-        // handle cursor keys       
+        // handle cursor keys
         var owlbttn = $('#hero-header-9').data('owlCarousel');
         $(document.documentElement).keyup(function(event) {
             if (event.keyCode == 37) {

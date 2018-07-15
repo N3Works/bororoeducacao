@@ -1,16 +1,54 @@
     <section class="content-block-2 text-left">
-        <div class="container">
+    <div class="container" style="background-image: url({{url('/images/quem_somos_fundo.png')}})">
 			<!-- main heading -->
-			<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">Quem somos</h2>
+			<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+        <img class="img-responsive img-center main-img" src="{{url('/images/quem_somos.png')}}" alt=""/>
+      </h2>
 			<!-- sub-text -->
-            <br>
-            <p class="margin-top30 text-large" style="text-align:center">
-                As aulas de educação à distância são disponibilizadas em formato de vídeo e também com conteúdos complementares para o estudo. O primeiro curso possui cinco módulos, que propõem dinâmicas e reflexões sobre o Método Curação.
-            </p>
+        <div class="center-block-3">
+          <p class="margin-top30 text-large" style="text-align:justify">
+              Inicialmente, demos o nome de Bororó25 a nossa escola inspiradas no endereço onde o espaço foi fundado e o Método Curação nasceu: rua Bororó nº 25, em Porto Alegre. Foi lá onde toda esta história começou em agosto de 2007. (link para editora)</p>
+          <p class="margin-top30 text-large" style="text-align:justify">
+              No entanto, durante o percurso, o Método Curação ganhou o mundo ultrapassando fronteiras e sendo conhecido em território nacional e internacional. Por esse motivo, pensamos que faria muito mais sentido nossa escola levar o nome Curação. Essa palavra foi inventada por nós e reúne duas potentes ideias: cura e ação, lembrando a cada um de nós que a saúde emocional é produzida por meio de ações. Assim, nasceu a Escola de Curação. </p>
+          <p class="margin-top30 text-large" style="text-align:justify">
+              Nosso desejo é contribuir para a alfabetização emocional, para que cada pessoa desenvolva suas habilidades emocionais com autonomia para o bem viver! Acreditamos que o conhecimento produz autoconhecimento que é o ponto de partida da transformação pessoal e social. </p>
+          <p class="margin-top30 text-large" style="text-align:justify">
+              Temos como objetivos oferecer ferramentas de gestão emocional - Método Curação - para que cada um construa sua Felicidade Possível e contribuir para o enriquecimento da experiência de autoconhecimento. É em função disso que disponibilizamos diferentes meios para a aprendizagem como livros, e-books, workshops presenciais e cursos EAD-, estabelecendo parcerias com empresas, instituições e organizações. </p>
+       </div>
+    </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+          <div class="col-lg-2 col-md-2 part part2 hidden-xs hidden-sm"> </div>
+            <div class="col-sm-6 part part2 col-xs-12 col-md-4 col-lg-4">
+                <!-- Main Heading -->
+                <img src="{{url('images/foto_chris.png') }}" alt="Autoras" style="width: 320px;">
+                <h4 class="margin-top10 text-main-1 font-comfortaa">Christiane Ganzo</h4>
+                <!-- Text -->
+                <p class="text-grey font-asap margin-top30">
+                    Christiane Ganzo é psicanalista há mais de 25 anos, trabalhando com grupos terapêuticos e institucionais.
+                    Christiane acredita que é no encontro com o outro que o processo de revelação de quem somos acontece,
+                    ponto de partida para o autoconhecimento.
+                </p>
+                <br>
+            </div>
+            <div class="col-sm-6 part part2 col-xs-12 col-md-4 col-lg-4">
+                <!-- Main Heading -->
+                <img src="{{url('images/foto_denise.png') }}" alt="Autoras" style="width: 320px;">
+                <h4 class="margin-top10 text-main-1 font-comfortaa">Denise Aerts</h4>
+                <!-- Text -->
+                <p class="text-grey font-asap margin-top30">
+                    Denise Aerts é médica, doutora em Clínica Médica e pesquisadora em saúde coletiva há mais de 30 anos.
+                    Atua em psicoterapia Ayurveda e aconselhamento védico.
+                    Denise acredita que o autoconhecimento e o autocuidado são os pontos de partida para toda a transformação pessoal e social.
+                </p>
+            </div>
         </div>
     </section>
-	
-	<section class="contact-1 section-padding bg-circle-color">
+
+
+	{{-- <section class="contact-1 section-padding bg-circle-color">
         <div class="container">
             <div class="center-block-3" style="padding-top: 25px;" style="text-align: justify">
                 <!-- main heading -->
@@ -103,8 +141,8 @@
                 </p>
             </div>
         </div>
-    </section>
-	
+    </section> --}}
+
 @push('styles')
 <link rel="stylesheet" href="{{ asset('css/circles.css') }}">
 @endpush

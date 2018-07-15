@@ -1,5 +1,7 @@
 <!-- Contact Section 2 -->
-    <section class="contact-2 section-padding-zero section-top-margin" style="background-color: white;">
+    <section class="content-block-2 text-left">
+      <div class="container">
+      <section class="contact-2 section-padding-zero section-top-margin" style="background-color: white;">
         <!-- left image wrapper part -->
         <div class="part part1 bg-cover-simple"></div>
         <!-- right contact form part -->
@@ -59,9 +61,11 @@
                 </div>
             </div>
         </div>
+      </div>
     </section>
+  </section>
     <!--========== END PROMO BLOCK ==========-->
-	
+
 	@push('scripts')
 <script type="text/javascript" src="{{ asset('assets/plugins/jquery-mask-plugin/jquery.mask.js') }}"></script>
 <script>

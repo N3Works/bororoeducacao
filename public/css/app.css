@@ -1883,9 +1883,9 @@ fieldset[disabled] .s-btn-v1 {
   width: 100%;
   position: relative;
   padding: 60px 0 0 0;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #3baaa7), color-stop(0.32, #80b941), color-stop(0.61, #ed9e1b), color-stop(1, #b91d66));
-  background-image: -webkit-linear-gradient(left, #3baaa7 0%, #80b941 32%, #ed9e1b 61%, #b91d66 100%);
-  background-image: linear-gradient(to right, #3baaa7 0%, #80b941 32%, #ed9e1b 61%, #b91d66 100%);
+  /* background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #3baaa7), color-stop(0.32, #80b941), color-stop(0.61, #ed9e1b), color-stop(1, #b91d66)); */
+  /* background-image: -webkit-linear-gradient(left, #3baaa7 0%, #80b941 32%, #ed9e1b 61%, #b91d66 100%); */
+  /* background-image: linear-gradient(to right, #3baaa7 0%, #80b941 32%, #ed9e1b 61%, #b91d66 100%); */
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff3baaa7,endColorstr=#ffb91d66)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff3baaa7, endColorstr=#ffb91d66);
 }
