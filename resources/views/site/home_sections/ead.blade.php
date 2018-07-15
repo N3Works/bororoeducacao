@@ -1,23 +1,37 @@
     <section class="content-block-2 text-left">
         <div class="container">
 			<!-- main heading -->
-			<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">EAD</h2>
+      <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+        <img class="img-responsive img-center" src="{{url('/images/ead.png')}}" alt=""/>
+      </h2>
 			<!-- sub-text -->
+      <br>
+      <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+        <br>
+        <p class="margin-top15 text-large" style="text-align:justify">
+          <p class="text-large" >
+              Para quem deseja estudar onde e quando quiser, os cursos em EAD da Escola de Curação
+              são uma oportunidade de descobrir a tecnologia para você lidar com as suas emoções
+              com a metodologia Curação.
+          </p>
+          <p class="text-large" >
+  				      As aulas de educação à distância são disponibilizadas em formato de vídeo (plataforma Google Classroom),
+                e contam com material de apoio complementar para o estudo.
+          </p>
+
+  				<p class="text-large" >
+            <b>Carga Horária</b>
             <br>
-            <p class="margin-top30 text-large" style="text-align:center">
-                <p>Para quem deseja estudar onde e quando quiser, os cursos em EAD da Escola de Curação são uma oportunidade de descobrir a tecnologia para você lidar com as suas emoções com a metodologia Curação.</p>
+  				  Variável de acordo com a temática do curso
+  				</p>
 
-				<p>As aulas de educação à distância são disponibilizadas em formato de vídeo (plataforma Google Classroom), e contam com material de apoio complementar para o estudo.</p>
+  				<p class="text-large" >
+            <b>Docentes</b>
+            <br>
+  				  Denise Aerts e Christiane Ganzo
+  				</p>
+      </p>
 
-				<p><b>Carga Horária</b><br>
-				Variável de acordo com a temática do curso
-				</p>
-				
-				<p><b>Docentes</b><br>
-				Denise Aerts e Christiane Ganzo
-				</p>
-            </p>
-			
 			<div class="box-circles">
                 <div class="circle circle-construcao-felicidade">
                     <span class="aux">Diferencial</span>
@@ -39,7 +53,7 @@
                     <span class="aux">Pré-requisitos</span>
                     <div class="hidden-content hidden-content-b">
                         <p class="margin-top30 text-large">
-                            O único pré-requisito para os cursos da Escola de Curação em EAD é o desejo de desenvolver autoconhecimento, independente de qualquer outro fator. 
+                            O único pré-requisito para os cursos da Escola de Curação em EAD é o desejo de desenvolver autoconhecimento, independente de qualquer outro fator.
 							<br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
                         </p>
                     </div>
@@ -48,7 +62,7 @@
             </div>
         </div>
     </section>
-	
+
 	@push('styles')
 <link rel="stylesheet" href="{{ asset('theme/css/owl-carousel.css') }}">
 <style type="text/css">

@@ -1,19 +1,26 @@
-
-
-    <section class="content-block-2 text-left">
-        <div class="container">
+   <section class="content-block-2 text-left">
+     <div class="container">
 			<!-- main heading -->
-			<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">Mentoria</h2>
-			<!-- sub-text -->
-            <br>
-            <p class="margin-top30 text-large" style="text-align:center">
-                Nossa mentoria tem como objetivo o aprofundamento da "compreensão" do Método Curação. Ela é direcionada para aqueles que desejam esclarecer dúvidas sobre a tecnologia e sua aplicação.
-Com ela  você poderá conversar online e ao vivo com as autoras do método, Christiane Ganzo e Denise Aerts.
-São 60 minutos de mentoria, com data e horário previamente agendados. Saiba <a href="http://bororo25.com.br/loja/" target="_blank"><b>mais aqui</b></a>.
+        <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+          <img class="img-responsive img-center" src="{{url('/images/mentoria.png')}}" alt=""/>
+        </h2>
+      <!-- sub-text -->
+        <br>
+        <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+        <br>
+          <p class="margin-top15 text-large" style="text-align:justify">
+            <p class="text-large" >
+              Nossa mentoria tem como objetivo o aprofundamento da "compreensão" do Método Curação.
+              Ela é direcionada para aqueles que desejam esclarecer dúvidas sobre a tecnologia e sua aplicação.
+              Com ela você poderá conversar online e ao vivo com as autoras do método, Christiane Ganzo e Denise Aerts.
+              São 60 minutos de mentoria, com data e horário previamente agendados.
+            </p>
+            <p class="text-large" >
+               Saiba <a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>mais aqui</b></a>.
             </p>
         </div>
     </section>
-	
+
 	@push('styles')
 <link rel="stylesheet" href="{{ asset('theme/css/owl-carousel.css') }}">
 <style type="text/css">

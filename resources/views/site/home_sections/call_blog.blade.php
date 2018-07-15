@@ -1,7 +1,9 @@
 <section class="blog-card-small content-block-9 section-top-margin">
 	<div class="container">
+		<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+	    <img class="img-responsive img-center" src="{{url('/images/noticias.png')}}" alt=""/>
+	  </h2>
 	  <div class="center-block-1">
-            <h3 class="font-comfortaa">Notícias</h3>
             <p class="margin-top30 font-asap text-extra-large">
                 Viver bem é curar-se o tempo todo, todo o tempo!
             </p>
@@ -37,7 +39,7 @@
 								</div>
 							</div>
 						@endif
-					
+
 					@endforeach
 				@endif
 			</div>
@@ -118,7 +120,7 @@ $('#theCarousePosts .item').each(function(){
     next = $(this).siblings(':first');
   }
   next.children(':first-child').clone().appendTo($(this));
-  
+
   if (next.next().length>0) {
     next.next().children(':first-child').clone().appendTo($(this));
   } else {

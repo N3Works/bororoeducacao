@@ -8,31 +8,34 @@
     <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
             <br>
             <p class="margin-top15 text-large" style="text-align:center">
-                <p>O <b>Método Curação</b> nasceu de nossas vivências e estudos, tendo sido publicado, em seis livros, a partir de 2008.
+                <p class="text-large" >
+                  O <b>Método Curação</b> nasceu de nossas vivências e estudos, tendo sido publicado, em seis livros, a partir de 2008.
                   Utilizando como base teórica a filosofia e a psicanálise, sistematizamos a observação dos processos de cura vividos
                   por muitas pessoas acompanhadas por nós.</p>
 
-                <p>O <b>Método Curação</b> é uma prática de <b>autoanálise</b> e de <b>ação</b> que traz a instrução de que a cura
+                <p class="text-large" >
+                  O <b>Método Curação</b> é uma prática de <b>autoanálise</b> e de <b>ação</b> que traz a instrução de que a cura
                   emocional se dá pela escolha e realização de ações curativas.
                   É uma <b>tecnologia</b> de gestão das emoções composta por uma rede conceitual <a href=""  style="color:blue"> link noticias1 </a>,
                    uma estrutura <a href="" style="color:blue"> link noticias2 </a>
                    e dinâmicas <a href=""  style="color:blue"> link noticias3</a>.
                  </p>
 
-                <p>Curação significa <b>a arte de SE fazer feliz</b>, a arte de bem cuidar-se. Curação contém duas fortes proposições:
+                <p class="text-large" >
+                  Curação significa <b>a arte de SE fazer feliz</b>, a arte de bem cuidar-se. Curação contém duas fortes proposições:
                   cura e ação. Cura evoca cuidado, estando intrinsecamente associada à ação. Não existe ação fora do presente.
                   O presente é o único tempo em que vivemos, em que cuidamos de nós. É no presente que agimos. A ação é sempre no agora.
                   Ideias sem ação são potências amputadas, energias em estado latente.<br>
                 </p>
-                <p>
-                   Cada pessoa é responsável pelo seu próprio viver. Porém, muitas vezes, não reconhecemos essa autoria e não nos
+                <p class="text-large" >
+                  Cada pessoa é responsável pelo seu próprio viver. Porém, muitas vezes, não reconhecemos essa autoria e não nos
                    responsabilizamos por nossas ações, deixando de desfrutar do único lugar que nos cabe: o centro de nossas vidas.
                    No caminho da promoção da saúde emocional, é fundamental a desconstrução de toda e qualquer idealização sobre
                    quem somos, sobre os outros e sobre os fatos de nossa vida. A idealização nos impede de acolher o possível,
                    o que existe e, com ele, construir nossa felicidade possível.
 
                 </p>
-                <p>
+                <p  class="text-large" >
                   O Método Curação é uma caixinha de ferramentas de alfabetização emocional <a href="" style="color:blue"> link noticias4 </a> para que você
                   assuma o protagonismo de sua vida de forma saudável. Saiba mais no Libreto 3, da Série A Arte de Se
                   Fazer Feliz. <a href="<link dos livros na loja>"  style="color:blue"> Link dos livros da loja </a>

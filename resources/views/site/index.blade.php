@@ -29,8 +29,9 @@
 
     <!-- End Success Message -->
     @endif
+<div id="container_inicio">
     @include('site.home_sections.inicio')
-
+</div>
 	<div id="container_quem_somos">
 		@include('site.home_sections.quem_somos')
 	</div>
@@ -39,7 +40,9 @@
 	</div>
 
 	<div class="container">
-		<h3>Serviços</h3>
+    <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+      <img class="img-responsive img-center" src="{{url('/images/servicos.png')}}" alt=""/>
+    </h2>
 	</div>
 	<div id="container_curacao_voce">
 		@include('site.home_sections.curacao_voce')
@@ -53,7 +56,9 @@
 
 
 	<div class="container">
-		<h3>Produtos</h3>
+    <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+      <img class="img-responsive img-center" src="{{url('/images/produtos.png')}}" alt=""/>
+    </h2>
 	</div>
 	<div id="container-ead">
 		@include('site.home_sections.ead')

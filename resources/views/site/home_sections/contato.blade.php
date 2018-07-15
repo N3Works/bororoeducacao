@@ -1,17 +1,20 @@
 <!-- Contact Section 2 -->
     <section class="content-block-2 text-left">
       <div class="container">
-      <section class="contact-2 section-padding-zero section-top-margin" style="background-color: white;">
+        <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+          <img class="img-responsive img-center" src="{{url('/images/contato.png')}}" alt=""/>
+        </h2>
+      <section class="contact-2 section-padding-zero section-top-margin" style="background-color: white; margin-left: 25px; margin-right: 25px;">
         <!-- left image wrapper part -->
         <div class="part part1 bg-cover-simple"></div>
         <!-- right contact form part -->
-        <div class="part part2" style="background-color: white;">
-            <div class="main-wrapper just-center">
+        <div class="part part2" style="background-color: white; ">
+            <div class="main-wrapper just-center" style="width:auto; min-width:450px">
                 <!-- main heading and sub-text -->
                 <div class="center-block-1">
                     <h3 class="text-main-2 font-josefin">Fale Conosco</h3>
-                    <p class="subtext font-hind margin-top20">
-                        Entre em contato através do e-mail ou telefone <br>falecom@bororoeducacao.com.br | (51) 99994.9917
+                    <p class="font-hind margin-top20 text-large" style="text-align:center">
+                        Entre em contato através do e-mail ou telefone <br> falecom@escoladecuracao.com.br | (51) 99994.9917
                     </p>
                     @if (session('message'))
                         <div style="display: block; border-radius: 20px; background-color: rgba(0, 109, 0, 0.4);">

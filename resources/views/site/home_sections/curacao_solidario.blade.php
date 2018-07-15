@@ -1,18 +1,28 @@
-    <section class="content-block-2 text-left">
-        <div class="container">
+  <section class="content-block-2 text-left">
+    <div class="container">
 			<!-- main heading -->
-			<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">Curação solidário</h2>
+      <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+        <img class="img-responsive img-center" src="{{url('/images/curacao_solidario.png')}}" alt=""/>
+      </h2>
+
 			<!-- sub-text -->
-            <br>
-            <p class="margin-top30 text-large" style="text-align:center">
-                Curação Solidário é o nosso espaço de partilha de saberes. Há três anos iniciamos esta história com um projeto que visa dar suporte a instituições beneficentes e sem fins lucrativos. 
-				Nosso primeiro trabalho, neste segmento, foi com a Aldeia da Fraternidade, que há mais de 50 anos auxilia crianças e adolescentes em situação de vulnerabilidade social. Tem sido uma trajetória inspiradora com os colaboradores da Aldeia.
-				 
-				Conheça essa história! <a href="https://youtu.be/pgzuxMJTuTI" target="_blank"><b>https://youtu.be/pgzuxMJTuTI</b></a>
-            </p>
+      <br>
+      <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+        <p class="margin-top30 text-large" style="text-align:justify">
+            Curação Solidário é o nosso espaço de partilha de saberes. Há três anos iniciamos esta
+            história com um projeto que visa dar suporte a instituições beneficentes e sem fins lucrativos.
+        </p>
+        <p class="margin-top30 text-large" style="text-align:justify">
+            Nosso primeiro trabalho, neste segmento, foi com a Aldeia da Fraternidade, que há mais de 50 anos
+            auxilia crianças e adolescentes em situação de vulnerabilidade social. Tem sido uma trajetória
+            inspiradora com os colaboradores da Aldeia.
+        </p>
+        <p class="margin-top30 text-large" style="text-align:justify">
+            Conheça essa história! <a href="https://youtu.be/pgzuxMJTuTI" target="_blank"><b>https://youtu.be/pgzuxMJTuTI</b></a>
+        </p>
         </div>
     </section>
-	
+
 @push('styles')
 <link rel="stylesheet" href="{{ asset('theme/css/owl-carousel.css') }}">
 <style type="text/css">

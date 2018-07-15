@@ -13,15 +13,24 @@
     <section class="content-block-2 text-left" style="padding-top: 0 !important; margin-top:-20px !important;">
 			<!-- sub-text -->
       <div class="container" style="background-image: url({{url('/images/quem_somos_fundo.png')}}); padding-top: 0 !important;">
-        <div class="center-block-3">
+        <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
           <p class="margin-top30 text-large" style="text-align:justify">
-              Inicialmente, demos o nome de Bororó25 a nossa escola inspiradas no endereço onde o espaço foi fundado e o Método Curação nasceu: rua Bororó nº 25, em Porto Alegre. Foi lá onde toda esta história começou em agosto de 2007. (link para editora)</p>
-          <p class="margin-top30 text-large" style="text-align:justify">
-              No entanto, durante o percurso, o Método Curação ganhou o mundo ultrapassando fronteiras e sendo conhecido em território nacional e internacional. Por esse motivo, pensamos que faria muito mais sentido nossa escola levar o nome Curação. Essa palavra foi inventada por nós e reúne duas potentes ideias: cura e ação, lembrando a cada um de nós que a saúde emocional é produzida por meio de ações. Assim, nasceu a Escola de Curação. </p>
-          <p class="margin-top30 text-large" style="text-align:justify">
-              Nosso desejo é contribuir para a alfabetização emocional, para que cada pessoa desenvolva suas habilidades emocionais com autonomia para o bem viver! Acreditamos que o conhecimento produz autoconhecimento que é o ponto de partida da transformação pessoal e social. </p>
-          <p class="margin-top30 text-large" style="text-align:justify">
-              Temos como objetivos oferecer ferramentas de gestão emocional - Método Curação - para que cada um construa sua Felicidade Possível e contribuir para o enriquecimento da experiência de autoconhecimento. É em função disso que disponibilizamos diferentes meios para a aprendizagem como livros, e-books, workshops presenciais e cursos EAD-, estabelecendo parcerias com empresas, instituições e organizações. </p>
+              <p class="text-large">
+                Inicialmente, demos o nome de Bororó25 a nossa escola inspiradas no endereço onde o espaço foi
+                fundado e o Método Curação nasceu: rua Bororó nº 25, em Porto Alegre. Foi lá onde toda esta história
+                começou em agosto de 2007. (link para editora)
+              </p>
+              <p class="text-large" >
+                  No entanto, durante o percurso, o Método Curação ganhou o mundo ultrapassando fronteiras e sendo conhecido em território nacional e internacional. Por esse motivo, pensamos que faria muito mais sentido nossa escola levar o nome Curação. Essa palavra foi inventada por nós e reúne duas potentes ideias: cura e ação, lembrando a cada um de nós que a saúde emocional é produzida por meio de ações. Assim, nasceu a Escola de Curação.
+              </p>
+              <p class="text-large" >
+                  Nosso desejo é contribuir para a alfabetização emocional, para que cada pessoa desenvolva suas habilidades emocionais com autonomia para o bem viver! Acreditamos que o conhecimento produz autoconhecimento que é o ponto de partida da transformação pessoal e social.
+              </p>
+              <p class="text-large">
+                  Temos como objetivos oferecer ferramentas de gestão emocional - Método Curação - para que cada um construa sua Felicidade Possível e contribuir para o enriquecimento da experiência de autoconhecimento. É em função disso que disponibilizamos diferentes meios para a aprendizagem como livros, e-books, workshops presenciais e cursos EAD-, estabelecendo parcerias com empresas, instituições e organizações.
+              </p>
+          </p>
+          <br>
        </div>
     </div>
     </section>

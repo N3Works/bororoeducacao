@@ -1,18 +1,27 @@
     <section class="content-block-2 text-left">
-        <div class="container">
-			<!-- main heading -->
-			<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">Curação para você</h2>
+      <div class="container">
+        <!-- main heading -->
+        <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+          <img class="img-responsive img-center" src="{{url('/images/curacao_para_voce.png')}}" alt=""/>
+        </h2>
 			<!-- sub-text -->
-            <br>
-            <p class="margin-top30 text-large" style="text-align:center">
-                As ferramentas para a alfabetização emocional com base no Método Curação estão disponíveis em nossos <a href="http://bororo25.com.br/loja/livros.html" target="_blank"><b>livros</b></a>, <a href="#container-ead"><b>cursos em EAD</b></a> ou presenciais, workshops, além da vivência do trabalho emocional junto a um profissional com conhecimento do método <a href="#container-noticias"><b>NOTICIA</b></a>. É importante ressaltar que este trabalhado pode ser feito individualmente, em família ou casal ou grupos de análise. Vai de cada um escolher qual o melhor caminho a seguir para o seu autoconhecimento.
-				<p>Trabalho individual (alterar foto)</p>
-				<p>Trabalhos com famílias e casais (alterar foto)</p>
-				<p>Grupos de Análise e Autoconhecimento (alterar foto)</p>
-            </p>
+        <br>
+        <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+          <br>
+            <p class="margin-top15 text-large" style="text-align:justify">
+                <p class="text-large">As ferramentas para a alfabetização emocional com base no Método Curação estão disponíveis em nossos
+                  <a href="http://bororo25.com.br/loja/livros.html" target="_blank"><b>livros</b></a>, <a href="#container-ead">
+                  <b>cursos em EAD</b></a> ou presenciais, workshops, além da vivência do trabalho emocional junto a um profissional
+                   com conhecimento do método <a href="#container-noticias"><b>NOTICIA</b></a>.
+                   É importante ressaltar que este trabalhado pode ser feito individualmente, em família ou casal ou grupos de análise.
+                   Vai de cada um escolher qual o melhor caminho a seguir para o seu autoconhecimento. </p>
+				     <p class="text-large" style="color: red">Trabalho individual (alterar foto*****)</p>
+				     <p class="text-large" style="color: red">Trabalhos com famílias e casais (alterar foto*****)</p>
+				     <p class="text-large" style="color: red">Grupos de Análise e Autoconhecimento (alterar foto*****)</p>
+          </p>
         </div>
     </section>
-	
+
 	@push('styles')
 <link rel="stylesheet" href="{{ asset('theme/css/owl-carousel.css') }}">
 <style type="text/css">

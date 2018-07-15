@@ -1,46 +1,53 @@
 <!-- Price Table Style 4 -->
 <section class="books-1 ">
-		
+
     <div class="container">
-	
+
         <!-- main heading -->
-        <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">Livros</h2>
+				<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+          <img class="img-responsive img-center" src="{{url('/images/livros.png')}}" alt=""/>
+        </h2>
+
         <!-- sub-text -->
         <div class="row">
-            <br><br>
             <div class="col-md-12">
-                <p class="margin-top30 text-large">
-                    A Editora Bororó25 nasceu do desejo de compartilhar nossos escritos mantendo a autonomia editorial. Nossa movimentação solitária num universo tão desconhecido foi desafiadora. Hoje, o que temos produzido e distribuído dentro deste site tem por nós um valor inestimável na guerrilha da educação para a saúde emocional. Os livros oferecem ferramentas para que cada pessoa trilhe seu caminho de gestão das emoções.
-                </p>
-                <p class="margin-top30 text-large">
-                    A editora tem seis títulos publicados
-                </p>
+							<!-- sub-text -->
+								<br>
+								<div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+									<br>
+									<p class="margin-top15 text-large" style="text-align:justify">
+										<p class="text-large" >
+                    	A Editora Bororó25 nasceu do desejo de compartilhar nossos escritos mantendo a autonomia editorial. Nossa movimentação solitária num universo tão desconhecido foi desafiadora. Hoje, o que temos produzido e distribuído dentro deste site tem por nós um valor inestimável na guerrilha da educação para a saúde emocional. Os livros oferecem ferramentas para que cada pessoa trilhe seu caminho de gestão das emoções.
+                    </p>
+                		<p class="text-large" >
+                    	A editora tem seis títulos publicados:
+                	  </p>
+								  </p>
 
-                <div class="left-block-3 margin-top20"  style="padding-left: 20px;" >
-                    <ul class = "text-large" style="list-style-type:circle; padding-bottom:5px;">
-                      <b>
-                        <li> A Vida como ela é para cada um de nós; </li>
-                        <li> Curação: a arte de bem cuidar-se; </li>
-                        <li> A Felicidade Possível; </li>
-                        <li> Série pocket com 3 libretos: A arte de SE fazer feliz. </li>
-                      </b>
-                    </ul>
-                </div>
-				
-				<p class="margin-top30 text-large">Veja mais em nossa loja virtual <i class="fa fa-arrow-right"></i>
-					 <a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>http://escoladecuracao.com.br/loja/</b></a>
-				</p>
-				
-				<p class="margin-top30 text-large">Convide um amigo! 
-					 <i class="fa fa-facebook-square fa-2x"></i>
-					 <i class="fa fa-linkedin-square fa-2x"></i>
-					 <i class="fa fa-twitter-square fa-2x"></i>
-				</p>
-				
-				
-            </div>
+	                <div class="left-block-3 margin-top20"  style="padding-left: 20px;" >
+	                    <ul class = "text-large" style="list-style-type:circle; padding-bottom:5px;">
+	                      <b>
+	                        <li style="padding-bottom:5px;"> A Vida como ela é para cada um de nós; </li>
+	                        <li style="padding-bottom:5px;"> Curação: a arte de bem cuidar-se; </li>
+	                        <li style="padding-bottom:5px;"> A Felicidade Possível; </li>
+	                        <li style="padding-bottom:5px;"> Série pocket com 3 libretos: A arte de SE fazer feliz. </li>
+	                      </b>
+	                    </ul>
+	                </div>
 
-        </div>
+									<p class="margin-top30 text-large">Veja mais em nossa loja virtual <i class="fa fa-arrow-right"></i>
+										 <a href="http://escoladecuracao.com.br/loja/" target="_blank"><b> Acessar! </b></a>
+									</p>
+
+									<p class="margin-top30 text-large">Convide um amigo!
+										 <a href = "https://www.facebook.com/escoladecuracao/"> <i class="fa fa-facebook-square fa-2x"></i> </a>
+										 <a href = "https://www.instagram.com/escoladecuracao/"> <i class="fa fa-linkedin-square fa-2x"></i> </a>
+										 {{-- <a href = "https://www.linkedin.com/company/escola-curacao/"> <i class="fa fa-instagram"></i> </a> --}}
+									</p>
+									<br>
+							</div>
+      			</div>
+    			</div>
         <div class="all-details">
             <!-- price table -->
             <div class="col-sm-3 foo">

@@ -1,15 +1,30 @@
     <section class="content-block-2 text-left">
         <div class="container">
 			<!-- main heading -->
-			<h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">Curação empresas</h2>
+      <h2 class="letter-spacing0 font-comfortaa text-center foo text-main-1">
+        <img class="img-responsive img-center" src="{{url('/images/curacao_empresas.png')}}" alt=""/>
+      </h2>
 			<!-- sub-text -->
             <br>
-            <p class="margin-top30 text-large" style="text-align:center">
-                A gestão das emoções é uma potente ferramenta de mudança nos ambientes profissionais. O autoconhecimento é um diferencial competitivo no mercado de trabalho. Conhecendo suas capacidades e limitações, as pessoas se tornam mais habilitadas a encontrar soluções criativas e eficazes para enfrentar os desafios no ambiente empresarial. O autoconhecimento amplia o desempenho de cada profissional e permite a construção do significado existencial no trabalho. 
-				Colaboradores que atuam de forma comprometida consigo, com sua equipe e com a empresa alcançam, de forma mais eficaz, propósitos, metas e objetivos da organização. Quanto mais próximo do trabalho for o propósito de vida do ser humano, mais feliz ele será e, consequentemente, melhor profissional.
-				Por este motivo, desenvolvemos a TGE - Tecnologia de Gestão das Emoções – um conjunto inovador de técnicas e conceitos que oferece aos gestores e as suas equipes ferramentas de autoconhecimento para a construção de sentido existencial do trabalho e para a construção da Felicidade Possível nos ambientes corporativos.
+            <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+              <br>
+                <p class="margin-top15 text-large" style="text-align:center">
+                   <p class="text-large">A gestão das emoções é uma potente ferramenta de mudança nos ambientes profissionais.
+                     O autoconhecimento é um diferencial competitivo no mercado de trabalho. Conhecendo suas
+                     capacidades e limitações, as pessoas se tornam mais habilitadas a encontrar soluções
+                     criativas e eficazes para enfrentar os desafios no ambiente empresarial. O autoconhecimento
+                     amplia o desempenho de cada profissional e permite a construção do significado existencial
+                     no trabalho. </p>
+				           <p class="text-large">Colaboradores que atuam de forma comprometida consigo, com sua equipe e com a empresa alcançam,
+                      de forma mais eficaz, propósitos, metas e objetivos da organização. Quanto mais próximo do trabalho
+                      for o propósito de vida do ser humano, mais feliz ele será e, consequentemente, melhor profissional. </p>
+				           <p class="text-large"  >Por este motivo, desenvolvemos a TGE - Tecnologia de Gestão das Emoções – um conjunto inovador
+                     de técnicas e conceitos que oferece aos gestores e as suas equipes ferramentas de autoconhecimento
+                     para a construção de sentido existencial do trabalho e para a construção da Felicidade Possível
+                     nos ambientes corporativos.</p>
             </p>
-			
+            <br>
+
 			<div class="box-circles">
                 <div class="circle circle-construcao-felicidade">
                     <span class="aux">Comprometimento</span>
@@ -23,7 +38,7 @@
                     <span class="aux">Criatividade</span>
                     <div class="hidden-content">
                         <p class="margin-top30 text-large">
-                            A criatividade é o exercício da potência criativa <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>Acesse a loja</b></a>. O autoconhecimento alimenta a potência criativa, a capacidade produtiva e a inovação. 
+                            A criatividade é o exercício da potência criativa <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>Acesse a loja</b></a>. O autoconhecimento alimenta a potência criativa, a capacidade produtiva e a inovação.
                         </p>
                     </div>
                 </div>
@@ -37,11 +52,18 @@
                 </div>
                 <div class="circle circle-curacao-2"></div>
             </div>
-			
-			<p class="margin-top30 text-large" style="text-align:center">
-			<b>Capacitar pessoas</b> é ofertar conhecimento para que cada um possa aprender sobre si próprio; para que saiba quem é, o que almeja na vida e qual o significado existencial de sua atividade profissional.
-			A aplicação da Tecnologia de Gestão das Emoções (TGE) nas empresas tem como propósito construir relações entre autoconhecimento, produtividade e felicidade no trabalho.
-			Por meio deste serviço atendemos organizações que buscam investir em seus colaboradores. Nossas atividades de capacitação são planejadas de acordo com as necessidades da empresa e o aprimoramento do currículo emocional do colaborador, inspiradas na visão de empresa-caleidoscópica. Podem ser oferecidas em temas específicos ou módulos customizados.
+
+			<p class="margin-top30 text-large" style="text-align:justify">
+			     <b>Capacitar pessoas</b> é ofertar conhecimento para que cada um possa aprender sobre si próprio;
+           para que saiba quem é, o que almeja na vida e qual o significado existencial de sua atividade profissional.
+			     A aplicação da Tecnologia de Gestão das Emoções (TGE) nas empresas tem como propósito construir relações
+           entre autoconhecimento, produtividade e felicidade no trabalho.
+			     Por meio deste serviço atendemos organizações que buscam investir em seus colaboradores.
+      </p>
+      <p class="margin-top30 text-large" style="text-align:justify">
+          Nossas atividades de capacitação são planejadas de acordo com as necessidades da empresa e o aprimoramento
+          do currículo emocional do colaborador, inspiradas na visão de empresa-caleidoscópica. Podem ser oferecidas
+          em temas específicos ou módulos customizados.
 			</p>
 			<br>
 			<div class="grid-item col-md-6">
@@ -116,7 +138,7 @@
                              class="img-circle">
                     </div>
                     <p class="margin-top30 text-large">
-                        Grupo de discussão sobre a TGE e sua relação com o trabalho. A partir do estudo de conceitos e técnicas, é desenvolvida a reflexão sobre o autoconhecimento e sua aplicabilidade no ambiente empresarial. 
+                        Grupo de discussão sobre a TGE e sua relação com o trabalho. A partir do estudo de conceitos e técnicas, é desenvolvida a reflexão sobre o autoconhecimento e sua aplicabilidade no ambiente empresarial.
                     </p>
                 </div>
             </div>
@@ -130,28 +152,28 @@
                              class="img-circle">
                     </div>
                     <p class="margin-top30 text-large">
-                        Fragmentos de filmes interpretados e discutidos à luz dos conceitos da TGE. Uma reflexão filosófica do cotidiano, das relações e do universo empresarial pelo olhar da arte do cinema. 
+                        Fragmentos de filmes interpretados e discutidos à luz dos conceitos da TGE. Uma reflexão filosófica do cotidiano, das relações e do universo empresarial pelo olhar da arte do cinema.
                     </p>
                 </div>
             </div>
         </div>
-		
+
 		<div class="container">
 			<div class="grid-item col-md-12 centered">
 				<div class="box" data-parallax='{"y" : 50}'>
 					<h4 class="font-comfortaa text-main-1 text-center">
 						Como contratar
 					</h4>
-					<p class="margin-top30 text-large">
+					<p class="margin-top30 text-large" style="text-align:justify">
 						A Curação Empresas vai até você, ou se preferir, temos um espaço perfeito para receber a sua equipe.
 						<a href="#container-contato"><b>Entre em contato</b></a>
 					</p>
 				</div>
 			</div>
 		</div>
-			
+
     </section>
-	
+
 	@push('styles')
 <link rel="stylesheet" href="{{ asset('theme/css/owl-carousel.css') }}">
 <style type="text/css">
