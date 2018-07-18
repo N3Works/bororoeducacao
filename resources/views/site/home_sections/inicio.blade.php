@@ -48,10 +48,16 @@
                             <div class="col-md-10 just-center">
                                 <!-- image with play button at middle -->
                                 <figure>
-                                    <img class="img-responsive img-center main-img"
-                                         src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>
-                                    <a href="https://www.youtube.com/watch?v=U3bwL8lILoY" class="popup-video play-button">
-                                        <span class="fa fa-play-circle bttn-scale"></span>
+                                    <!-- <img class="img-responsive img-center main-img"
+                                         src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>  -->
+									<a href="http://escoladecuracao.com.br/loja" 
+                                        <img class="img-responsive img-center main-img"
+                                             src="{{url('/images/banner_comprar_ead_loja.png')}} alt=""/>										 
+									</a>
+										 
+										 
+                                    <!-- <a href="https://www.youtube.com/watch?v=U3bwL8lILoY" class="popup-video play-button">
+                                        <span class="fa fa-play-circle bttn-scale"></span> -->
                                     </a>
                                 </figure>
                             </div>
