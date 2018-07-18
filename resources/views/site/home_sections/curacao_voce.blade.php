@@ -15,13 +15,16 @@
                    com conhecimento do método <a href="#container-noticias"><b>NOTICIA</b></a>.
                    É importante ressaltar que este trabalhado pode ser feito individualmente, em família ou casal ou grupos de análise.
                    Vai de cada um escolher qual o melhor caminho a seguir para o seu autoconhecimento. </p>
-				     <img class="img-responsive img-center" src="{{url('/images/trabalho_individual.png')}}" alt=""/>
+				     <br>
+					 <p class="text-large" style="color: red">Trabalho individual</p>
+					 <img class="img-responsive img-center" src="{{url('/images/trabalho_individual.png')}}" alt=""/>
+					 <br>
+					 <p class="text-large" style="color: red">Trabalhos com famílias e casais </p>
 					 <img class="img-responsive img-center" src="{{url('/images/trabalho_familias.png')}}" alt=""/>
+					 <br>
+					 <p class="text-large" style="color: red">Grupos de Análise e Autoconhecimento </p>
 					 <img class="img-responsive img-center" src="{{url('/images/trabalho-emocional/analise.jpg')}}" alt=""/>
-					 <!-- <p class="text-large" style="color: red">Trabalho individual</p>
-				     <p class="text-large" style="color: red">Trabalhos com famílias e casais (alterar foto*****)</p>
-				     <p class="text-large" style="color: red">Grupos de Análise e Autoconhecimento (alterar foto*****)</p>
-					 -->
+					 
           </p>
         </div>
     </section>

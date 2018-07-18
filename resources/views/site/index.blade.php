@@ -1,18 +1,18 @@
 @extends('layouts.app')
 
 @push('metatags')
-<title>Bororó 25</title>
-<meta content="Bororó 25 | Bororó 25 é um espaço de produção de saúde" name="title">
-<meta content="Bororó 25 é um espaço de produção de saúde" name="description">
-<meta name="author" content="dowhile.com.br">
-<meta name="keywords" content="bororo, bororó 25, espaço, produção, saúde">
+<title>Escola de CurAção</title>
+<meta content="Escola de CurAção" name="title">
+<meta content="Escola de CurAção é um espaço de produção de saúde" name="description">
+<meta name="author" content="n3works.com.br">
+<meta name="keywords" content="curação, curacao, escola, saúde">
 
 <meta property='og:type' content='website'>
-<meta property="og:title" content="Bororó 25">
-<meta property="og:url" content="http://www.bororo25.com.br">
-<meta property="og:description" content="Bororó 25 é um espaço de produção de saúde">
-<meta property="og:site_name" content="Bororó 25 | Bororó 25 é um espaço de produção de saúde ">
-<meta property="og:image" content="http://bororo25.com/images/share.jpg">
+<meta property="og:title" content="Escola de CurAção">
+<meta property="og:url" content="http://www.escoladecuracao.com.br">
+<meta property="og:description" content="Escola de CurAção é um espaço de produção de saúde">
+<meta property="og:site_name" content="Escola de CurAção">
+<meta property="og:image" content="http://escoladecuracao.com/images/share.jpg">
 <meta property="og:locale" content="pt_BR">
 @endpush
 

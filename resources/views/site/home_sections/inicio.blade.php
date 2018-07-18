@@ -50,10 +50,10 @@
                                 <figure>
                                     <!-- <img class="img-responsive img-center main-img"
                                          src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>  -->
-									<a href="http://escoladecuracao.com.br/loja" 
+									
                                         <img class="img-responsive img-center main-img"
-                                             src="{{url('/images/banner_comprar_ead_loja.png')}} alt=""/>										 
-									</a>
+                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt=""/>										 
+									
 										 
 										 
                                     <!-- <a href="https://www.youtube.com/watch?v=U3bwL8lILoY" class="popup-video play-button">
@@ -70,10 +70,11 @@
                         </h3>
                         <!-- subtext -->
                         <p class="font-asap text-white">
-                            Conheça o método desenvolvido pela Bororó25
+                            Conheça o método desenvolvido pela Escola de curação
                         </p>
-                        <!-- button -->
-                        <a href="{{ route('site.about_metodo_curacao') }}"
+                        <!-- button 
+						"{{ route('site.about_metodo_curacao') }}" -->
+                        <a href=  "http://escoladecuracao.com.br/loja"  
                            class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a>
                     </div>
                 </div>
@@ -106,7 +107,7 @@
                             Conheça a agenda de eventos para os próximos meses
                         </p>
                         <!-- button -->
-                        <a href="{{ route('site.events') }}"
+                        <a href="#container-agenda"
                            class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a>
                     </div>
                 </div>
