@@ -6,6 +6,7 @@
 <meta content="Escola de CurAção é um espaço de produção de saúde" name="description">
 <meta name="author" content="n3works.com.br">
 <meta name="keywords" content="curação, curacao, escola, saúde">
+<meta name="google-site-verification" content="t7N6zD5SISz6lCCIrFj6Cq7hqVI6A7Rymt6LgFZ_s0Q" />
 
 <meta property='og:type' content='website'>
 <meta property="og:title" content="Escola de CurAção">
