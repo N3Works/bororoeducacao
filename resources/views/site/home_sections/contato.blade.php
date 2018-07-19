@@ -6,7 +6,7 @@
         </h2>
       <section class="contact-2 section-padding-zero section-top-margin" style="background-color: white; margin-left: 25px; margin-right: 25px;">
         <!-- left image wrapper part -->
-        <div class="part part1 bg-cover-simple"></div>
+        <div class="part part1 bg-cover-simple" style="background-color: white; background: #222222 url({{url('/images/Contato_fundo.jpg')}});">></div>
         <!-- right contact form part -->
         <div class="part part2" style="background-color: white; ">
             <div class="main-wrapper just-center" style="width:auto; min-width:450px">
