@@ -50,12 +50,12 @@
                                 <figure>
                                     <!-- <img class="img-responsive img-center main-img"
                                          src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>  -->
-									
+
                                         <img class="img-responsive img-center main-img"
-                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt=""/>										 
-									
-										 
-										 
+                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt=""/>
+
+
+
                                     <!-- <a href="https://www.youtube.com/watch?v=U3bwL8lILoY" class="popup-video play-button">
                                         <span class="fa fa-play-circle bttn-scale"></span> -->
                                     </a>
@@ -72,9 +72,9 @@
                         <p class="font-asap text-white">
                             Conheça o método desenvolvido pela Escola de curação
                         </p>
-                        <!-- button 
-						"{{ route('site.about_metodo_curacao') }}" -->
-                        <a href=  "http://escoladecuracao.com.br/loja"  
+                        {{-- <!-- button
+						"{{ route('site.about_metodo_curacao') }}" --> --}}
+                        <a href=  "http://escoladecuracao.com.br/loja"
                            class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a>
                     </div>
                 </div>
@@ -88,10 +88,16 @@
                             <div class="col-md-10 just-center">
                                 <!-- image with play button at middle -->
                                 <figure>
-                                    <img class="img-responsive img-center main-img"
+                                    {{-- <img class="img-responsive img-center main-img"
                                          src="https://i.ytimg.com/vi/04QcvRJJoGM/maxresdefault.jpg" alt=""/>
                                     <a href="https://www.youtube.com/watch?v=04QcvRJJoGM" class="popup-video play-button">
-                                        <span class="fa fa-play-circle bttn-scale"></span>
+                                        <span class="fa fa-play-circle bttn-scale"></span> --}}
+
+                                        <a href="https://www.youtube.com/watch?v=U3bwL8lILoY" class="popup-video play-button">
+                                          <img class="img-responsive img-center main-img"
+                                               src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>
+                                                 <span class="fa fa-play-circle bttn-scale"></span>
+
                                     </a>
                                 </figure>
                             </div>
@@ -99,15 +105,23 @@
                     </div>
                     <div class="col-md-6 col-sm-8 col-xs-10">
                         <!-- main heading -->
-                        <h3 class="letter-spacing0 font-comfortaa text-white">
+                        {{-- <h3 class="letter-spacing0 font-comfortaa text-white">
                             Uma agenda para construir <span class="text-white font-w600">sua felicidade</span>
                         </h3>
                         <!-- subtext -->
                         <p class="font-asap text-white">
                             Conheça a agenda de eventos para os próximos meses
-                        </p>
+                        </p> --}}
                         <!-- button -->
-                        <a href="#container-agenda"
+                        <!-- main heading -->
+                        <h3 class="letter-spacing0 font-comfortaa text-white">
+                            Equação da <span class="text-white font-w600">felicidade possível</span>
+                        </h3>
+                        <!-- subtext -->
+                        <p class="font-asap text-white">
+                            Conheça o método desenvolvido pela Escola de curação
+                        </p>
+                        <a href="#container_metodo_curacao"
                            class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a>
                     </div>
                 </div>
