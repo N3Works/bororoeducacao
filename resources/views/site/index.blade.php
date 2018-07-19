@@ -18,21 +18,10 @@
 @endpush
 
 @section('content')
-    @if (session('message'))
-    <!-- Success Message -->
-
-        <div id="registered-message" style="z-index: 1; display: block; padding: 20px; position: absolute; top: 100px; left: 30%; background-color: rgba(0, 109, 0, 0.4);">
-          <span>
-            <p class="subtext font-hind" style="color: #FFF;">{{ session('title') }}</p>
-            <p class="subtext font-hind" style="color: #FFF;">{{ session('message') }}</p>
-          </span>
-        </div>
-
-    <!-- End Success Message -->
-    @endif
-<div id="container_inicio">
-    @include('site.home_sections.inicio')
-</div>
+    
+	<div id="container_inicio">
+		@include('site.home_sections.inicio')
+	</div>
 	<div id="container_quem_somos" style="padding-top: 50px; ">
 		@include('site.home_sections.quem_somos')
 	</div>
