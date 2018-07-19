@@ -1,12 +1,12 @@
 <!-- Hero Header Style 9 -->
 {{-- <section class="section-padding hero-header-9 bg-cover-simple" style="background-image: url(/images/lanterna_pagina_inicial_credito.jpg);"> --}}
 {{-- <section class="section-padding hero-header-9 bg-cover-simple" style="background-image: url({{url('/images/lanterna_pagina_inicial_credito.jpg')}})"> ; --}}
-<section class="content-block-3 text-left" style="background-image: url({{url('/images/lanterna_pagina_inicial_credito.jpg')}})">
+<section class="content-block-3 text-left">
     <div id="hero-header-9">
         <div class="slide slide-1">
             <div class="container">
                 <div class="row all-details-wrapper">
-                    <div class="col-md-6 col-sm-8 col-xs-10">
+                    <div class="col-md-8 col-sm-8 col-xs-10">
                         <div class="row">
                             <div class="col-md-10 just-center">
                                 <!-- image with play button at middle -->
@@ -25,13 +25,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-8 col-xs-10">
+                    <div class="col-md-4 col-sm-8 col-xs-10">
                         <!-- main heading -->
-                        <h3 class="letter-spacing0 font-comfortaa text-white">
-                            Autoconhecimento para a construção da <span class="text-white font-w600">felicidade possível</span>
+                        <h3 class="letter-spacing0 font-comfortaa">
+                            Autoconhecimento para a construção da <span class="font-w600">felicidade possível</span>
                         </h3>
                         <!-- subtext -->
-                        <p class="font-asap text-white">
+                        <p class="font-asap">
                             Coragem, disciplina e vigor na arte de SE fazer feliz
                         </p>
                         <!-- button -->
@@ -43,7 +43,7 @@
         <div class="slide slide-2">
             <div class="container">
                 <div class="row all-details-wrapper">
-                    <div class="col-md-6 col-sm-8 col-xs-10">
+                    <div class="col-md-8 col-sm-8 col-xs-10">
                         <div class="row">
                             <div class="col-md-10 just-center">
                                 <!-- image with play button at middle -->
@@ -63,13 +63,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-8 col-xs-10">
+                    <div class="col-md-4 col-sm-8 col-xs-10">
                         <!-- main heading -->
-                        <h3 class="letter-spacing0 font-comfortaa text-white">
-                            Equação da <span class="text-white font-w600">felicidade possível</span>
+                        <h3 class="letter-spacing0 font-comfortaa ">
+                            Equação da <span class=" font-w600">felicidade possível</span>
                         </h3>
                         <!-- subtext -->
-                        <p class="font-asap text-white">
+                        <p class="font-asap ">
                             Conheça o método desenvolvido pela Escola de curação
                         </p>
                         {{-- <!-- button
@@ -83,7 +83,7 @@
         <div class="slide slide-3">
             <div class="container">
                 <div class="row all-details-wrapper">
-                    <div class="col-md-6 col-sm-8 col-xs-10">
+                    <div class="col-md-8 col-sm-8 col-xs-10">
                         <div class="row">
                             <div class="col-md-10 just-center">
                                 <!-- image with play button at middle -->
@@ -103,22 +103,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-8 col-xs-10">
+                    <div class="col-md-4 col-sm-8 col-xs-10">
                         <!-- main heading -->
-                        {{-- <h3 class="letter-spacing0 font-comfortaa text-white">
-                            Uma agenda para construir <span class="text-white font-w600">sua felicidade</span>
+                        {{-- <h3 class="letter-spacing0 font-comfortaa ">
+                            Uma agenda para construir <span class=" font-w600">sua felicidade</span>
                         </h3>
                         <!-- subtext -->
-                        <p class="font-asap text-white">
+                        <p class="font-asap ">
                             Conheça a agenda de eventos para os próximos meses
                         </p> --}}
                         <!-- button -->
                         <!-- main heading -->
-                        <h3 class="letter-spacing0 font-comfortaa text-white">
-                            Equação da <span class="text-white font-w600">felicidade possível</span>
+                        <h3 class="letter-spacing0 font-comfortaa ">
+                            Equação da <span class=" font-w600">felicidade possível</span>
                         </h3>
                         <!-- subtext -->
-                        <p class="font-asap text-white">
+                        <p class="font-asap ">
                             Conheça o método desenvolvido pela Escola de curação
                         </p>
                         <a href="#container_metodo_curacao"
@@ -130,8 +130,8 @@
     </div>
     <!-- Carousel Arrows - Prev/Next -->
     <div class="carousel-arrows">
-        <a href="#0" class="prev-feature left bttn-scale"><i class="ti-angle-left"></i></a>
-        <a href="#0" class="next-feature right bttn-scale"><i class="ti-angle-right"></i></a>
+        <a href="#0" class="prev-feature left bttn-scale" style="font-size: 50px;"><i class="ti-angle-left"></i></a>
+        <a href="#0" class="next-feature right bttn-scale" style="font-size: 50px;"><i class="ti-angle-right"></i></a>
     </div>
 </section>
 
