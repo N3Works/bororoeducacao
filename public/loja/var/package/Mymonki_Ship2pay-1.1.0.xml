@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mymonki_Ship2pay</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Shows payment methods depending on shipping method.</summary>
+    <description>Module that limits the number of payment options depending on the chosen shipping method. For example When my client chooses pickup at store he should not be able to select bank transfer</description>
+    <notes>- added ability to select delivery method and not only the delivery company. Now UPS Standard and UPS Express can have different payment methods.</notes>
+    <authors><author><name>Pawe&#x142;</name><user>krzaczek</user><email>pawel@freshmind.pl</email></author></authors>
+    <date>2012-04-25</date>
+    <time>10:54:11</time>
+    <contents><target name="magelocale"><dir name="pl_PL"><file name="Mymonki_Ship2pay.csv" hash="7723347de6de6068f8d8b6b9fa227a15"/></dir></target><target name="magecommunity"><dir name="Mymonki"><dir name="Ship2pay"><dir name="Block"><dir name="Adminhtml"><file name="Ship2pay.php" hash="de741f53018f738f032a970982e59f35"/></dir><dir name="Onepage"><dir name="Payment"><file name="Methods.php" hash="a5638284f2ae6696adf2882886ec9a4d"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="657f06adda0a4d27606fbfa9de5c4a8e"/></dir><dir name="Model"><file name="Ship2pay.php" hash="14a17e4d4ef83622e40d81e6b770736d"/><dir name="System"><dir name="Config"><dir name="Backend"><dir name="Serialized"><file name="Ship2pay.php" hash="1da7e1d823c9f22f003a20d41e272a66"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="b8982d58ae06f2abbf5c6fa38976da5a"/><file name="system.xml" hash="4b152022408b4881422ac3d347ea7d9f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mymonki_Ship2pay.xml" hash="7faf6630d1abba5fb960ece11c1c1c12"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.0</max></php></required></dependencies>
+</package>
