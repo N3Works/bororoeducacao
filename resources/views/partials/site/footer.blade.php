@@ -30,7 +30,7 @@
           <a href="https://www.facebook.com/escoladecuracao/" target="_blank"><span class="ti-facebook"></span>Facebook</a>
           <a href="https://www.instagram.com/escoladecuracao/" target="_blank"><span class="ti-instagram"></span>Instagram</a>
           <a href="https://www.linkedin.com/company/escola-curacao/" target="_blank"><span class="ti-linkedin"></span>LinkedIn</a>
-          <a href="https://www.youtube.com/user/escoladecuracao" target="_blank"><span class="ti-youtube"></span>Youtube</a>
+          {{-- <a href="https://www.youtube.com/user/escoladecuracao" target="_blank"><span class="ti-youtube"></span>Youtube</a> --}}
         </div>
       </div>
       <!-- About info -->
