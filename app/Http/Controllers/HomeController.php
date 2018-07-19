@@ -85,8 +85,7 @@ class HomeController extends Controller
         ]);
 
 
-        return redirect()
-            ->route('site.contact')
+        return redirect('/#container-contato')
             ->with([
                 'title' => 'Obrigado!',
                 'message' => 'Sua mensagem foi enviada com sucesso. Nós vamos entrar em contato em breve!']);
