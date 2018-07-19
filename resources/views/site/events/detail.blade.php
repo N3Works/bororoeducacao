@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('metatags')
-<title>{{ $model->title }}</title>
+<title>{{ isset($model->title) ? $model->title : 'Sem titulo' }}</title>
 <meta content="{{ $model->title }}" name="title">
 <meta content="{{ $model->description_seo }}" name="description">
 <meta name="author" content="dowhile.com.br">
@@ -29,7 +29,7 @@
             <img class="img-center img-responsive foo" src="/uploads/courses/{{ $model->cover_img }}"
                  alt="{{ $model->title }}">
             <!-- main heading -->
-            <h3 class="margin-top50 font-playfair">{{ $model->title }}</h3>
+            <h3 class="margin-top50 font-playfair">{{ isset($model->title) ? $model->title : 'Sem titulo' }}</h3>
             <!-- main info -->
             <div class="margin-top30 font-hind center-block-1 text-large">
                 {!! $model->content !!}

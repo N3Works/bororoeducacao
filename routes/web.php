@@ -37,11 +37,11 @@ Route::get('/quem-somos/carta-manifesto', ['as' => 'site.about_carta_manifesto',
 Route::get('/quem-somos/coletivo/{id}', ['as' => 'site.about_coletivo_detail', 'uses' => 'AboutController@coletivo_detail']);
 
 Route::get('/agenda-de-eventos', ['as' => 'site.events', 'uses' => 'EventController@index']);
-Route::get('/agenda-de-eventos/{slug}', ['as' => 'site.events.detail', 'uses' => 'EventController@detail']);
+Route::get('/agenda-de-eventos/{id}', ['as' => 'site.events.detail', 'uses' => 'EventController@detail']);
 Route::post('/agenda-de-eventos/{slug}', ['as' => 'site.events.save', 'uses' => 'EventController@save']);
 
 Route::get('/blog', ['as' => 'site.blog', 'uses' => 'BlogController@index']);
-Route::get('/blog/{slug}', ['as' => 'blog.post', 'uses' => 'BlogController@detail']);
+Route::get('/blog/{id}', ['as' => 'blog.post', 'uses' => 'BlogController@detail']);
 Route::get('/contato', ['as' => 'site.contact', 'uses' => 'HomeController@contact']);
 Route::post('/contato', 'HomeController@send');
 Route::get('/conteudo', 'HomeController@content');

@@ -36,9 +36,9 @@ class EventController extends Controller
         ]);
     }
 
-    public function detail($slug)
+    public function detail($id)
     {
-        $event = Course::where('slug', $slug)->first();
+        $event = Course::where('id', $id)->first();
 
         return view('site.events.detail', [
             'model' => $event

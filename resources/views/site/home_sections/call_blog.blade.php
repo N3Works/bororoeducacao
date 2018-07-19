@@ -17,7 +17,7 @@
 						@if(!$key)
 							<div class="item active">
 								<div class="col-xs-4">
-									<a href="{{ url('/blog/'.$post->slug) }}">
+									<a href="{{ url('/blog/'.$post->id) }}">
 										<div style="width: 200px; height: 200px;">
 											<span class="subh-basic-dark">Evento em {{ $post->publish_at->format('d/m/Y') }}</span>
 												<h6>{{ $post->title }}</h6>
@@ -29,7 +29,7 @@
 						@else
 							<div class="item">
 								<div class="col-xs-4">
-									<a href="{{ url('/blog/'.$post->slug) }}">
+									<a href="{{ url('/blog/'.$post->id) }}">
 										<div style="width: 200px; height: 200px;">
 											<span class="subh-basic-dark">Evento em {{ $post->publish_at->format('d/m/Y') }} </span>
 												<h6>{{ $post->title }}</h6>

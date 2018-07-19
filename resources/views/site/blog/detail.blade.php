@@ -47,11 +47,11 @@
                     <ul class="mod-pagination move-buttons custom-icons">
 						
                         @if ($last)
-                            <li class="button"><a href="{{ url('/blog/'. $last->slug) }}">Artigo Anterior</a></li>
+                            <li class="button"><a href="{{ url('/blog/'. $last->id) }}">Artigo Anterior</a></li>
                         @endif
 
                         @if ($next)
-                            <li class="button"><a href="{{ url('/blog/'. $next->slug) }}">Proximo Artigo</a></li>
+                            <li class="button"><a href="{{ url('/blog/'. $next->id) }}">Proximo Artigo</a></li>
                         @endif
                     </ul>
                 </div>

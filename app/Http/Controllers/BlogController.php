@@ -67,9 +67,9 @@ class BlogController extends Controller
         return view('site.blog.index', compact('posts', 'offset', 'count', 'last', 'tags'));
     }
 
-    public function detail(Request $req, $slug)
+    public function detail(Request $req, $id)
     {
-        $model = Post::where('slug', $slug)->first();
+        $model = Post::where('id', $id)->first();
 
         $last = Post::where([
             ['is_active', '=', '1'],
