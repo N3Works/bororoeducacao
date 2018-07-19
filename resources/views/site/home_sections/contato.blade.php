@@ -27,7 +27,7 @@
                 </div>
                 <!-- form goes here -->
                 <div class="clearfix">
-                    <form id="contact-2" method="POST" action="/contato" class="placeholder-light margin-top50">
+                    <form id="contact-2" method="POST" action="{{ url('/contato') }}" class="placeholder-light margin-top50">
                         {{ csrf_field() }}
 
                         <div class="col-md-6">

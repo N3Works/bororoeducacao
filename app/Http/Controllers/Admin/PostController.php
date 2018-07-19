@@ -131,15 +131,15 @@ class PostController extends Controller
         }
 
         $tags = explode(',', $req->input('post_tags'));
-        $stags = [];
-        foreach ($tags as $tag) {
-            $stags[] = new Tag([
-                'name' => $tag
-            ]);
-        }
+        //$stags = [];
+        //foreach ($tags as $tag) {
+        //    $stags[] = new Tag([
+        //        'name' => $tag
+        //    ]);
+        //}
 
         // $model->tags()->insert($stags);
-        $model->tags()->saveMany($stags);
+        //$model->tags()->saveMany($stags);
         $model->save();
     }
 

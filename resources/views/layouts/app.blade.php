@@ -66,8 +66,8 @@
 <script src="{{ asset('theme/js/smartmenu.script.js') }}"></script>
 <script src="{{ asset('theme/js/jquery.matchHeight-min.js') }}"></script>
 <script src="{{ asset('theme/js/bootstrap.min.js') }}"></script>
-<script src="/js/app.js"></script>
-<script src="/js/util.js"></script>
+<script src="{{ asset('/js/app.js') }}"></script>
+<script src="{{ asset('/js/util.js') }}"></script>
 
 {!! Rapyd::scripts() !!}
 @stack('scripts')

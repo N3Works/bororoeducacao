@@ -95,7 +95,7 @@
         <script type="text/javascript" src="{{ asset('assets/plugins/easypiechart/jquery.easypiechart.js')}}"></script>
         <script type="text/javascript" src="{{ asset('assets/plugins/fullcalendar/moment.min.js')}}"></script>
         <script type="text/javascript" src="{{ asset('assets/plugins/fullcalendar/fullcalendar.min.js')}}"></script>
-        <script src="/js/util.js"></script>
+        <script src="{{ asset('/js/util.js') }}"></script>
         
         <script type="text/javascript">
             // TODO: Passar para um arquivo separado
