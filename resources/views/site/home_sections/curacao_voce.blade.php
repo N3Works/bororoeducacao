@@ -16,17 +16,59 @@
                    É importante ressaltar que este trabalhado pode ser feito individualmente, em família ou casal ou grupos de análise.
                    Vai de cada um escolher qual o melhor caminho a seguir para o seu autoconhecimento. </p>
 				     <br>
-					 <p class="text-large" style="color: red">Trabalho individual</p>
+
+        </div>
+        <div class="grid-item col-md-6">
+             <div class="box" data-parallax='{"y" : -50}'>
+               <h4 class="font-comfortaa text-main-1 text-center">
+                 Trabalho individual
+               </h4>
+               <div class="col-md-12 text-center image-parallax">
+                 <img src="{{url('/images/trabalho_individual.png')}}" alt=" Trabalho individual" class="img-circle" style="max-height: 270px;">
+               </div>
+               <p class="margin-top30 text-large text-center">
+                 -
+              </p>
+            </div>
+           </div>
+           <div class="grid-item col-md-6">
+              <div class="box" data-parallax='{"y" : 50}'>
+                  <h4 class="font-comfortaa text-main-1 text-center">
+                      Trabalho com famílias e casais
+                  </h4>
+                  <div class="col-md-12 text-center image-parallax">
+                      <img src="{{url('/images/trabalho_familias.png')}}" alt="Cursos Bororó25" class="img-circle" style="max-height: 270px;">
+                  </div>
+                  <p class="margin-top30 text-large text-center">
+                      -
+                  </p>
+              </div>
+          </div>
+          <div class="grid-item col-md-6">
+                  <div class="box" data-parallax='{"y" : -50}'>
+                      <h4 class="font-comfortaa text-main-1 text-center">
+                          Grupos de Análise e Autoconhecimento
+                      </h4>
+                      <div class="col-md-12 text-center image-parallax">
+                          <img src="{{url('/images/Grupo_de_Facilitacao.jpg')}}" alt="Workshops Bororó25" class="img-circle" style="max-height: 300px;">
+                      </div>
+                      <p class="margin-top30 text-large text-center">
+                          -
+                      </p>
+                  </div>
+              </div>
+           {{-- <p class="text-large" style="color: red">Trabalho individual</p>
 					 <img class="img-responsive img-center" src="{{url('/images/trabalho_individual.png')}}" alt=""/>
 					 <br>
 					 <p class="text-large" style="color: red">Trabalhos com famílias e casais </p>
 					 <img class="img-responsive img-center" src="{{url('/images/trabalho_familias.png')}}" alt=""/>
 					 <br>
 					 <p class="text-large" style="color: red">Grupos de Análise e Autoconhecimento </p>
-					 <img class="img-responsive img-center" src="{{url('/images/trabalho-emocional/analise.jpg')}}" alt=""/>
-					 
-          </p>
-        </div>
+					 <img class="img-responsive img-center" src="{{url('/images/Grupo_de_Facilitacao.jpg')}}" alt=""/> --}}
+
+
+         </p>
+     </div>
     </section>
 
 	@push('styles')
