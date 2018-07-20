@@ -6,9 +6,9 @@
         <div class="slide slide-1">
             <div class="container">
                 <div class="row all-details-wrapper">
-                    <div class="col-md-8 col-sm-8 col-xs-10">
+                    <div class="col-md-12 col-sm-12 col-xs-12 col-offset-6 centered">
                         <div class="row">
-                            <div class="col-md-10 just-center">
+                            <div class="col-md-12 just-center">
                                 <!-- image with play button at middle -->
                                 {{-- <figure>
                                     <img class="img-responsive img-center main-img"
@@ -18,14 +18,14 @@
                                     </a>
                                 </figure> --}}
                                 <figure>
-                                    <img class="img-responsive img-center main-img"
-                                         src="{{url('/images/banner_carta_manifesto.png')}}" alt=""/>
-
+                                      <img class="img-responsive img-center main-img img-fluid"
+                                           src="{{url('/images/banner_carta_manifesto.png')}}" alt="" style=" height: -webkit-fill-available !important;    max-height: 550px"/>
                                 </figure>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-8 col-xs-10">
+                    <div class="clearfix"></div>
+                    {{-- <div class="col-md-4 col-sm-8 col-xs-10">
                         <!-- main heading -->
                         <h3 class="letter-spacing0 font-comfortaa">
                             Autoconhecimento para a construção da <span class="font-w600">felicidade possível</span>
@@ -36,23 +36,23 @@
                         </p>
                         <!-- button -->
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
         <div class="slide slide-2">
             <div class="container">
                 <div class="row all-details-wrapper">
-                    <div class="col-md-8 col-sm-8 col-xs-10">
+                    <div class="col-md-12 col-sm-12 col-xs-12 col-offset-6 centered">
                         <div class="row">
-                            <div class="col-md-10 just-center">
+                            <div class="col-md-12 just-center">
                                 <!-- image with play button at middle -->
                                 <figure>
                                     <!-- <img class="img-responsive img-center main-img"
                                          src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>  -->
 
                                         <img class="img-responsive img-center main-img"
-                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt=""/>
+                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt="" style=" height: -webkit-fill-available !important; ax-height: 460px"/>
 
 
 
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-8 col-xs-10">
+                    {{-- <div class="col-md-4 col-sm-8 col-xs-10">
                         <!-- main heading -->
                         <h3 class="letter-spacing0 font-comfortaa ">
                             Equação da <span class=" font-w600">felicidade possível</span>
@@ -72,38 +72,60 @@
                         <p class="font-asap ">
                             Conheça o método desenvolvido pela Escola de curação
                         </p>
-                        {{-- <!-- button
-						"{{ route('site.about_metodo_curacao') }}" --> --}}
-                        <a href=  "http://bororo25.com.br/loja"
+                        <!-- button
+						"{{ route('site.about_metodo_curacao') }}" -->
+                        <a href=  "http://escoladecuracao.com.br/loja"
                            class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
         <div class="slide slide-3">
             <div class="container">
                 <div class="row all-details-wrapper">
-                    <div class="col-md-8 col-sm-8 col-xs-10">
+                    <div class="col-md-12 col-sm-12 col-xs-12 col-offset-6 centered">
                         <div class="row">
-                            <div class="col-md-10 just-center">
+                            <div class="col-md-12 just-center" style="position: relative;
+                                                                margin: auto;
+                                                                cursor:pointer;
+                                                                -webkit-border-radius: 4px;
+                                                                -moz-border-radius: 4px;
+                                                                border-radius: 4px;">
                                 <!-- image with play button at middle -->
-                                <figure>
+                                <figure >
                                     {{-- <img class="img-responsive img-center main-img"
                                          src="https://i.ytimg.com/vi/04QcvRJJoGM/maxresdefault.jpg" alt=""/>
                                     <a href="https://www.youtube.com/watch?v=04QcvRJJoGM" class="popup-video play-button">
                                         <span class="fa fa-play-circle bttn-scale"></span> --}}
 
-                                        <a href="https://www.youtube.com/watch?v=U3bwL8lILoY" class="popup-video play-button">
-                                          <img class="img-responsive img-center main-img"
-                                               src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>
-                                                 <span class="fa fa-play-circle bttn-scale"></span>
+                                            {{-- <span class="glyphicon glyphicon-play" aria-hidden="true"></span> --}}
 
-                                    </a>
+
+                                          <img class="img-responsive img-center main-img"
+                                               src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""
+                                               style="display: block; height: -webkit-fill-available;   max-height: 550px"
+                                               />
+
+                                        <a href="https://www.youtube.com/watch?v=U3bwL8lILoY" class="popup-video play-button">
+                                        <div id="post-video-overlay-lg" style="position: absolute;
+                                                         top:0;
+                                                         left:0;
+                                                         font-size: 72px;
+                                                         color: #E5E5E5;
+                                                         text-align: center;
+                                                         width: 100%;
+                                                         height: 100%;">
+                                                  <span class="fa fa-play-circle" style="position: absolute;
+                                                       top:50%;
+                                                       left:50%;
+                                                       transform:translate(-50%, -50%);"></span>
+                                        </div>
+                                  </a>
                                 </figure>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-8 col-xs-10">
+                    {{-- <div class="col-md-4 col-sm-8 col-xs-10"> --}}
                         <!-- main heading -->
                         {{-- <h3 class="letter-spacing0 font-comfortaa ">
                             Uma agenda para construir <span class=" font-w600">sua felicidade</span>
@@ -114,7 +136,7 @@
                         </p> --}}
                         <!-- button -->
                         <!-- main heading -->
-                        <h3 class="letter-spacing0 font-comfortaa ">
+                        {{-- <h3 class="letter-spacing0 font-comfortaa ">
                             Equação da <span class=" font-w600">felicidade possível</span>
                         </h3>
                         <!-- subtext -->
@@ -122,14 +144,14 @@
                             Conheça o método desenvolvido pela Escola de curação
                         </p>
                         <a href="#container_metodo_curacao"
-                           class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a>
-                    </div>
+                           class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a> --}}
+                    {{-- </div> --}}
                 </div>
             </div>
         </div>
     </div>
     <!-- Carousel Arrows - Prev/Next -->
-    <div class="carousel-arrows">
+    <div class="carousel-arrows" style="padding-top: 10px">
         <a href="#0" class="prev-feature left bttn-scale" style="font-size: 50px;"><i class="ti-angle-left"></i></a>
         <a href="#0" class="next-feature right bttn-scale" style="font-size: 50px;"><i class="ti-angle-right"></i></a>
     </div>
