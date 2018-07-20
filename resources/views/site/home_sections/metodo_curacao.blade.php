@@ -86,7 +86,7 @@
                 <div class="hidden-content hidden-content-b">
                     <p class="margin-top30 text-large">
                         Quem estamos sendo muda na presença de cada pessoa e de cada fato de nossas vidas. O objeto do Método Curação é quem a pessoa está sendo a cada momento. Isso não é percebido em sua totalidade, dada a regência da inconsciência sobre o viver. Saiba mais em Libreto 3, aforismos 7 e 8.
-          <br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
+          <br><span class="text-center"><a href="http://bororo25.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
                     </p>
                 </div>
             </div>

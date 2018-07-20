@@ -36,7 +36,7 @@
 	                </div>
 
 									<p class="margin-top30 text-large">Veja mais em nossa loja virtual <i class="fa fa-arrow-right"></i>
-										 <a href="http://escoladecuracao.com.br/loja/" target="_blank"><b> Acessar! </b></a>
+										 <a href="http://bororo25.com.br/loja/" target="_blank"><b> Acessar! </b></a>
 									</p>
 
 									<p class="margin-top30 text-large">Convide um amigo!

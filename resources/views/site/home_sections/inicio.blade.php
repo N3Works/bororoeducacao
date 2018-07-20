@@ -74,7 +74,7 @@
                         </p>
                         {{-- <!-- button
 						"{{ route('site.about_metodo_curacao') }}" --> --}}
-                        <a href=  "http://escoladecuracao.com.br/loja"
+                        <a href=  "http://bororo25.com.br/loja"
                            class="bttn bttn-main-1 bttn-scale bttn-small margin-top30 bttn75 bttn-shadow letter-spacing2">Saiba mais</a>
                     </div>
                 </div>
