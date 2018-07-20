@@ -70,7 +70,8 @@
                 </ul>
             </li>
             <li>
-                <a href="http://escoladecuracao.com.br/loja" target="_blank">Loja Virtual</a>
+                {{-- <a href="http://escoladecuracao.com.br/loja" target="_blank">Loja Virtual</a> --}}
+                <a href="http://bororo25.com.br/loja" target="_blank">Loja Virtual</a>
             </li>
             <li>
                 <a href="#container-contato">Contato</a>
