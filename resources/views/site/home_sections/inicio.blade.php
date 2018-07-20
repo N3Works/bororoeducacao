@@ -52,7 +52,7 @@
                                          src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>  -->
 
                                         <img class="img-responsive img-center main-img"
-                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt="" style=" height: -webkit-fill-available !important; ax-height: 460px"/>
+                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt="" style=" height: -webkit-fill-available !important; max-height: 460px"/>
 
 
 
