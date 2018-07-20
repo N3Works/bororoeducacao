@@ -42,7 +42,7 @@
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[sysdba]]></username>
-                    <password><![CDATA[databasecuracao888]]></password>
+                    <password><![CDATA[Databasecuracao888]]></password>
                     <dbname><![CDATA[bororo2502]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
