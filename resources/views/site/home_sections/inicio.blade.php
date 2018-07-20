@@ -19,7 +19,7 @@
                                 </figure> --}}
                                 <figure>
                                       <img class="img-responsive img-center main-img img-fluid"
-                                           src="{{url('/images/banner_carta_manifesto.png')}}" alt="" style=" height: -webkit-fill-available !important;    max-height: 550px; margin-bottom: -1px !important; "/>
+                                           src="{{url('/images/banner_carta_manifesto.png')}}" alt="" style="    max-height: 550px; margin-bottom: -1px !important; "/>
                                 </figure>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                                          src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""/>  -->
 
                                         <img class="img-responsive img-center main-img"
-                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt="" style=" height: -webkit-fill-available !important; max-height: 460px; margin-bottom: -1px !important;"/>
+                                             src="{{url('/images/banner_comprar_ead_loja.png')}}" alt="" style="  max-height: 460px; margin-bottom: -1px !important;"/>
 
 
 
@@ -103,7 +103,7 @@
 
                                           <img class="img-responsive img-center main-img"
                                                src="https://i.ytimg.com/vi/U3bwL8lILoY/maxresdefault.jpg" alt=""
-                                               style="display: block; height: -webkit-fill-available;   max-height: 550px; margin-bottom:-1px !important;"
+                                               style="display: block;    max-height: 550px; margin-bottom:-1px !important;"
                                                />
 
                                         <a href="https://www.youtube.com/watch?v=U3bwL8lILoY" class="popup-video play-button">
