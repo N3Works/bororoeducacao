@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="circle circle-valores-pessoais">
-                <span class="aux">Pauta</span>
+              <span class="aux">Pauta</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
                         A pauta do Método Curação é o desejo consciente do sujeito de SE fazer feliz. O rigor da pauta é definido pela subordinação das vontades ao desejo maior: SE fazer feliz, sem a utilização de atalhos. Pautado por suas verdades, a pessoa será capaz de construir sua felicidade possível. Saiba mais em Libreto 3, aforismos 11 e 12.

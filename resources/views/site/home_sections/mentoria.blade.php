@@ -6,7 +6,7 @@
         </h2>
       <!-- sub-text -->
         <br>
-        <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+        <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered" style="text-align:justify">
         <br>
           <p class="margin-top15 text-large" style="text-align:justify">
             <p class="text-large" >

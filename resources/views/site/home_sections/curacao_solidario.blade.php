@@ -7,17 +7,17 @@
 
 			<!-- sub-text -->
       <br>
-      <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
-        <p class="margin-top30 text-large" style="text-align:justify">
+      <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered" style="text-align:justify">
+        <p class="margin-top30 text-large" style="text-align:justify; margin-right: 1em; margin-left: 1em;">
             Curação Solidário é o nosso espaço de partilha de saberes. Há três anos iniciamos esta
             história com um projeto que visa dar suporte a instituições beneficentes e sem fins lucrativos.
         </p>
-        <p class="margin-top30 text-large" style="text-align:justify">
+        <p class="margin-top30 text-large" style="text-align:justify; margin-right: 1em; margin-left: 1em">
             Nosso primeiro trabalho, neste segmento, foi com a Aldeia da Fraternidade, que há mais de 50 anos
             auxilia crianças e adolescentes em situação de vulnerabilidade social. Tem sido uma trajetória
             inspiradora com os colaboradores da Aldeia.
         </p>
-        <p class="margin-top30 text-large" style="text-align:justify">
+        <p class="margin-top30 text-large" style="text-align:justify; margin-right: 1em; margin-left: 1em">
             Conheça essa história! <a href="https://youtu.be/pgzuxMJTuTI" target="_blank"><b>https://youtu.be/pgzuxMJTuTI</b></a>
         </p>
         </div>
