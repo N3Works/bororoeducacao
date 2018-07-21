@@ -5,7 +5,7 @@
     <div id="hero-header-9">
         <div class="slide slide-1">
             <div class="container">
-                <div class="row all-details-wrapper">
+                <div class="row all-details-wrapper" style= "min-height: 100px; overflow: hidden;">
                     <div class="col-md-12 col-sm-12 col-xs-12 col-offset-6 centered">
                         <div class="row">
                             <div class="col-md-12 just-center">
@@ -19,7 +19,7 @@
                                 </figure> --}}
                                 <figure>
                                       <img class="img-responsive img-center main-img img-fluid"
-                                           src="{{url('/images/banner_carta_manifesto.png')}}" alt="" style="    max-height: 550px; margin-bottom: -1px !important; "/>
+                                           src="{{url('/images/banner_carta_manifesto.png')}}" alt="" style="max-height: 550px; margin-bottom: -1px !important; "/>
                                 </figure>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="slide slide-2">
             <div class="container">
-                <div class="row all-details-wrapper">
+                <div class="row all-details-wrapper" style= "min-height: 100px; overflow: hidden;">
                     <div class="col-md-12 col-sm-12 col-xs-12 col-offset-6 centered">
                         <div class="row">
                             <div class="col-md-12 just-center">
@@ -82,7 +82,7 @@
         </div>
         <div class="slide slide-3">
             <div class="container">
-                <div class="row all-details-wrapper">
+                <div class="row all-details-wrapper" style= "min-height: 100px; overflow: hidden;">
                     <div class="col-md-12 col-sm-12 col-xs-12 col-offset-6 centered">
                         <div class="row">
                             <div class="col-md-12 just-center" style="position: relative;
@@ -169,12 +169,12 @@
         var owl = $('#hero-header-9');
         owl.owlCarousel({
             singleItem: true,
-            autoPlay: true,
+            autoPlay: false,
             navigation: false,
             slideSpeed: 300,
             paginationSpeed: 500,
             rewindSpeed: 400,
-            autoHeight: true,
+            autoHeight: false,
             addClassActive: true,
             afterMove: function() {
                 $('.owl-item.active h1').addClass('animated fadeInUpSmall');
