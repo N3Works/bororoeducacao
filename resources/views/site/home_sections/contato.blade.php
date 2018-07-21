@@ -65,7 +65,7 @@
                             <input type="text" id="phone" name="phone" placeholder="Telefone" required style="margin-bottom: 10px">
                         </div>
                         <div class="col-md-12 col-xs-12">
-                            <label for="message" style="color:#888888;">Mensagem</label>
+                            <label for="message" style="color:#888888;">Mensagem </label>
                             <textarea class="no-margin-bottom" id="message" name="message"
                                       placeholder="Sua mensagem aqui" required style="margin-bottom: 10px"></textarea>
                         </div>
