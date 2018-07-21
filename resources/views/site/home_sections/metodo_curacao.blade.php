@@ -5,7 +5,7 @@
     <img class="img-responsive img-center" src="{{url('/images/barra_metodo_curacao_cinza.png')}}" alt=""/>
   </h2>
   <!-- sub-text -->
-    <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+    <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered" style="text-align:justify">
             <br>
             <p class="margin-top15 text-large" style="text-align:center">
                 <p class="text-large" >
@@ -63,6 +63,7 @@
             </a>
         </div> --}}
     </div>
+    <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered" style="">
     <h2 class="font-comfortaa text-center foo text-main-1" style="background-color: gainsboro; padding-top: 5px;" >
       <div class="box-circles">
             <div class="circle circle-construcao-felicidade">
@@ -77,7 +78,7 @@
                 <span class="aux">Pauta</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
-                        A meta do Método Curação é a construção da felicidade possível para cada sujeito. É a consciência de um SE fazer feliz, com quem eu possa ser enquanto estiver sendo, a cada momento. O rigor da meta é a felicidade incondicional, em oposição à felicidade idealizada. Saiba mais em Libreto 3, aforismos 9 e 10.
+                        A pauta do Método Curação é o desejo consciente do sujeito de SE fazer feliz. O rigor da pauta é definido pela subordinação das vontades ao desejo maior: SE fazer feliz, sem a utilização de atalhos. Pautado por suas verdades, a pessoa será capaz de construir sua felicidade possível. Saiba mais em Libreto 3, aforismos 11 e 12.
                     </p>
                 </div>
             </div>
@@ -93,4 +94,5 @@
             <div class="circle circle-curacao-2"></div>
       </div>
     </h2>
+  </div>
 </section>
