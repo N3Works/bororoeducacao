@@ -6,7 +6,7 @@
         </h2>
 			<!-- sub-text -->
         <br>
-        <div class="center-block-4" style="margin-right: 4em; margin-left: 4em; text-align:justify">
+        <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered" style=" text-align:justify">
           <br>
             <p class="margin-top15 text-large" style="text-align:justify">
                 <p class="text-large">As ferramentas para a alfabetização emocional com base no Método Curação estão disponíveis em nossos
@@ -16,9 +16,9 @@
                    É importante ressaltar que este trabalhado pode ser feito individualmente, em família ou casal ou grupos de análise.
                    Vai de cada um escolher qual o melhor caminho a seguir para o seu autoconhecimento. </p>
 				     <br>
-
+           </p>
         </div>
-        <div class="grid-item col-md-6">
+        <div class="grid-item col-md-12 col-sm-12 col-xs-12 centered">
              <div class="box" data-parallax='{"y" : -50}'>
                <h4 class="font-comfortaa text-main-1 text-center">
                  Trabalho individual
@@ -31,7 +31,7 @@
               </p>
             </div>
            </div>
-           <div class="grid-item col-md-6">
+           <div class="grid-item grid-item col-md-12 col-sm-12 col-xs-12 centered">
               <div class="box" data-parallax='{"y" : 50}'>
                   <h4 class="font-comfortaa text-main-1 text-center">
                       Trabalho com famílias e casais
@@ -44,13 +44,13 @@
                   </p>
               </div>
           </div>
-          <div class="grid-item col-md-6">
+          <div class="grid-item grid-item col-md-12 col-sm-12 col-xs-12 centered" style="padding-top: 30px">
                   <div class="box" data-parallax='{"y" : -50}'>
                       <h4 class="font-comfortaa text-main-1 text-center">
                           Grupos de Análise e Autoconhecimento
                       </h4>
                       <div class="col-md-12 text-center image-parallax">
-                          <img src="{{url('/images/Grupo_de_Facilitacao.jpg')}}" alt="Workshops Bororó25" class="img-circle" style="max-height: 300px;">
+                          <img src="{{url('/images/Grupo_de_Facilitacao.jpg')}}" alt="Workshops Bororó25" class="img-circle" style="max-height: 270px;">
                       </div>
                       <p class="margin-top30 text-large text-center">
                           -
@@ -67,7 +67,7 @@
 					 <img class="img-responsive img-center" src="{{url('/images/Grupo_de_Facilitacao.jpg')}}" alt=""/> --}}
 
 
-         </p>
+
      </div>
     </section>
 
