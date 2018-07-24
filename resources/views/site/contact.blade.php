@@ -82,7 +82,7 @@
                         Agende uma visita: <br>
                         51 3346 6171 <br>
                         51 99692 8185 <br>
-                        contato@bororo25.com.br
+                        falecom@escoladecuracao.com.br
                     </p>
                 </div>
                 <div class="center-block-1 ">

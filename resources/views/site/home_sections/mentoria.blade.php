@@ -16,7 +16,7 @@
               São 60 minutos de mentoria, com data e horário previamente agendados.
             </p>
             <p class="text-large" >
-               Saiba <a href="http://bororo25.com.br/loja/" target="_blank"><b>mais aqui</b></a>.
+               Saiba <a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>mais aqui</b></a>.
             </p>
         </div>
     </section>

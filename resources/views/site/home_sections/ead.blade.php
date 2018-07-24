@@ -54,7 +54,7 @@
                     <div class="hidden-content hidden-content-b">
                         <p class="margin-top30 text-large">
                             O único pré-requisito para os cursos da Escola de Curação em EAD é o desejo de desenvolver autoconhecimento, independente de qualquer outro fator.
-							<br><span class="text-center"><a href="http://bororo25.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
+							<br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
                         </p>
                     </div>
                 </div>

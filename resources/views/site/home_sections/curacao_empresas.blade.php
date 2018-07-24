@@ -39,7 +39,7 @@
                 <span class="aux">Criatividade</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
-                        A criatividade é o exercício da potência criativa <a href="http://bororo25.com.br/loja/livros.html" target="_blank"><b>Acesse a loja</b></a>. O autoconhecimento alimenta a potência criativa, a capacidade produtiva e a inovação.
+                        A criatividade é o exercício da potência criativa <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>Acesse a loja</b></a>. O autoconhecimento alimenta a potência criativa, a capacidade produtiva e a inovação.
                     </p>
                 </div>
             </div>

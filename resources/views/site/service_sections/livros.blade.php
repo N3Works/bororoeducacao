@@ -48,7 +48,7 @@
                     </div>
                     <!-- Purchase Button -->
                     <div style="position: absolute; width: 100%; bottom: 5px; left: 0;  padding: 5px 15px;">
-                        <a href="http://bororo25.com.br/loja/livros" target="_blank" class="purchase bttn-main-1">Visitar
+                        <a href="http://escoladecuracao.com.br/loja/livros" target="_blank" class="purchase bttn-main-1">Visitar
                             loja</a>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     </div>
                     <!-- Purchase Button -->
                     <div style="position: absolute; width: 100%; bottom: 5px; left: 0;  padding: 5px 15px;">
-                        <a href="http://bororo25.com.br/loja/livros/curacao-a-arte-de-bem-cuidar-se.html"
+                        <a href="http://escoladecuracao.com.br/loja/livros/curacao-a-arte-de-bem-cuidar-se.html"
                            target="_blank" class="purchase bttn-main-1">Visitar loja</a>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                     </div>
                     <!-- Purchase Button -->
                     <div style="position: absolute; width: 100%; bottom: 5px; left: 0;  padding: 5px 15px;">
-                        <a href="http://bororo25.com.br/loja/livros/a-felicidade-possivel.html" target="_blank"
+                        <a href="http://escoladecuracao.com.br/loja/livros/a-felicidade-possivel.html" target="_blank"
                            class="purchase bttn-main-1">Visitar loja</a>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                     </div>
                     <!-- Purchase Button -->
                     <div style="margin-top: 15px; width: 100%; bottom: 5px; left: 0;  padding: 5px 15px;">
-                        <a href="http://bororo25.com.br/loja/destaques/a-arte-de-se-fazer-feliz-combo-com-os-3-libretos-box.html"
+                        <a href="http://escoladecuracao.com.br/loja/destaques/a-arte-de-se-fazer-feliz-combo-com-os-3-libretos-box.html"
                            target="_blank" class="purchase bttn-main-1">Visitar loja</a>
                     </div>
                 </div>
