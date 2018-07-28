@@ -17,9 +17,9 @@
 					@foreach($events as $key => $event)
 						@if(!$key)
 							<div class="item active">
-								<div class="col-xs-4">
+								<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
 									<a href="{{ url('/agenda-de-eventos/'.$event->id) }}">
-										<div style="width: 200px; height: 200px;">
+										<div style="width: auto; height: 200px;">
 											<span class="subh-basic-dark">Evento em {{ $event->start_at->format('d/m/Y') }} / {{ $event->end_at->format('d/m/Y') }}</span>
 												<h6>{{ $event->title }}</h6>
 											<span class="article-by">local <span class="author">{{ $event->location }}</span></span>
@@ -29,9 +29,9 @@
 							</div>
 						@else
 							<div class="item">
-								<div class="col-xs-4">
+								<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
 									<a href="{{ url('/agenda-de-eventos/'.$event->id) }}">
-										<div style="width: 200px; height: 200px;">
+										<div style="width: auto; height: 200px;">
 											<span class="subh-basic-dark">Evento em {{ $event->start_at->format('d/m/Y') }} / {{ $event->end_at->format('d/m/Y') }}</span>
 												<h6>{{ $event->title }}</h6>
 											<span class="article-by">local <span class="author">{{ $event->location }}</span></span>

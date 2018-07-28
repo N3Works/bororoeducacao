@@ -35,9 +35,9 @@
 
                 </p>
                 <p  class="text-large" >
-                  O Método Curação é uma caixinha de ferramentas de alfabetização emocional <a href="" style="color:blue"> link noticias4 </a> para que você
-                  assuma o protagonismo de sua vida de forma saudável. Saiba mais no Libreto 3, da Série A Arte de Se
-                  Fazer Feliz. <a href="<link dos livros na loja>"  style="color:blue"> Link dos livros da loja </a>
+                  O Método Curação é uma caixinha de ferramentas de <a href="http://escoladecuracao.com.br/blog/68" style="color:blue">alfabetização emocional</a> para que você
+                  assuma o protagonismo de sua vida de forma saudável. <a href="http://www.escoladecuracao.com.br/loja/"  style="color:blue">Saiba mais</a> no Libreto 3, da Série A Arte de Se
+                  Fazer Feliz.
                </p>
         </p>
 
@@ -62,36 +62,71 @@
             </a>
         </div> --}}
     </div>
-    <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered" style="">
-    <h2 class="font-comfortaa text-center foo text-main-1" style="background-color: gainsboro; padding-top: 5px;" >
-      <div class="box-circles">
-            <div class="circle circle-construcao-felicidade">
-                <span class="aux">Meta</span>
-                <div class="hidden-content">
-                    <p class="margin-top30 text-large">
-                        A meta do Método Curação é a construção da felicidade possível para cada sujeito. É a consciência de um SE fazer feliz, com quem eu possa ser enquanto estiver sendo, a cada momento. O rigor da meta é a felicidade incondicional, em oposição à felicidade idealizada. Saiba mais em Libreto 3, aforismos 9 e 10.
-                    </p>
-                </div>
-            </div>
-            <div class="circle circle-valores-pessoais">
-              <span class="aux">Pauta</span>
-                <div class="hidden-content">
-                    <p class="margin-top30 text-large">
-                        A pauta do Método Curação é o desejo consciente do sujeito de SE fazer feliz. O rigor da pauta é definido pela subordinação das vontades ao desejo maior: SE fazer feliz, sem a utilização de atalhos. Pautado por suas verdades, a pessoa será capaz de construir sua felicidade possível. Saiba mais em Libreto 3, aforismos 11 e 12.
-                    </p>
-                </div>
-            </div>
-            <div class="circle circle-quem-estou-sendo">
-                <span class="aux">Objeto</span>
-                <div class="hidden-content hidden-content-b">
-                    <p class="margin-top30 text-large">
-                        Quem estamos sendo muda na presença de cada pessoa e de cada fato de nossas vidas. O objeto do Método Curação é quem a pessoa está sendo a cada momento. Isso não é percebido em sua totalidade, dada a regência da inconsciência sobre o viver. Saiba mais em Libreto 3, aforismos 7 e 8.
-          <br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
-                    </p>
-                </div>
-            </div>
-            <div class="circle circle-curacao-2"></div>
-      </div>
-    </h2>
-  </div>
+				<div class="hidden-lg hidden-md hidden-sm center-block-4 col-md-12 col-sm-12 col-xs-12 centered">
+				<h2 class="font-comfortaa text-center foo text-main-1" style="background-color: gainsboro; padding-top: 5px;height: 1000px !important;" >
+				  <div class="box-circles">
+						<div class="circle circle-construcao-felicidade" style="height: 444px; width: 311px; left: 5px;">
+							<span class="aux">Meta</span>
+							<div class="hidden-content">
+								<p class="margin-top30 text-large">
+									A meta do Método Curação é a construção da felicidade possível para cada sujeito. É a consciência de um SE fazer feliz, com quem eu possa ser enquanto estiver sendo, a cada momento. O rigor da meta é a felicidade incondicional, em oposição à felicidade idealizada. Saiba mais em Libreto 3, aforismos 9 e 10.
+								</p>
+							</div>
+						</div>
+						<div class="circle circle-valores-pessoais" style="top:285px;right:0;height:444px;width:311px;left: 5px;">
+						  <span class="aux">Pauta</span>
+							<div class="hidden-content">
+								<p class="margin-top30 text-large">
+									A pauta do Método Curação é o desejo consciente do sujeito de SE fazer feliz. O rigor da pauta é definido pela subordinação das vontades ao desejo maior: SE fazer feliz, sem a utilização de atalhos. Pautado por suas verdades, a pessoa será capaz de construir sua felicidade possível. Saiba mais em Libreto 3, aforismos 11 e 12.
+								</p>
+							</div>
+						</div>
+						<div class="circle circle-quem-estou-sendo" style="top:500px;right:0;height:444px;width:311px;left: 5px;margin-left: 0px;">
+							<span class="aux" style="left: 115px;">Objeto</span>
+							<div class="hidden-content hidden-content-b">
+								<p class="margin-top30 text-large">
+									Quem estamos sendo muda na presença de cada pessoa e de cada fato de nossas vidas. O objeto do Método Curação é quem a pessoa está sendo a cada momento. Isso não é percebido em sua totalidade, dada a regência da inconsciência sobre o viver. Saiba mais em Libreto 3, aforismos 7 e 8.
+					  <br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
+								</p>
+							</div>
+						</div>
+						<div class="circle circle-curacao-2"></div>
+				  </div>
+				</h2>
+			  </div>
+			  
+			  
+			  
+			  <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 hidden-xs centered">
+				<h2 class="font-comfortaa text-center foo text-main-1" style="background-color: gainsboro; padding-top: 5px;" >
+				  <div class="box-circles">
+						<div class="circle circle-construcao-felicidade">
+							<span class="aux">Meta</span>
+							<div class="hidden-content">
+								<p class="margin-top30 text-large">
+									A meta do Método Curação é a construção da felicidade possível para cada sujeito. É a consciência de um SE fazer feliz, com quem eu possa ser enquanto estiver sendo, a cada momento. O rigor da meta é a felicidade incondicional, em oposição à felicidade idealizada. Saiba mais em Libreto 3, aforismos 9 e 10.
+								</p>
+							</div>
+						</div>
+						<div class="circle circle-valores-pessoais">
+						  <span class="aux">Pauta</span>
+							<div class="hidden-content">
+								<p class="margin-top30 text-large">
+									A pauta do Método Curação é o desejo consciente do sujeito de SE fazer feliz. O rigor da pauta é definido pela subordinação das vontades ao desejo maior: SE fazer feliz, sem a utilização de atalhos. Pautado por suas verdades, a pessoa será capaz de construir sua felicidade possível. Saiba mais em Libreto 3, aforismos 11 e 12.
+								</p>
+							</div>
+						</div>
+						<div class="circle circle-quem-estou-sendo">
+							<span class="aux">Objeto</span>
+							<div class="hidden-content hidden-content-b">
+								<p class="margin-top30 text-large">
+									Quem estamos sendo muda na presença de cada pessoa e de cada fato de nossas vidas. O objeto do Método Curação é quem a pessoa está sendo a cada momento. Isso não é percebido em sua totalidade, dada a regência da inconsciência sobre o viver. Saiba mais em Libreto 3, aforismos 7 e 8.
+					  <br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
+								</p>
+							</div>
+						</div>
+						<div class="circle circle-curacao-2"></div>
+				  </div>
+				</h2>
+			  </div>
 </section>

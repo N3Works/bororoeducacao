@@ -12,7 +12,7 @@
       <div class="col-md-3 col-sm-6 col-xs-8">
         {{-- <img src="{{ asset('images/logo-text-white.png') }}" width="150" alt=""> --}}
         <img src="{{ asset('images/logo_escola.png') }}" width="150" alt="">
-        <p class="copyright font-hind">Copyright © Bororo Educação<br>Todos direitos reservados.</p>
+        <p class="copyright font-hind">Copyright © Escola de Curação<br>Todos direitos reservados.</p>
       </div>
       <!-- links -->
       <div class="col-md-3 col-sm-6 col-xs-8">

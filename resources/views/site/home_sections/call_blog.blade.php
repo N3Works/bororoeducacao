@@ -16,9 +16,9 @@
 					@foreach($posts as $key => $post)
 						@if(!$key)
 							<div class="item active">
-								<div class="col-xs-4">
+								<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
 									<a href="{{ url('/blog/'.$post->id) }}">
-										<div style="width: 200px; height: 200px;">
+										<div style="width: auto; height: 200px;">
 											<span class="subh-basic-dark">Evento em {{ $post->publish_at->format('d/m/Y') }}</span>
 												<h6>{{ $post->title }}</h6>
 											<span class="article-by">local <span class="author">{{ $post->location }}</span></span>
@@ -28,9 +28,9 @@
 							</div>
 						@else
 							<div class="item">
-								<div class="col-xs-4">
+								<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
 									<a href="{{ url('/blog/'.$post->id) }}">
-										<div style="width: 200px; height: 200px;">
+										<div style="width: auto; height: 200px;">
 											<span class="subh-basic-dark">Evento em {{ $post->publish_at->format('d/m/Y') }} </span>
 												<h6>{{ $post->title }}</h6>
 											<span class="article-by">local <span class="author">{{ $post->location }}</span></span>

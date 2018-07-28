@@ -27,7 +27,7 @@
                  <img src="{{url('/images/trabalho_individual.png')}}" alt=" Trabalho individual" class="img-circle" style="max-height: 270px;">
                </div>
                <p class="margin-top30 text-large text-center">
-                 -
+                 O cenário do trabalho emocional individual é o desenho mais conhecido e praticado pelas diferentes abordagens terapêuticas. Representa um universo bastante seguro, pois as variáveis são muito mais controladas do que no trabalho em grupo. Utilizamos esta modalidade quando a pessoa deseja aprofundar questões mais particulares.
               </p>
             </div>
            </div>
@@ -40,7 +40,7 @@
                       <img src="{{url('/images/trabalho_familias.png')}}" alt="Cursos Bororó25" class="img-circle" style="max-height: 270px;">
                   </div>
                   <p class="margin-top30 text-large text-center">
-                      -
+					É, talvez, o trabalho mais exigente para todas as pessoas envolvidas, incluindo o terapeuta. Este trabalho emocional é muito eficaz quando os problemas identificados ocorrem nas relações familiares ou de casal, em especial, na comunicação entre as pessoas. A intervenção torna-se extremamente potente, pois é realizada dentro do próprio cenário de conflito. Isto torna o processo muito intenso, expandindo a ação terapêutica e a potência curativa de todos.
                   </p>
               </div>
           </div>
@@ -53,7 +53,7 @@
                           <img src="{{url('/images/Grupo_de_Facilitacao.jpg')}}" alt="Workshops Bororó25" class="img-circle" style="max-height: 270px;">
                       </div>
                       <p class="margin-top30 text-large text-center">
-                          -
+                          O desejo de trabalhar em grupos nasceu do reconhecimento de que tudo no humano se dá a partir do encontro. Nascemos, adoecemos e nos curamos nos encontros. Impossível para o humano viver em isolamento. No encontro com o outro nos revelamos e nos reconhecemos. O outro funciona como um espelho, revelando versões do nosso eu- caleidoscópio. A sutileza do que em nós se revela em grupo, nossas emoções, sentimentos, pensamentos e comportamentos, é uma oportunidade para o autoconhecimento. Nos grupos se reproduzem muitas das experiências cotidianas com familiares, amigos e relações de trabalho. O Grupo de Análise tem uma energia singular, terapêutica e confessional. Cria um espaço de intimidade e acolhimento na presença de companhias seguras. É a partir do relato singular de cada um que, muitas vezes, encontramos uma possibilidade, um convite a dar voz à nossa história.
                       </p>
                   </div>
               </div>

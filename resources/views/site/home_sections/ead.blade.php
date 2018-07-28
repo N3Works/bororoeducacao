@@ -32,7 +32,38 @@
   				</p>
       </p>
 
-			<div class="box-circles">
+			<div class="box-circles hidden-lg hidden-md hidden-sm " style="height: 950px !important;">
+                <div class="circle circle-construcao-felicidade" style="height: 444px; width: 311px; left: 5px;">
+                    <span class="aux" style="left: 100px;">Diferencial</span>
+                    <div class="hidden-content">
+                        <p class="margin-top30 text-large">
+                            O grande diferencial dos cursos em EAD da Escola de Curação é que você tem acesso a um conteúdo inédito, além de contato direto com as autoras do Método Curação.
+                        </p>
+                    </div>
+                </div>
+                <div class="circle circle-valores-pessoais" style="top:285px;right:0;height:444px;width:311px;left: 5px;">
+                    <span class="aux" style="right: 99px;">Requisitos</span>
+                    <div class="hidden-content">
+                        <p class="margin-top30 text-large">
+                            Você pode acessar o Google Sala de aula (Classroom) pela Web em um computador com qualquer navegador, como Google Chrome, Firefox, Internet Explorer ou Safari. Disponível, também, para dispositivos móveis Android e iOS (Apple).
+                        </p>
+                    </div>
+                </div>
+                <div class="circle circle-quem-estou-sendo" style="top:500px;right:0;height:444px;width:311px;left: 5px;margin-left: 0px;">
+                    <span class="aux" style="bottom: 179px;left: 80px;">Pré-requisitos</span>
+                    <div class="hidden-content hidden-content-b">
+                        <p class="margin-top30 text-large">
+                            O único pré-requisito para os cursos da Escola de Curação em EAD é o desejo de desenvolver autoconhecimento, independente de qualquer outro fator.
+							<br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="circle circle-curacao-2"></div>
+            </div>
+			
+			
+			
+			<div class="box-circles hidden-xs">
                 <div class="circle circle-construcao-felicidade">
                     <span class="aux">Diferencial</span>
                     <div class="hidden-content">
