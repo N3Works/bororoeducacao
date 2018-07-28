@@ -14,10 +14,10 @@
                   por muitas pessoas acompanhadas por nós.</p>
 
                 <p class="text-large" >
-                  O <a href="{{url('/blog/65')}}"  style="color:blue"><b>Método Curação</b></a> é uma prática de <a href="{{url('/blog/66')}}" style="color:blue"><b>autoanálise</b></a> e de <b>ação</b> que traz a instrução de que a cura
+                  O <b>Método Curação</b> é uma prática de <b>autoanálise</b> e de <b>ação</b> que traz a instrução de que a cura
                   emocional se dá pela escolha e realização de ações curativas.
-                  É uma <a href="{{url('/blog/66')}}"  style="color:blue"><b>tecnologia</b></a> de gestão das emoções composta por uma rede conceitual,
-                   uma estrutura e dinâmicas.
+                  É uma <b>tecnologia</b> de gestão das emoções composta por uma <a href="{{url('/blog/65')}}"  style="color:blue">rede conceitual </a>,
+                   uma <a href="{{url('/blog/66')}}" style="color:blue">estrutura</a> e <a href="{{url('/blog/66')}}"  style="color:blue">dinâmicas</a>.
                  </p>
 
                 <p class="text-large" >
@@ -94,9 +94,9 @@
 				  </div>
 				</h2>
 			  </div>
-			  
-			  
-			  
+
+
+
 			  <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 hidden-xs centered">
 				<h2 class="font-comfortaa text-center foo text-main-1" style="background-color: gainsboro; padding-top: 5px;" >
 				  <div class="box-circles">
