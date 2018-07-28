@@ -18,7 +18,7 @@
         <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered" style="text-align:justify">
           <p class="margin-top30 text-large" style="text-align:justify">
               <p class="text-large" style="color: lightgray;">
-                Inicialmente, demos o nome de Bororó25 a nossa escola inspiradas no endereço onde o espaço foi
+                Inicialmente, demos o nome de <a href="#container-livros">Bororó25</a> a nossa escola inspiradas no endereço onde o espaço foi
                 fundado e o Método Curação nasceu: rua Bororó nº 25, em Porto Alegre. Foi lá onde toda esta história
                 começou em agosto de 2007. (link para editora)
               </p>

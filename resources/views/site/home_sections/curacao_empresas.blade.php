@@ -70,7 +70,7 @@
   			</p>
   			<br>
       </div>
-			<div class="grid-item col-md-12 col-sm-12 col-xs-12 centered">
+			<div class="grid-item col-md-6 col-sm-12 col-xs-12 centered">
           <div class="box" data-parallax='{"y" : -50}'>
               <h4 class="font-comfortaa text-main-1 text-center">
                   Palestras
@@ -85,7 +85,7 @@
               </p>
           </div>
         </div>
-        <div class="grid-item col-md-12 col-sm-12 col-xs-12 centered">
+        <div class="grid-item col-md-6 col-sm-12 col-xs-12 centered">
             <div class="box" data-parallax='{"y" : 50}'>
                 <h4 class="font-comfortaa text-main-1 text-center">
                     Cursos
@@ -101,7 +101,7 @@
                 </p>
             </div>
         </div>
-        <div class="grid-item col-md-12 col-sm-12 col-xs-12 centered">
+        <div class="grid-item col-md-6 col-sm-12 col-xs-12 centered">
             <div class="box" data-parallax='{"y" : -50}'>
                 <h4 class="font-comfortaa text-main-1 text-center">
                     Workshops
@@ -116,7 +116,7 @@
                 </p>
             </div>
         </div>
-        <div class="grid-item col-md-12 col-sm-12 col-xs-12 centered">
+        <div class="grid-item col-md-6 col-sm-12 col-xs-12 centered">
             <div class="box" data-parallax='{"y" : 50}'>
                 <h4 class="font-comfortaa text-main-1 text-center">
                     Coaching
@@ -131,10 +131,10 @@
                 </p>
             </div>
         </div>
-        <div class="grid-item col-md-12 col-sm-12 col-xs-12 centered">
+        <div class="grid-item col-md-6 col-sm-12 col-xs-12 centered">
             <div class="box" data-parallax='{"y" : -50}'>
                 <h4 class="font-comfortaa text-main-1 text-center">
-                    Grupo de facilidação
+                    Grupo de facilitação
                 </h4>
                 <div class="col-md-12 text-center image-parallax">
                     <img src="{{ asset('images/empresas-trabalho-grupos_reflexao.jpg') }}"
@@ -146,7 +146,7 @@
                 </p>
             </div>
         </div>
-        <div class="grid-item col-md-12 col-sm-12 col-xs-12 centered">
+        <div class="grid-item col-md-6 col-sm-12 col-xs-12 centered">
             <div class="box" data-parallax='{"y" : 50}'>
                 <h4 class="font-comfortaa text-main-1 text-center">
                     Cine TGE

@@ -14,11 +14,10 @@
                   por muitas pessoas acompanhadas por nós.</p>
 
                 <p class="text-large" >
-                  O <b>Método Curação</b> é uma prática de <b>autoanálise</b> e de <b>ação</b> que traz a instrução de que a cura
+                  O <a href="{{url('/blog/65')}}"  style="color:blue"><b>Método Curação</b></a> é uma prática de <a href="{{url('/blog/66')}}" style="color:blue"><b>autoanálise</b></a> e de <b>ação</b> que traz a instrução de que a cura
                   emocional se dá pela escolha e realização de ações curativas.
-                  É uma <b>tecnologia</b> de gestão das emoções composta por uma rede conceitual <a href=""  style="color:blue"> link noticias1 </a>,
-                   uma estrutura <a href="" style="color:blue"> link noticias2 </a>
-                   e dinâmicas <a href=""  style="color:blue"> link noticias3</a>.
+                  É uma <a href="{{url('/blog/66')}}"  style="color:blue"><b>tecnologia</b></a> de gestão das emoções composta por uma rede conceitual,
+                   uma estrutura e dinâmicas.
                  </p>
 
                 <p class="text-large" >
