@@ -15,7 +15,7 @@
               com a metodologia Curação.
           </p>
           <p class="text-large" >
-  				      As aulas de educação à distância são disponibilizadas em formato de vídeo (plataforma Google Classroom),
+  				      As aulas de educação à distância são disponibilizadas em formato de vídeo (plataforma Google Classroom)
                 e contam com material de apoio complementar para o estudo.
           </p>
 
@@ -65,7 +65,7 @@
 			
 			<div class="box-circles hidden-xs">
                 <div class="circle circle-construcao-felicidade">
-                    <span class="aux">Diferencial</span>
+                    <span class="aux" style="font-size: 30px; top: 161px; left: 106px;">Diferencial</span>
                     <div class="hidden-content">
                         <p class="margin-top30 text-large">
                             O grande diferencial dos cursos em EAD da Escola de Curação é que você tem acesso a um conteúdo inédito, além de contato direto com as autoras do Método Curação.
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="circle circle-valores-pessoais">
-                    <span class="aux">Requisitos</span>
+                    <span class="aux" style="font-size: 30px; top: 161px; left: auto; right: 66px;">Requisitos</span>
                     <div class="hidden-content">
                         <p class="margin-top30 text-large">
                             Você pode acessar o Google Sala de aula (Classroom) pela Web em um computador com qualquer navegador, como Google Chrome, Firefox, Internet Explorer ou Safari. Disponível, também, para dispositivos móveis Android e iOS (Apple).
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="circle circle-quem-estou-sendo">
-                    <span class="aux">Pré-requisitos</span>
+                    <span class="aux" style="font-size: 30px; bottom: 147px; left: 117px;">Pré-requisitos</span>
                     <div class="hidden-content hidden-content-b">
                         <p class="margin-top30 text-large">
                             O único pré-requisito para os cursos da Escola de Curação em EAD é o desejo de desenvolver autoconhecimento, independente de qualquer outro fator.

@@ -10,9 +10,9 @@
         <br>
           <p class="margin-top15 text-large" style="text-align:justify">
             <p class="text-large" >
-              Nossa mentoria tem como objetivo o aprofundamento da "compreensão" do Método Curação.
+              Nossa mentoria tem como objetivo o aprofundamento da compreensão do Método Curação.
               Ela é direcionada para aqueles que desejam esclarecer dúvidas sobre a tecnologia e sua aplicação.
-              Com ela você poderá conversar online e ao vivo com as autoras do método, Christiane Ganzo e Denise Aerts.
+              Com ela, você poderá conversar online e ao vivo com as autoras do método, Christiane Ganzo e Denise Aerts.
               São 60 minutos de mentoria, com data e horário previamente agendados.
             </p>
             <p class="text-large" >
