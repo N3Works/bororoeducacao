@@ -51,7 +51,7 @@
                     </p>
                 </div>
             </div>
-            <div class="circle circle-curacao-2"></div>
+            <div class="circle circle-curacao-gestaodasemocoes"></div>
         </div>
       </div>
 
@@ -84,7 +84,7 @@
                     </p>
                 </div>
             </div>
-            <div class="circle circle-curacao-2"></div>
+            <div class="circle circle-curacao-gestaodasemocoes"></div>
         </div>
       </div>
       <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered">

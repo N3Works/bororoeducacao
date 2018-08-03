@@ -107,7 +107,9 @@
 .circle-curacao-ead {
     background: url(/images/circle-curacao_ead.png);
 }
-
+.circle-curacao-gestaodasemocoes {
+    background: url(/images/circle-gestao_emocoes.png);
+}
 .circle-felicidade-possivel {
     background: url(/images/circle-felicidade-possivel.png);
 }
@@ -278,7 +280,7 @@
     z-index: 1;
 }
 
-.circle-felicidade-possivel, .circle-curacao-2, .circle-curacao-ead, .circle-gestao-emocoes,
+.circle-felicidade-possivel, .circle-curacao-2, .circle-curacao-ead, .circle-curacao-gestaodasemocoes, .circle-gestao-emocoes,
 .circle-felicidade-possivel-semtexto, .circle-curacao-2-semtexto, .circle-gestao-emocoes-semtexto {
     top: 212px;
     left: 50%;
@@ -292,7 +294,7 @@
     border-radius: 0;
 }
 
-.circle-felicidade-possivel:before, .circle-felicidade-possivel:after, .circle-curacao-2:before, .circle-curacao-ead:before, .circle-curacao-2:after, .circle-curacao-ead:after, .circle-gestao-emocoes:before, .circle-gestao-emocoes:after
+.circle-felicidade-possivel:before, .circle-felicidade-possivel:after, .circle-curacao-2:before, .circle-curacao-ead:before, .circle-curacao-gestaodasemocoes:before, .circle-curacao-2:after, .circle-curacao-ead:after, .circle-curacao-gestaodasemocoes:after, .circle-gestao-emocoes:before, .circle-gestao-emocoes:after
   .circle-felicidade-possivel-semtexto:before, .circle-felicidade-possivel-semtexto:after, .circle-curacao-2-semtexto:before, .circle-curacao-2-semtexto:after, .circle-gestao-emocoes-semtexto:before, .circle-gestao-emocoes:after {
 
     content: normal;
@@ -436,7 +438,7 @@
     font-weight: 600;
 }
 
-.circle-felicidade-possivel, .circle-curacao-2, .circle-curacao-ead, .circle-gestao-emocoes,
+.circle-felicidade-possivel, .circle-curacao-2, .circle-curacao-ead, .circle-curacao-gestaodasemocoes, .circle-gestao-emocoes,
 .circle-felicidade-possivel-semtexto, .circle-curacao-2-semtexto, .circle-gestao-emocoes-semtexto {
     top: 212px;
     left: 50%;
