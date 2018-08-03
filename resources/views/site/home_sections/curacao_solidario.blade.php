@@ -18,7 +18,7 @@
             inspiradora com os colaboradores da Aldeia.
         </p>
         <p class="margin-top30 text-large" style="text-align:justify; margin-right: 1em; margin-left: 1em">
-            Conheça essa história! <a href="https://youtu.be/pgzuxMJTuTI" target="_blank"><b>https://youtu.be/pgzuxMJTuTI</b></a>
+            <a href="https://youtu.be/pgzuxMJTuTI" target="_blank"><b>Conheça essa história!</b></a>
         </p>
         </div>
     </section>

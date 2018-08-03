@@ -61,7 +61,7 @@
       <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 hidden-xs centered">
         <div class="box-circles">
             <div class="circle circle-construcao-felicidade-semtexto">
-                <span class="aux">Comprometimento</span>
+                <span class="aux" style="font-size: 30px; top: 161px; left: 51px;">Comprometimento</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
                         Somos comprometidos com o que sabemos fazer e com o que nos traz realização. O comprometimento aliado à criatividade propicia a ampliação da produtividade e, quando aliado à motivação, instiga a pró-atividade.
@@ -69,22 +69,22 @@
                 </div>
             </div>
             <div class="circle circle-valores-pessoais-semtexto">
-                <span class="aux">Criatividade</span>
+                <span class="aux" style="font-size: 30px; top: 161px; left: auto; right: 48px;">Criatividade</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
-                        A criatividade é o exercício da potência criativa <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>Acesse a loja</b></a>. O autoconhecimento alimenta a potência criativa, a capacidade produtiva e a inovação.
+                        A criatividade é o exercício da <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>potência criativa</b></a>. O autoconhecimento alimenta a potência criativa, a capacidade produtiva e a inovação.
                     </p>
                 </div>
             </div>
             <div class="circle circle-quem-estou-sendo-semtexto">
-                <span class="aux">Motivação</span>
+                <span class="aux" style="font-size: 30px;">Motivação</span>
                 <div class="hidden-content hidden-content-b">
                     <p class="margin-top30 text-large">
                         A motivação tem origem na habilidade emocional de cada um para construir, a cada dia, propósitos capazes de inspirar um viver feliz. Quando aliada à criatividade, amplia a capacidade de inovar. A pró-atividade resulta da combinação do comprometimento com a motivação.
                     </p>
                 </div>
             </div>
-            <div class="circle circle-curacao-2-semtexto"></div>
+            <div class="circle circle-curacao-2"></div>
         </div>
       </div>
       <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered">
@@ -114,7 +114,7 @@
               </div>
               <p class="margin-top30 text-large">
                   Promover a consciência da necessidade do autoconhecimento para a construção da saúde emocional.
-                  Apresentada em diferentes temáticas, adaptadas aos interesses e objetivos da empresa.
+                  Apresentadas em diferentes temáticas, são adaptadas aos interesses e objetivos da empresa.
               </p>
           </div>
         </div>

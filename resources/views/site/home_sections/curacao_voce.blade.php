@@ -12,8 +12,8 @@
                 <p class="text-large">As ferramentas para a alfabetização emocional com base no Método Curação estão disponíveis em nossos
                   <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>livros</b></a>, <a href="#container-ead">
                   <b>cursos em EAD</b></a> ou presenciais, workshops, além da vivência do trabalho emocional junto a um profissional
-                   com conhecimento do método <a href="#container-noticias"><b>NOTICIA</b></a>.
-                   É importante ressaltar que este trabalhado pode ser feito individualmente, em família ou casal ou grupos de análise.
+                   com conhecimento do <a href="http://escoladecuracao.com.br/blog/69"><b>método</b></a>.
+                   Este pode ser feito individualmente, em família ou casal ou grupos de análise.
                    Vai de cada um escolher qual o melhor caminho a seguir para o seu autoconhecimento. </p>
 				     <br>
            </p>

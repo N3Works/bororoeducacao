@@ -17,7 +17,8 @@
     border-radius: 50%;
 }
 
-.circle-conhecimento, .circle-construcao-felicidade, .circle-comprometimento {
+.circle-conhecimento, .circle-construcao-felicidade, .circle-comprometimento ,
+.circle-conhecimento-semtexto, .circle-construcao-felicidade-semtexto, .circle-comprometimento-semtexto  {
     /* Firefox v3.6+ */
     background-image: -moz-linear-gradient(rgba(119, 183, 78, 0.9) 0%, rgba(219, 169, 33, 0.9) 100%);
     /* safari v4.0+ and by Chrome v3.0+ */
@@ -33,7 +34,8 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2dba321, endColorstr=#f277b74e);
 }
 
-.circle-autoconhecimento, .circle-valores-pessoais, .circle-criatividade {
+.circle-autoconhecimento, .circle-valores-pessoais, .circle-criatividade ,
+.circle-autoconhecimento-semtexto, .circle-valores-pessoais-semtexto, .circle-criatividade-semtexto {
     /* Firefox v3.6+ */
     background-image: -moz-linear-gradient(rgba(28, 156, 154, 0.9) 0%, rgba(107, 180, 97, 0.9) 100%);
     /* safari v4.0+ and by Chrome v3.0+ */
@@ -49,7 +51,8 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f26bb461, endColorstr=#f21c9c9a);
 }
 
-.circle-curacao, .circle-quem-estou-sendo, .circle-motivacao {
+.circle-curacao, .circle-quem-estou-sendo, .circle-motivacao ,
+.circle-curacao-semtexto, .circle-quem-estou-sendo-semtexto, .circle-motivacao-semtexto {
     /* Firefox v3.6+ */
     background-image: -moz-linear-gradient(rgba(228, 137, 39, 0.9) 0%, rgba(237, 157, 27, 0.9) 0%, rgba(189, 40, 96, 0.9) 100%);
     /* safari v4.0+ and by Chrome v3.0+ */
@@ -109,6 +112,32 @@
     background: url(/images/circle-gestao-emocoes.png);
 }
 
+
+.circle-conhecimento-semtexto:before {
+    background: url(/images/circle-conhecimento-semtexto.png);
+}
+
+.circle-autoconhecimento-semtexto:before {
+    background: url(/images/circle-autoconhecimento-semtexto.png);
+}
+
+.circle-curacao-semtexto:before {
+    background: url(/images/circle-curacao-semtexto.png);
+}
+
+.circle-curacao-2-semtexto {
+    background: url(/images/circle-curacao-2-semtexto.png);
+}
+
+.circle-felicidade-possivel-semtexto {
+    background: url(/images/circle-felicidade-possivel-semtexto.png);
+}
+
+.circle-gestao-emocoes-semtexto {
+    background: url(/images/circle-gestao-emocoes-semtexto.png);
+}
+
+
 .circle-construcao-felicidade:before {
     background: url(/images/circle-construcao-felicidade.png);
 }
@@ -131,6 +160,30 @@
 
 .circle-motivacao:before {
     background: url(/images/circle-motivacao.png);
+}
+
+.circle-construcao-felicidade-semtexto:before {
+    background: url(/images/circle-construcao-felicidade-semtexto.png);
+}
+
+.circle-valores-pessoais-semtexto:before {
+    background: url(/images/circle-valores-pessoais-semtexto.png);
+}
+
+.circle-quem-estou-sendo-semtexto:before {
+    background: url(/images/circle-quem-estou-sendo-semtexto.png);
+}
+
+.circle-comprometimento-semtexto:before {
+    background: url(/images/circle-comprometimento-semtexto.png);
+}
+
+.circle-criatividade-semtexto:before {
+    background: url(/images/circle-criatividade-semtexto.png);
+}
+
+.circle-motivacao-semtexto:before {
+    background: url(/images/circle-motivacao-semtexto.png);
 }
 
 /* after */
@@ -161,7 +214,8 @@
     z-index: 4;
 }
 
-.circle-conhecimento:hover:after, .circle-construcao-felicidade:hover:after, .circle-comprometimento:hover:after {
+.circle-conhecimento:hover:after, .circle-construcao-felicidade:hover:after, .circle-comprometimento:hover:after ,
+.circle-conhecimento-semtexto:hover:after, .circle-construcao-felicidade-semtexto:hover:after, .circle-comprometimento-semtexto:hover:after{
     background-image: -moz-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(230, 141, 37, 0.8) 100%);
     background-image: -webkit-gradient(linear, color-stop(0, rgba(219, 163, 33, 0.8)), color-stop(1, rgba(230, 141, 37, 0.8)));
     background-image: -webkit-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(230, 141, 37, 0.8) 100%);
@@ -172,7 +226,8 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cce68d25, endColorstr=#ccdba321);
 }
 
-.circle-autoconhecimento:hover:after, .circle-valores-pessoais:hover:after, .circle-criatividade:hover:after {
+.circle-autoconhecimento:hover:after, .circle-valores-pessoais:hover:after, .circle-criatividade:hover:after ,
+.circle-autoconhecimento-semtexto:hover:after, .circle-valores-pessoais-semtexto:hover:after, .circle-criatividade-semtexto:hover:after {
     background-image: -moz-linear-gradient(rgba(90, 177, 121, 0.8) 0%, rgba(59, 170, 167, 0.8) 100%);
     background-image: -webkit-gradient(linear, color-stop(0, rgba(90, 177, 121, 0.8)), color-stop(1, rgba(59, 170, 167, 0.8)));
     background-image: -webkit-linear-gradient(rgba(90, 177, 121, 0.8) 0%, rgba(59, 170, 167, 0.8) 100%);
@@ -183,7 +238,8 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc5ab179, endColorstr=#cc3baaa7);
 }
 
-.circle-curacao:hover:after, .circle-quem-estou-sendo:hover:after, .circle-motivacao:hover:after {
+.circle-curacao:hover:after, .circle-quem-estou-sendo:hover:after, .circle-motivacao:hover:after ,
+.circle-curacao-semtexto:hover:after, .circle-quem-estou-sendo-semtexto:hover:after, .circle-motivacao-semtexto:hover:after {
     background-image: -moz-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(127, 185, 67, 0.8) 100%);
     background-image: -webkit-gradient(linear, color-stop(0, rgba(219, 163, 33, 0.8)), color-stop(1, rgba(127, 185, 67, 0.8)));
     background-image: -webkit-linear-gradient(rgba(219, 163, 33, 0.8) 0%, rgba(127, 185, 67, 0.8) 100%);
@@ -194,28 +250,32 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccdba321, endColorstr=#cc7fb943);
 }
 
-.circle-conhecimento, .circle-construcao-felicidade, .circle-comprometimento {
+.circle-conhecimento, .circle-construcao-felicidade, .circle-comprometimento ,
+.circle-conhecimento-semtexto, .circle-construcao-felicidade-semtexto, .circle-comprometimento-semtexto {
     top: 0;
     left: 0;
     left: 40px;
     z-index: 3;
 }
 
-.circle-autoconhecimento, .circle-valores-pessoais, .circle-criatividade {
+.circle-autoconhecimento, .circle-valores-pessoais, .circle-criatividade
+.circle-autoconhecimento-semtexto, .circle-valores-pessoais-semtexto, .circle-criatividade-semtexto {
     top: 0;
     right: 0;
     right: 47px;
     z-index: 2;
 }
 
-.circle-curacao, .circle-quem-estou-sendo, .circle-motivacao {
+.circle-curacao, .circle-quem-estou-sendo, .circle-motivacao ,
+.circle-curacao-semtexto, .circle-quem-estou-sendo-semtexto, .circle-motivacao-semtexto{
     top: 211px;
     left: 50%;
     margin-left: -214px;
     z-index: 1;
 }
 
-.circle-felicidade-possivel, .circle-curacao-2, .circle-gestao-emocoes {
+.circle-felicidade-possivel, .circle-curacao-2, .circle-gestao-emocoes,
+.circle-felicidade-possivel-semtexto, .circle-curacao-2-semtexto, .circle-gestao-emocoes-semtexto {
     top: 212px;
     left: 50%;
     height: 187px;
@@ -228,7 +288,9 @@
     border-radius: 0;
 }
 
-.circle-felicidade-possivel:before, .circle-felicidade-possivel:after, .circle-curacao-2:before, .circle-curacao-2:after, .circle-gestao-emocoes:before, .circle-gestao-emocoes:after {
+.circle-felicidade-possivel:before, .circle-felicidade-possivel:after, .circle-curacao-2:before, .circle-curacao-2:after, .circle-gestao-emocoes:before, .circle-gestao-emocoes:after
+  .circle-felicidade-possivel-semtexto:before, .circle-felicidade-possivel-semtexto:after, .circle-curacao-2-semtexto:before, .circle-curacao-2-semtexto:after, .circle-gestao-emocoes-semtexto:before, .circle-gestao-emocoes:after {
+
     content: normal;
 }
 
@@ -308,13 +370,32 @@
     right: 125px;
 }
 
+.circle.circle-valores-pessoais-semtexto .aux {
+    top: 172px;
+    left: auto;
+    right: 125px;
+}
+
 .circle.circle-quem-estou-sendo .aux {
     top: auto;
     bottom: 140px;
     left: 178px;
 }
 
+.circle.circle-quem-estou-sendo-semtexto .aux {
+    top: auto;
+    bottom: 140px;
+    left: 178px;
+}
+
 .circle.circle-comprometimento .aux {
+    top: 140px;
+    left: 270px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.circle.circle-comprometimento-semtexto .aux {
     top: 140px;
     left: 270px;
     font-size: 18px;
@@ -329,6 +410,14 @@
     text-align: center;
 }
 
+.circle.circle-comprometimento-semtexto .aux.aux-2 {
+    top: 330px;
+    left: 160px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .circle.circle-criatividade .aux {
     top: 345px;
     left: 190px;
@@ -336,7 +425,15 @@
     font-weight: 600;
 }
 
-.circle-felicidade-possivel, .circle-curacao-2, .circle-gestao-emocoes {
+.circle.circle-criatividade-semtexto .aux {
+    top: 345px;
+    left: 190px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.circle-felicidade-possivel, .circle-curacao-2, .circle-gestao-emocoes,
+.circle-felicidade-possivel-semtexto, .circle-curacao-2-semtexto, .circle-gestao-emocoes-semtexto {
     top: 212px;
     left: 50%;
     height: 187px;
@@ -350,4 +447,8 @@
 
 .circle-gestao-emocoes {
     background: url(/images/circle-gestao-emocoes.png);
+}
+
+.circle-gestao-emocoes-semtexto {
+    background: url(/images/circle-gestao-emocoes-semtexto.png);
 }
