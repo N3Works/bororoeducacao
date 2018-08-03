@@ -27,7 +27,7 @@
      </div>
 	 <div class="hidden-lg hidden-md hidden-sm center-block-4 col-md-12 col-sm-12 col-xs-12 centered" style="height: 1000px !important;">
         <div class="box-circles">
-            <div class="circle circle-construcao-felicidade" style="height: 444px; width: 311px; left: 5px;">
+            <div class="circle circle-construcao-felicidade-semtexto" style="height: 444px; width: 311px; left: 5px;">
                 <span class="aux" style="left: 57px;">Comprometimento</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
@@ -35,7 +35,7 @@
                     </p>
                 </div>
             </div>
-            <div class="circle circle-valores-pessoais" style="top:285px;right:0;height:444px;width:311px;left: 5px;">
+            <div class="circle circle-valores-pessoais-semtexto" style="top:285px;right:0;height:444px;width:311px;left: 5px;">
                 <span class="aux" style="right: 87px;">Criatividade</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
@@ -43,7 +43,7 @@
                     </p>
                 </div>
             </div>
-            <div class="circle circle-quem-estou-sendo" style="top:500px;right:0;height:444px;width:311px;left: 5px;margin-left: 0px;">
+            <div class="circle circle-quem-estou-sendo-semtexto" style="top:500px;right:0;height:444px;width:311px;left: 5px;margin-left: 0px;">
                 <span class="aux" style="left: 98px;bottom: 183px">Motivação</span>
                 <div class="hidden-content hidden-content-b">
                     <p class="margin-top30 text-large">
@@ -54,13 +54,13 @@
             <div class="circle circle-curacao-2"></div>
         </div>
       </div>
-	  
-	  
-	  
-	  
+
+
+
+
       <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 hidden-xs centered">
         <div class="box-circles">
-            <div class="circle circle-construcao-felicidade">
+            <div class="circle circle-construcao-felicidade-semtexto">
                 <span class="aux">Comprometimento</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
@@ -68,7 +68,7 @@
                     </p>
                 </div>
             </div>
-            <div class="circle circle-valores-pessoais">
+            <div class="circle circle-valores-pessoais-semtexto">
                 <span class="aux">Criatividade</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
@@ -76,7 +76,7 @@
                     </p>
                 </div>
             </div>
-            <div class="circle circle-quem-estou-sendo">
+            <div class="circle circle-quem-estou-sendo-semtexto">
                 <span class="aux">Motivação</span>
                 <div class="hidden-content hidden-content-b">
                     <p class="margin-top30 text-large">
@@ -84,7 +84,7 @@
                     </p>
                 </div>
             </div>
-            <div class="circle circle-curacao-2"></div>
+            <div class="circle circle-curacao-2-semtexto"></div>
         </div>
       </div>
       <div class="center-block-4 col-md-12 col-sm-12 col-xs-12 centered">
