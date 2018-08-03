@@ -89,7 +89,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="circle circle-curacao-2"></div>
+                <div class="circle circle-curacao-ead"></div>
             </div>
         </div>
     </section>
