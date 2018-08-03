@@ -33,7 +33,7 @@
       </p>
 
 			<div class="box-circles hidden-lg hidden-md hidden-sm " style="height: 950px !important;">
-                <div class="circle circle-construcao-felicidade" style="height: 444px; width: 311px; left: 5px;">
+                <div class="circle circle-construcao-felicidade-semtexto" style="height: 444px; width: 311px; left: 5px;">
                     <span class="aux" style="left: 100px;">Diferencial</span>
                     <div class="hidden-content">
                         <p class="margin-top30 text-large">
@@ -41,7 +41,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="circle circle-valores-pessoais" style="top:285px;right:0;height:444px;width:311px;left: 5px;">
+                <div class="circle circle-valores-pessoais-semtexto" style="top:285px;right:0;height:444px;width:311px;left: 5px;">
                     <span class="aux" style="right: 99px;">Requisitos</span>
                     <div class="hidden-content">
                         <p class="margin-top30 text-large">
@@ -49,7 +49,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="circle circle-quem-estou-sendo" style="top:500px;right:0;height:444px;width:311px;left: 5px;margin-left: 0px;">
+                <div class="circle circle-quem-estou-sendo-semtexto" style="top:500px;right:0;height:444px;width:311px;left: 5px;margin-left: 0px;">
                     <span class="aux" style="bottom: 179px;left: 80px;">Pré-requisitos</span>
                     <div class="hidden-content hidden-content-b">
                         <p class="margin-top30 text-large">
@@ -60,11 +60,11 @@
                 </div>
                 <div class="circle circle-curacao-2"></div>
             </div>
-			
-			
-			
+
+
+
 			<div class="box-circles hidden-xs">
-                <div class="circle circle-construcao-felicidade">
+                <div class="circle circle-construcao-felicidade-semtexto">
                     <span class="aux" style="font-size: 30px; top: 161px; left: 106px;">Diferencial</span>
                     <div class="hidden-content">
                         <p class="margin-top30 text-large">
@@ -72,7 +72,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="circle circle-valores-pessoais">
+                <div class="circle circle-valores-pessoais-semtexto">
                     <span class="aux" style="font-size: 30px; top: 161px; left: auto; right: 66px;">Requisitos</span>
                     <div class="hidden-content">
                         <p class="margin-top30 text-large">
@@ -80,7 +80,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="circle circle-quem-estou-sendo">
+                <div class="circle circle-quem-estou-sendo-semtexto">
                     <span class="aux" style="font-size: 30px; bottom: 147px; left: 117px;">Pré-requisitos</span>
                     <div class="hidden-content hidden-content-b">
                         <p class="margin-top30 text-large">
