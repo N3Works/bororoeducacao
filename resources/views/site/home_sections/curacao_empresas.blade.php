@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="circle circle-valores-pessoais-semtexto" style="top:285px;right:0;height:444px;width:311px;left: 5px;">
-                <span class="aux" style="right: 87px;">Criatividade</span>
+                <span class="aux" style="right: 91px;">Criatividade</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
                         A criatividade é o exercício da potência criativa <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>Acesse a loja</b></a>. O autoconhecimento alimenta a potência criativa, a capacidade produtiva e a inovação.
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="circle circle-quem-estou-sendo-semtexto" style="top:500px;right:0;height:444px;width:311px;left: 5px;margin-left: 0px;">
-                <span class="aux" style="left: 98px;bottom: 183px">Motivação</span>
+                <span class="aux" style="left: 85px;bottom: 183px">Motivação</span>
                 <div class="hidden-content hidden-content-b">
                     <p class="margin-top30 text-large">
                         A motivação tem origem na habilidade emocional de cada um para construir, a cada dia, propósitos capazes de inspirar um viver feliz. Quando aliada à criatividade, amplia a capacidade de inovar. A pró-atividade resulta da combinação do comprometimento com a motivação.
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="circle circle-valores-pessoais-semtexto">
-                <span class="aux" style="font-size: 30px; top: 161px; left: auto; right: 48px;">Criatividade</span>
+                <span class="aux" style="font-size: 30px; top: 161px; left: auto; right: 30px;">Criatividade</span>
                 <div class="hidden-content">
                     <p class="margin-top30 text-large">
                         A criatividade é o exercício da <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>potência criativa</b></a>. O autoconhecimento alimenta a potência criativa, a capacidade produtiva e a inovação.
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="circle circle-quem-estou-sendo-semtexto">
-                <span class="aux" style="font-size: 30px;">Motivação</span>
+                <span class="aux" style="font-size: 30px; left: auto; right: 140px;">Motivação</span>
                 <div class="hidden-content hidden-content-b">
                     <p class="margin-top30 text-large">
                         A motivação tem origem na habilidade emocional de cada um para construir, a cada dia, propósitos capazes de inspirar um viver feliz. Quando aliada à criatividade, amplia a capacidade de inovar. A pró-atividade resulta da combinação do comprometimento com a motivação.

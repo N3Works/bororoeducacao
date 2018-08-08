@@ -13,7 +13,7 @@
                   <a href="http://escoladecuracao.com.br/loja/livros.html" target="_blank"><b>livros</b></a>, <a href="#container-ead">
                   <b>cursos em EAD</b></a> ou presenciais, workshops, além da vivência do trabalho emocional junto a um profissional
                    com conhecimento do <a href="http://escoladecuracao.com.br/blog/69"><b>método</b></a>.
-                   Este pode ser feito individualmente, em família ou casal ou grupos de análise.
+                   Este trabalho pode ser feito individualmente, em família ou casal ou grupos de análise.
                    Vai de cada um escolher qual o melhor caminho a seguir para o seu autoconhecimento. </p>
 				     <br>
            </p>
@@ -40,7 +40,7 @@
                       <img src="{{url('/images/trabalho_familias.png')}}" alt="Cursos Bororó25" class="img-circle" style="max-height: 270px;">
                   </div>
                   <p class="margin-top30 text-large text-center">
-					É, talvez, o trabalho mais exigente para todas as pessoas envolvidas, incluindo o terapeuta. Este trabalho emocional é muito eficaz quando os problemas identificados ocorrem nas relações familiares ou de casal, em especial, na comunicação entre as pessoas. A intervenção torna-se extremamente potente, pois é realizada dentro do próprio cenário de conflito. Isto torna o processo muito intenso, expandindo a ação terapêutica e a potência curativa de todos.
+					               Essa modalidade é muito eficaz quando os problemas identificados ocorrem nas relações familiares ou de casal, em especial, na comunicação entre as pessoas. A intervenção torna-se extremamente potente, pois é realizada dentro do próprio cenário de conflito, expandindo a potência criativa de todos.
                   </p>
               </div>
           </div>
@@ -50,10 +50,10 @@
                           Grupos de Análise e Autoconhecimento
                       </h4>
                       <div class="col-md-12 text-center image-parallax">
-                          <img src="{{url('/images/Grupo_de_Facilitacao.jpg')}}" alt="Workshops Bororó25" class="img-circle" style="max-height: 270px;">
+                          <img src="{{url('/images/Grupo-de-analise.jpg')}}" alt="Workshops Bororó25" class="img-circle" style="max-height: 270px;">
                       </div>
                       <p class="margin-top30 text-large text-center">
-                          O desejo de trabalhar em grupos nasceu do reconhecimento de que tudo no humano se dá a partir do encontro. Nascemos, adoecemos e nos curamos nos encontros. Impossível para o humano viver em isolamento. No encontro com o outro nos revelamos e nos reconhecemos. O outro funciona como um espelho, revelando versões do nosso eu- caleidoscópio. A sutileza do que em nós se revela em grupo, nossas emoções, sentimentos, pensamentos e comportamentos, é uma oportunidade para o autoconhecimento. Nos grupos se reproduzem muitas das experiências cotidianas com familiares, amigos e relações de trabalho. O Grupo de Análise tem uma energia singular, terapêutica e confessional. Cria um espaço de intimidade e acolhimento na presença de companhias seguras. É a partir do relato singular de cada um que, muitas vezes, encontramos uma possibilidade, um convite a dar voz à nossa história.
+                          A sutileza do que em nós se revela em grupo, nossas emoções, sentimentos, pensamentos e comportamentos, é uma oportunidade para o autoconhecimento. Nos grupos se reproduzem muitas das experiências cotidianas com familiares, amigos e relações de trabalho. É um espaço de intimidade e acolhimento na presença de companhias seguras.
                       </p>
                   </div>
               </div>

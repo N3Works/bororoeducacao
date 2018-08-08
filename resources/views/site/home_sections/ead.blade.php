@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="circle circle-valores-pessoais-semtexto">
-                    <span class="aux" style="font-size: 30px; top: 161px; left: auto; right: 66px;">Requisitos</span>
+                    <span class="aux" style="font-size: 30px; top: 161px; left: auto; right: 42px;">Requisitos</span>
                     <div class="hidden-content">
                         <p class="margin-top30 text-large">
                             Você pode acessar o Google Sala de aula (Classroom) pela Web em um computador com qualquer navegador, como Google Chrome, Firefox, Internet Explorer ou Safari. Disponível, também, para dispositivos móveis Android e iOS (Apple).
