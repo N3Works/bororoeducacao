@@ -69,7 +69,7 @@ return array(
             'driver' => 'LocalFileSystem',
             'path' => 'files/',
             'accessControl' => 'Serverfireteam\Panel\libs\AppHelper::access',
-            'URL' => config('app.url') . ':8000/files',
+            'URL' => config('app.url') . '/files',
             'uploadAllow' => array('image/png', 'image/jpeg', 'image/pjpeg', 'image/gif'),
             'uploadDeny' => array('all'),
             'uploadOrder' => array('deny', 'allow'),
