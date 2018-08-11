@@ -18,10 +18,16 @@
 							<div class="item active">
 								<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
 									<a href="{{ url('/blog/'.$post->id) }}">
-										<div style="width: auto; height: 200px;">
-											<span class="subh-basic-dark">Evento em {{ $post->publish_at->format('d/m/Y') }}</span>
-												<h6>{{ $post->title }}</h6>
-											<span class="article-by">local <span class="author">{{ $post->location }}</span></span>
+										<div style="width:100%; height: 280px; margin-top: 5px">
+												<img src="{{ url('/uploads/posts/'.$post->thumbnail_img)}}"  alt="" style="width: 100%; min-height: 200px; max-height: 200px;">
+
+												{{-- @php
+													echo dd($post);
+													die;
+												@endphp --}}
+											<div style="{{ ($post->thumbnail_img ? 'height: 30px;' : 'height: 280px;vertical-align: middle !important;' ) }}  ">
+												<h6> Lá lá lá wiskas sache Rece conceitual Lá lá lá wiskas sache {{ $post->title }}</h6>
+											</div>
 										</div>
 									</a>
 								</div>
@@ -30,10 +36,17 @@
 							<div class="item">
 								<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
 									<a href="{{ url('/blog/'.$post->id) }}">
-										<div style="width: auto; height: 200px;">
-											<span class="subh-basic-dark">Evento em {{ $post->publish_at->format('d/m/Y') }} </span>
-												<h6>{{ $post->title }}</h6>
-											<span class="article-by">local <span class="author">{{ $post->location }}</span></span>
+											<div style="width:100%; height: 280px; margin-top: 5px">
+													<img src="{{ url('/uploads/posts/'.$post->thumbnail_img)}}"  alt="" style="width: 100%; min-height: 200px; max-height: 200px;">
+													{{-- @php
+														echo dd($post);
+														die;
+													@endphp --}}
+
+												{{-- <span class="subh-basic-dark" style="height: 50px;" >Evento em {{ $post->publish_at->format('d/m/Y') }}</span> --}}
+												<div style="{{ ($post->thumbnail_img ? 'height: 30px;' : 'height: 280px;vertical-align: middle !important; ' ) }}  ">
+													<h6>{{ $post->title }}</h6>
+										  	</div>
 										</div>
 									</a>
 								</div>
