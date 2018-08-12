@@ -19,7 +19,7 @@ class HomeController extends Controller
                 ->orderBy('publish_at', 'desc')
                 ->take(6)
                 ->get();
-        
+
         $date = new DateTime;
         $formatted_date = $date->format('Y-m-d H:i:s');
 
@@ -27,10 +27,10 @@ class HomeController extends Controller
                 ['is_active', '1'],
             ])
             //->whereDate('end_at', '>=', $formatted_date)
-            ->orderBy('start_at')
+            ->orderBy('start_at', 'desc')
             ->take(6)
             ->get();
-			
+
         return view('site.index', [
             'posts' => $posts,
             'events' => $events

@@ -19,11 +19,27 @@
 							<div class="item active">
 								<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
 									<a href="{{ url('/agenda-de-eventos/'.$event->id) }}">
-										<div style="width: auto; height: 200px;">
+										<div style="width:100%; height: 320px; margin-top: 5px">
+											{{-- @php
+												echo dd($event);
+												die;
+											@endphp --}}
+												<img src="{{ url('/uploads/courses/'.$event->thumbnail_img)}}"  alt="" style="width: 100%; min-height: 200px; max-height: 200px;">
+
+											<div style="{{ ($event->thumbnail_img ? 'height: 40px;' : 'height: 280px;vertical-align: middle !important; ' ) }}  ">
+
+												<span class="subh-basic-dark">Evento em {{ $event->start_at->format('d/m/Y') }} / {{ $event->end_at->format('d/m/Y') }}</span>
+												<h6>{{ $event->title }}</h6>
+												<span class="article-by">local <span class="author">{{ $event->location }}</span></span>
+											</div>
+									</div>
+
+
+										{{-- <div style="width: auto; height: 200px;">
 											<span class="subh-basic-dark">Evento em {{ $event->start_at->format('d/m/Y') }} / {{ $event->end_at->format('d/m/Y') }}</span>
 												<h6>{{ $event->title }}</h6>
 											<span class="article-by">local <span class="author">{{ $event->location }}</span></span>
-										</div>
+										</div> --}}
 									</a>
 								</div>
 							</div>
@@ -31,11 +47,19 @@
 							<div class="item">
 								<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
 									<a href="{{ url('/agenda-de-eventos/'.$event->id) }}">
-										<div style="width: auto; height: 200px;">
-											<span class="subh-basic-dark">Evento em {{ $event->start_at->format('d/m/Y') }} / {{ $event->end_at->format('d/m/Y') }}</span>
+										<div style="width:100%; height: 320px; margin-top: 5px">
+												<img src="{{ url('/uploads/courses/'.$event->thumbnail_img)}}"  alt="" style="width: 100%; min-height: 200px; max-height: 200px;">
+												{{-- @php
+													echo dd($event);
+													die;
+												@endphp --}}
+
+											<div style="{{ ($event->thumbnail_img ? 'height: 30px;' : 'height: 280px;vertical-align: middle !important; ' ) }}  ">
+												<span class="subh-basic-dark">Evento em {{ $event->start_at->format('d/m/Y') }} / {{ $event->end_at->format('d/m/Y') }}</span>
 												<h6>{{ $event->title }}</h6>
-											<span class="article-by">local <span class="author">{{ $event->location }}</span></span>
-										</div>
+												<span class="article-by">local <span class="author">{{ $event->location }}</span></span>
+											</div>
+									</div>
 									</a>
 								</div>
 							</div>
