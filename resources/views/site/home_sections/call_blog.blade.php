@@ -26,7 +26,7 @@
 													die;
 												@endphp --}}
 											<div style="{{ ($post->thumbnail_img ? 'height: 30px;' : 'height: 280px;vertical-align: middle !important;' ) }}  ">
-												<h6> Lá lá lá wiskas sache Rece conceitual Lá lá lá wiskas sache {{ $post->title }}</h6>
+												<h6> {{ $post->title }}</h6>
 											</div>
 										</div>
 									</a>
