@@ -184,7 +184,7 @@ class Mage_Customer_AccountController extends Mage_Core_Controller_Front_Action
 	        curl_setopt($ch, CURLOPT_POST, 1);
 	        curl_setopt($ch, CURLOPT_POSTFIELDS, $mail12);
         $result = curl_exec($ch);
-        curl_close($ch); 
+        curl_close($ch);
         $this->_loginPostRedirect();
     }
      /**
@@ -287,7 +287,12 @@ class Mage_Customer_AccountController extends Mage_Core_Controller_Front_Action
          try {
             $errors = $this->_getCustomerErrors($customer);
              if (empty($errors)) {
-                $customer->cleanPasswordsValidationData();
+                //$customer->cleanPasswordsValidationData();
+                if (version_compare(Mage::getVersion(),"1.9.1.0",">="))
+                {
+                    // Only from 1.9.1.0
+                    $customer->cleanPasswordsValidationData();
+                }
                 $customer->save();
                 $this->_dispatchRegisterSuccess($customer);
                 $this->_successProcessRegistration($customer);
@@ -785,7 +790,12 @@ class Mage_Customer_AccountController extends Mage_Core_Controller_Front_Action
             // Empty current reset password token i.e. invalidate it
             $customer->setRpToken(null);
             $customer->setRpTokenCreatedAt(null);
-            $customer->cleanPasswordsValidationData();
+            //$customer->cleanPasswordsValidationData();
+            if (version_compare(Mage::getVersion(),"1.9.1.0",">="))
+            {
+                // Only from 1.9.1.0
+                $customer->cleanPasswordsValidationData();
+            }
             $customer->save();
              $this->_getSession()->unsetData(self::TOKEN_SESSION_NAME);
             $this->_getSession()->unsetData(self::CUSTOMER_ID_SESSION_NAME);
@@ -912,7 +922,12 @@ class Mage_Customer_AccountController extends Mage_Core_Controller_Front_Action
                 return $this;
             }
              try {
-                $customer->cleanPasswordsValidationData();
+                //$customer->cleanPasswordsValidationData();
+                if (version_compare(Mage::getVersion(),"1.9.1.0",">="))
+                {
+                  // Only from 1.9.1.0
+                  $customer->cleanPasswordsValidationData();
+                }
                 $customer->save();
                 $this->_getSession()->setCustomer($customer)
                     ->addSuccess($this->__('The account information has been saved.'));
@@ -923,7 +938,7 @@ class Mage_Customer_AccountController extends Mage_Core_Controller_Front_Action
                     ->addError($e->getMessage());
             } catch (Exception $e) {
                 $this->_getSession()->setCustomerFormData($this->getRequest()->getPost())
-                    ->addException($e, $this->__('Cannot save the customer.'));
+                    ->addException($e, $this->__('Cannot save the customer.' . $e->getMessage()));
             }
         }
          $this->_redirect('*/*/edit');
