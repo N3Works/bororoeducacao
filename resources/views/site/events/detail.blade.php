@@ -84,11 +84,11 @@
                         </div>
                         <div class="details">
                             <span class="det-head">Contato</span>
-                            <span class="my-detail">contato@bororo25.com.br</span>
+                            <span class="my-detail">falecom@escoladecuracao.com.br</span>
                         </div>
                         <div class="details">
                             <span class="det-head">Telefones</span>
-                            <span class="my-detail">(51) 3346-6171 ou (51) 99692-8185</span>
+                            <span class="my-detail">(51) 99994.9917 </span>
                         </div>
                     </div>
                 </div>

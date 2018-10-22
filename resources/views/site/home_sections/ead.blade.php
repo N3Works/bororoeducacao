@@ -53,7 +53,7 @@
                     <span class="aux" style="bottom: 179px;left: 80px;">Pré-requisitos</span>
                     <div class="hidden-content hidden-content-b">
                         <p class="margin-top30 text-large">
-                            O único pré-requisito para os cursos da Escola de Curação em EAD é o desejo de desenvolver autoconhecimento, independente de qualquer outro fator.
+                            O único pré-requisito para os cursos da Escola de Curação em Ead é possuir uma conta de no Google e estar inscrito no Gmail.  Acesse a loja e saiba mais!
 							<br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
                         </p>
                     </div>
