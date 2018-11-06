@@ -1,4 +1,11 @@
 /* CIRCLES */
+.shrink{
+-webkit-transform:scale(0.55);
+-moz-transform:scale(0.55);
+-ms-transform:scale(0.55);
+transform:scale(0.55);
+}
+
 .box-circles {
     position: relative;
     height: 683px;

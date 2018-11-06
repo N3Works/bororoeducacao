@@ -32,7 +32,7 @@
   				</p>
       </p>
 
-			<div class="box-circles hidden-lg hidden-md hidden-sm " style="height: 950px !important;">
+			{{-- <div class="box-circles hidden-lg hidden-md hidden-sm " style="height: 950px !important;">
                 <div class="circle circle-construcao-felicidade-semtexto" style="height: 444px; width: 311px; left: 5px;">
                     <span class="aux" style="left: 100px;">Diferencial</span>
                     <div class="hidden-content">
@@ -57,10 +57,39 @@
 							<br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
                         </p>
                     </div>
-                </div>
-                <div class="circle circle-curacao-2"></div>
-            </div>
+              </div>
+        <div class="circle circle-curacao-2"></div>
+      </div> --}}
 
+
+      <div class="box-circles shrink hidden-lg hidden-md hidden-sm " style="left: -180px !important; height: 463px;" >
+                <div class="circle circle-construcao-felicidade-semtexto" >
+                    <span class="aux" style="left: 100px;">Diferencial</span>
+                    <div class="hidden-content">
+                        <p class="margin-top30 text-large">
+                            O grande diferencial dos cursos em EAD da Escola de Curação é que você tem acesso a um conteúdo inédito, além de contato direto com as autoras do Método Curação.
+                        </p>
+                    </div>
+                </div>
+                <div class="circle circle-valores-pessoais-semtexto" >
+                    <span class="aux" style="right: 99px;">Requisitos</span>
+                    <div class="hidden-content">
+                        <p class="margin-top30 text-large">
+                            Você pode acessar o Google Sala de aula (Classroom) pela Web em um computador com qualquer navegador, como Google Chrome, Firefox, Internet Explorer ou Safari. Disponível, também, para dispositivos móveis Android e iOS (Apple).
+                        </p>
+                    </div>
+                </div>
+                <div class="circle circle-quem-estou-sendo-semtexto" >
+                    <span class="aux" style="bottom: 179px;left: 80px;">Pré-requisitos</span>
+                    <div class="hidden-content hidden-content-b">
+                        <p class="margin-top30 text-large">
+                            O único pré-requisito para os cursos da Escola de Curação em Ead é possuir uma conta de no Google e estar inscrito no Gmail.  Acesse a loja e saiba mais!
+              <br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
+                        </p>
+                    </div>
+              </div>
+        <div class="circle circle-curacao-2"></div>
+      </div>
 
 
 			<div class="box-circles hidden-xs">
@@ -84,7 +113,7 @@
                     <span class="aux" style="font-size: 30px; bottom: 147px; left: 117px;">Pré-requisitos</span>
                     <div class="hidden-content hidden-content-b">
                         <p class="margin-top30 text-large">
-                            O único pré-requisito para os cursos da Escola de Curação em EAD é o desejo de desenvolver autoconhecimento, independente de qualquer outro fator.
+                            O único pré-requisito para os cursos da Escola de Curação em Ead é possuir uma conta de no Google e estar inscrito no Gmail.  Acesse a loja e saiba mais!
 							<br><span class="text-center"><a href="http://escoladecuracao.com.br/loja/" target="_blank"><b>Acesse a loja</b></a></span>
                         </p>
                     </div>
