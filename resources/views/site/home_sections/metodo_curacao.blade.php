@@ -96,7 +96,7 @@
 						<div class="circle circle-curacao-2"></div>
 				  </div> --}}
 
-          <div class="box-circles shrink" style="left: -180px !important; height: 463px;">
+          <div class="box-circles shrink" style="left: -200px !important; height: 463px;">
 						<div class="circle circle-construcao-felicidade">
 							<span class="aux">Meta</span>
 							<div class="hidden-content">

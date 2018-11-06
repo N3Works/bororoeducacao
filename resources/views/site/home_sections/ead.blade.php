@@ -62,7 +62,7 @@
       </div> --}}
 
 
-      <div class="box-circles shrink hidden-lg hidden-md hidden-sm " style="left: -180px !important; height: 463px;" >
+      <div class="box-circles shrink hidden-lg hidden-md hidden-sm " style="left: -200px !important; height: 463px;" >
                 <div class="circle circle-construcao-felicidade-semtexto" >
                     <span class="aux" style="left: 100px;">Diferencial</span>
                     <div class="hidden-content">

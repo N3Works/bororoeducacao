@@ -57,7 +57,7 @@
       </div> --}}
 
       <div class="hidden-lg  hidden-md hidden-sm center-block-4 col-md-12 col-sm-12 col-xs-12 centered"  >
-        <div class="box-circles shrink"  style="left: -180px !important; height: 463px;" >
+        <div class="box-circles shrink"  style="left: -200px !important; height: 463px;" >
             <div class="circle circle-construcao-felicidade-semtexto">
                 <span class="aux" style="font-size: 30px; top: 161px; left: 51px;">Comprometimento</span>
                 <div class="hidden-content">
